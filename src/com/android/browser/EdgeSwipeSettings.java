@@ -182,6 +182,13 @@ public class EdgeSwipeSettings extends ViewDragHelper.Callback {
         goLive();
     }
 
+    public void cleanup() {
+        synchronized (this) {
+            goLive();
+            mModel.cleanup();
+        }
+    }
+
     private void showCurrBitmap() {
         if (mStationaryView.getVisibility() == View.VISIBLE) {
             return;
