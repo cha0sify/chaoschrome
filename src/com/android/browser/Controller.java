@@ -2971,7 +2971,8 @@ public class Controller
             if (currentTab != null) {
                 change_tabs = setActive;
                 setActive = false;
-                currentTab.capture();
+                if (mUi instanceof PhoneUi)
+                    currentTab.capture();
             }
         }
 
