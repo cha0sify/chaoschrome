@@ -151,7 +151,7 @@
 
     <string-array name="geolocation_settings_choices">
         <item>رفض باستمرار</item>
-        <item>السماح لمدة 24 ساعة</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>السماح باستمرار</item>
         <item>السؤال دائمًا</item>
     </string-array>

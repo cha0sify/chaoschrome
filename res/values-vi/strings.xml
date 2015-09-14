@@ -147,7 +147,7 @@
 
     <string-array name="geolocation_settings_choices">
         <item>Luôn từ chối</item>
-        <item>Cho phép 24 giờ</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>Luôn cho phép</item>
         <item>Luôn hỏi</item>
     </string-array>

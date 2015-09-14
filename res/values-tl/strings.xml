@@ -151,7 +151,7 @@
 
     <string-array name="geolocation_settings_choices">
         <item>Tanggihan nang tuluyan</item>
-        <item>Payagan sa loob ng 24 na oras</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>Payagan nang tuluyan</item>
         <item>Palaging magtanong</item>
     </string-array>

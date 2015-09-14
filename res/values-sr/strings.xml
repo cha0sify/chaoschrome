@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Трајно одбиј</item>
-            <item>Дозволи на 24 сата</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Трајно дозволи</item>
             <item>Увек питај</item>
     </string-array>

@@ -361,7 +361,7 @@
     <string name="geolocation_settings_page_dialog_title">编辑 <xliff:g id="website origin" example="codeaurora.org">%s</xliff:g> 的位置策略</string>
     <string-array name="geolocation_settings_choices">
         <item>总是拒绝</item>
-        <item>24小时内允许</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>总是允许</item>
         <item>总是询问</item>
     </string-array>

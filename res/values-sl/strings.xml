@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Zavrni za vedno</item>
-            <item>Dovoli za 24 ur</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Dovoli za vedno</item>
             <item>Vedno vprašaj</item>
     </string-array>

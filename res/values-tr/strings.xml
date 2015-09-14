@@ -150,7 +150,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Sonsuza dek reddet</item>
-            <item>24 saat izin ver</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Sonsuza dek izin ver</item>
             <item>Her zaman sor</item>
     </string-array>

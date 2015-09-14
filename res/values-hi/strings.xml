@@ -147,7 +147,7 @@
 
     <string-array name="geolocation_settings_choices">
         <item>हमेशा के लिए अस्वीकार करें</item>
-        <item>24 घंटों के लिए अनुमति दें</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>हमेशा के लिए अनुमति दें</item>
         <item>हमेशा पूछें</item>
     </string-array>

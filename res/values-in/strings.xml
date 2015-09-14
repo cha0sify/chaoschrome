@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Tolak selamanya</item>
-            <item>Izinkan selama 24 jam</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Izinkan selamanya</item>
             <item>Selalu tanyakan</item>
     </string-array>

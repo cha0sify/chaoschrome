@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Zawsze odmawiaj</item>
-            <item>Zezwalaj na 24 godziny</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Zawsze zezwalaj</item>
             <item>Zawsze pytaj</item>
     </string-array>

@@ -349,7 +349,7 @@
     <string name="geolocation_settings_page_dialog_title">編輯 <xliff:g id="website origin" example="maps.google.com">%s</xliff:g> 的位置策略</string>
     <string-array name="geolocation_settings_choices">
         <item>總是拒絕</item>
-        <item>24小時內允許</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>總是允許</item>
         <item>總是詢問</item>
     </string-array>

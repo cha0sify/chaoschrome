@@ -139,7 +139,7 @@
     <!-- Custom Translations -->
     <string-array name="geolocation_settings_choices">
         <item>همیشه رد شود</item>
-        <item>۲۴ ساعت اجازه داده شود</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>همیشه اجازه داده شود</item>
         <item>همیشه سؤال شود</item>
     </string-array>

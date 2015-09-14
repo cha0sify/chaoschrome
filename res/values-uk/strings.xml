@@ -139,7 +139,7 @@
     <!-- Custom Translations -->
     <string-array name="geolocation_settings_choices">
         <item>Відхилити назавжди</item>
-        <item>Дозволити на 24 години</item>
+        <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
         <item>Дозволити назавжди</item>
         <item>Завжди запитувати</item>
     </string-array>

@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Toujours refuser</item>
-            <item>Autoriser pour 24 heures</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Toujours autoriser</item>
             <item>Toujours demander</item>
     </string-array>

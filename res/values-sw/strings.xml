@@ -140,7 +140,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Kataza milele</item>
-            <item>Ruhusu kwa saa 24</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Ruhusu milele</item>
             <item>Uliza wakati wote</item>
     </string-array>

@@ -151,7 +151,7 @@
 
     <string-array name="geolocation_settings_choices">
             <item>Запретить навсегда</item>
-            <item>Разрешить на 24 часа</item>
+            <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
             <item>Разрешить всегда</item>
             <item>Всегда спрашивать</item>
     </string-array>
