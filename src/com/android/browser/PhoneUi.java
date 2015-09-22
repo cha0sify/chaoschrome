@@ -256,6 +256,7 @@ public class PhoneUi extends BaseUi {
     public void showWeb(boolean animate) {
         super.showWeb(animate);
         hideNavScreen(mUiController.getTabControl().getCurrentPosition(), animate);
+        hideComboView();
     }
 
     //Unblock touch events

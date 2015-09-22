@@ -110,6 +110,17 @@ public class XLargeUi extends BaseUi {
     }
 
     @Override
+    public boolean isWebShowing() {
+        return super.isWebShowing() && !isComboViewShowing();
+    }
+
+    @Override
+    public void showWeb(boolean animate) {
+        super.showWeb(animate);
+        hideComboView();
+    }
+
+    @Override
     public boolean onBackKey() {
         if (isComboViewShowing()) {
             hideComboView();
