@@ -350,7 +350,7 @@ public class AddBookmarkFolder extends Activity implements View.OnClickListener,
     }
 
     private long addFolderToCurrent(String name) {
-        // Add the folder to the database if doesn't already exists
+        // Add the folder to the database if doesn't already exist
         if(getIdFromName(name) != -1)
             return -1;
 
@@ -730,8 +730,10 @@ public class AddBookmarkFolder extends Activity implements View.OnClickListener,
                     },
                     BrowserContract.Bookmarks.TITLE + " = ? AND "
                             + BrowserContract.Bookmarks.IS_DELETED + " = ? AND "
-                            + BrowserContract.Bookmarks.IS_FOLDER + " = ? ", new String[] {
-                            title, 0 + "", 1 + ""
+                            + BrowserContract.Bookmarks.IS_FOLDER + " = ? AND "
+                            + BrowserContract.Bookmarks.PARENT + " = ? ",
+                    new String[] {
+                            title, 0 + "", 1 + "", Long.toString(mCurrentFolder),
                     }, null);
             if (cursor != null && cursor.getCount() != 0) {
                 while (cursor.moveToNext()) {
@@ -758,7 +760,7 @@ public class AddBookmarkFolder extends Activity implements View.OnClickListener,
     // Called once we have determined which folder is the root folder
     private void onRootFolderFound(long root) {
         mRootFolder = root;
-        mCurrentFolder = mRootFolder;
+        mCurrentFolder = (mCurrentFolder == -1) ? mRootFolder : mCurrentFolder;
         setupTopCrumb();
         onCurrentFolderFound();
     }

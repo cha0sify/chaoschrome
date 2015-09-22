@@ -51,6 +51,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.CursorAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -447,7 +448,11 @@ public class AddBookmarkPage extends Activity
             if (info.id != -1) {
                 mEditingExisting = true;
                 showRemoveButton();
-                mFakeTitle.setText(R.string.edit_bookmark);
+                if (!mEditingFolder) {
+                    mFakeTitle.setText(R.string.edit_bookmark);
+                } else {
+                    mFakeTitle.setText(R.string.edit_folder);
+                }
                 mTitle.setText(info.title);
                 mFolderAdapter.setOtherFolderDisplayText(info.parentTitle);
                 mMap.putLong(BrowserContract.Bookmarks._ID, info.id);
@@ -783,6 +788,8 @@ public class AddBookmarkPage extends Activity
 
     private void showRemoveButton() {
         mDeleteButton.setVisibility(View.VISIBLE);
+        if (mEditingFolder)
+            ((Button)mDeleteButton).setText(R.string.delete_folder);
         findViewById(R.id.remove_divider).setVisibility(View.VISIBLE);
         mRemoveLink = findViewById(R.id.remove);
         mRemoveLink.setVisibility(View.VISIBLE);
@@ -927,6 +934,7 @@ public class AddBookmarkPage extends Activity
         final String title = mTitle.getText().toString().trim();
         final String unfilteredUrl = UrlUtils.fixUpUrl(mAddress.getText().toString());
         final String url = unfilteredUrl.trim();
+        final boolean folder = mEditingFolder;
         new AlertDialog.Builder(this)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
                 .setMessage(getString(R.string.delete_bookmark_warning, title))
@@ -934,13 +942,25 @@ public class AddBookmarkPage extends Activity
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         ContentResolver cr = getContentResolver();
-                        Cursor cursor = cr.query(BrowserContract.Bookmarks.CONTENT_URI,
-                                BookmarksLoader.PROJECTION,
-                                "url = ?",
-                                new String[] {
-                                        url
-                                },
-                                null);
+                        Cursor cursor;
+                        if (!folder) {
+                            cursor = cr.query(BrowserContract.Bookmarks.CONTENT_URI,
+                                    BookmarksLoader.PROJECTION,
+                                    "url = ?",
+                                    new String[]{
+                                            url
+                                    },
+                                    null);
+                        } else {
+                            cursor = cr.query(BrowserContract.Bookmarks.CONTENT_URI,
+                                    BookmarksLoader.PROJECTION,
+                                    "title = ?",
+                                    new String[]{
+                                            title
+                                    },
+                                    null);
+
+                        }
 
                         if (cursor == null) {
                             finish();
@@ -949,13 +969,18 @@ public class AddBookmarkPage extends Activity
 
                         try {
                             if (cursor.moveToFirst()) {
-                                do {
-                                    long index = cursor.getLong(
+                                if (folder) {
+                                    removeFolder(cr,
+                                            cursor.getLong(BookmarksLoader.COLUMN_INDEX_ID));
+                                } else {
+                                    do {
+                                        long index = cursor.getLong(
                                             cursor.getColumnIndex(BrowserContract.Bookmarks._ID));
-                                    cr.delete(ContentUris.withAppendedId(
-                                            BrowserContract.Bookmarks.CONTENT_URI, index),
-                                            null, null);
-                                } while (cursor.moveToNext());
+                                        cr.delete(ContentUris.withAppendedId(
+                                                    BrowserContract.Bookmarks.CONTENT_URI, index),
+                                                null, null);
+                                    } while (cursor.moveToNext());
+                                }
                             }
                         } catch (IllegalStateException e) {
                             e.printStackTrace();
@@ -967,6 +992,33 @@ public class AddBookmarkPage extends Activity
                     }
                 })
                 .show();
+    }
+
+    //Local implementation of BookmarkUtils' removeBookmarkOrFolder
+    private static void removeFolder(ContentResolver cr, long id) {
+        Cursor cursor = cr.query(BrowserContract.Bookmarks.CONTENT_URI,
+                new String[]{BrowserContract.Bookmarks._ID},
+                BrowserContract.Bookmarks.PARENT + "=?",
+                new String[]{Long.toString(id)},
+                null);
+
+        if (cursor != null) {
+            try {
+                if (cursor.moveToFirst()) {
+                    do {
+                        removeFolder(cr,
+                            cursor.getLong(cursor.getColumnIndex(BrowserContract.Bookmarks._ID)));
+                    } while (cursor.moveToNext());
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                cursor.close();
+            }
+        }
+
+        cr.delete(
+                ContentUris.withAppendedId(BrowserContract.Bookmarks.CONTENT_URI, id), null, null);
     }
 
     private void onSaveWithConfirm() {
