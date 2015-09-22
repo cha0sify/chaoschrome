@@ -106,7 +106,6 @@ public class DownloadHandler {
         request.addRequestHeader("cookie", cookies);
         request.addRequestHeader("User-Agent", userAgent);
         request.addRequestHeader("Referer", referer);
-        request.setVisibleInDownloadsUi(!privateBrowsing);
         request.setNotificationVisibility(
                 DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         final DownloadManager manager = (DownloadManager) activity
@@ -120,7 +119,7 @@ public class DownloadHandler {
                 }
             }
         }.start();
-        showStartDownloadToast(activity, privateBrowsing);
+        showStartDownloadToast(activity);
     }
 
     private static boolean isAudioFileType(int fileType){
@@ -464,15 +463,9 @@ public class DownloadHandler {
         return false;
     }
 
-    public static void showStartDownloadToast(Activity activity,
-            boolean privateBrowsing) {
-        if (!privateBrowsing) {
-            Intent intent = new Intent(DownloadManager.ACTION_VIEW_DOWNLOADS);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            activity.startActivity(intent);
-        } else {
-            activity.finish();
-        }
+    public static void showStartDownloadToast(Activity activity) {
+        Intent intent = new Intent(DownloadManager.ACTION_VIEW_DOWNLOADS);
+        activity.startActivity(intent);
         Toast.makeText(activity, R.string.download_pending, Toast.LENGTH_SHORT)
                 .show();
     }
