@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">အေၾကာင္း</string>
+  <string name="accessibility_button_addbookmark">စာညႇပ္စာမ်က္ႏွာ</string>
+  <string name="accessibility_button_back">ျပန္သြားပါ</string>
+  <string name="accessibility_button_bookmarks_folder_up">ယခင္ ဖုိင္မ်ား</string>
+  <string name="accessibility_button_clear">ထည့္သြင္းထားမႈကုိ ရွင္းပစ္ပါ</string>
+  <string name="accessibility_button_closetab">တဂ္ကုိ ပိတ္ရန္</string>
+  <string name="accessibility_button_forward">ေရွသုိ႔သြားပါ</string>
+  <string name="accessibility_button_navscreen">စာမ်က္ႏွာ မန္ေနဂ်ာ</string>
+  <string name="accessibility_button_newincognitotab">incognito တက္ဘ္အသစ္ကုိ ဖြင့္ပါ</string>
+  <string name="accessibility_button_newtab">တက္ဘ္အသစ္ ဖြင့္ပါ</string>
+  <string name="accessibility_button_refresh">စာမ်က္ႏွာကုိ တဖန္ျပန္လုပ္ေဆာင္ခုိင္းပါ</string>
+  <string name="accessibility_button_search">ရွာပါ</string>
+  <string name="accessibility_button_stop">စာမ်က္ႏွာ၏ လုပ္ေဆာင္ေနမႈကို ရပ္ပါ</string>
+  <string name="accessibility_button_voice">အသံ ရွာေဖြမႈ စတင္ပါ</string>
+  <string name="accessibility_state_frozen">သိမ္းထားသည့္ စာမ်က္ႏွာ</string>
+  <string name="accessibility_state_incognito">Incognito စာမ်က္ႏွာ</string>
+  <string name="accessibility_transition_navscreen">တက္ဘ္ စီမံေဆာင္ရြက္မႈ</string>
+  <string name="account">အေကာင့္</string>
+  <string name="action">ဝင္ေရာက္ရန္</string>
+  <string name="activity_not_found">ဤရည္ရြယ္ခ်က္ %s ကုိ ေဆာင္ရြက္ရန္ မည္သည့္ လႈပ္ရွားမႈမွ မေတြ႔ပါ။</string>
+  <string name="add_bookmark_short">ထည့္ရန္</string>
+  <string name="add_new_bookmark">စာညႇပ္မ်ား ထပ္ထည့္ပါ</string>
+  <string name="add_to_homescreen">မူလဖန္သားျပင္သုိ႔ ထည့္ပါ</string>
+  <string name="add_to_homescreen_menu_option">မူလ ဖန္သားျပင္</string>
+  <string name="add_to_other_folder_menu_option">ဖုိင္တြဲေရြးပါ...</string>
+  <string name="added_to_bookmarks">စာညွပ္မ်ားထဲသုိ႔ ထည့္ၿပီး။</string>
+  <string name="allow">ခြင့္ျပဳပါ</string>
+  <string name="application_name">ဘေရာက္ဇာ</string>
+  <string name="autofill_profile_editor_address_line_1">လိပ္စာေနရာ 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">လမ္းလိပ္စာ၊ စာတုိက္ပံုး၊ တ/ဆ</string>
+  <string name="autofill_profile_editor_address_line_2">လိပ္စာလုိင္း ၂-</string>
+  <string name="autofill_profile_editor_address_line_2_hint">တုိက္ခန္း၊ အခန္းနံပါတ္၊ အေဆာက္အဦး၊ အထပ္ စသျဖင့္။</string>
+  <string name="autofill_profile_editor_city">ၿမိဳ႕ေတာ္/ၿမိဳ႕:</string>
+  <string name="autofill_profile_editor_company_name">ကုမၸဏီအမည္ :</string>
+  <string name="autofill_profile_editor_country">ႏုိင္ငံ :</string>
+  <string name="autofill_profile_editor_delete_profile">ဖ်က္ပါ</string>
+  <string name="autofill_profile_editor_email_address">အီးေမးလ္ :</string>
+  <string name="autofill_profile_editor_heading">ဝက္ဘ္ေဖာင္မ်ားတြင္ အလုိအေလ်ာက္ ျဖည့္လုိသည့္ စာသားကုိ ရုိက္ထည့္ပါ။</string>
+  <string name="autofill_profile_editor_name">အမည္အျပည့္အစံု:</string>
+  <string name="autofill_profile_editor_phone_number">ဖုန္း :</string>
+  <string name="autofill_profile_editor_phone_number_invalid">ဖုန္းနံပါတ္ မွားေနသည္။</string>
+  <string name="autofill_profile_editor_save_profile">သိမ္းပါ</string>
+  <string name="autofill_profile_editor_state">ျပည္နယ္/စီရင္စု/ေဒသ :</string>
+  <string name="autofill_profile_editor_zip_code">ဇစ္ကုဒ္ :</string>
+  <string name="autofill_profile_successful_delete">အလုိအေလ်ာက္ျဖည့္ေသာ စာသားကုိ ဖ်က္ၿပီးပါၿပီ။</string>
+  <string name="autofill_profile_successful_save">အလိုအေလ်ာက္ျဖည့္ေသာ စာသားကုိ သိမ္းၿပီးပါၿပီ။</string>
+  <string name="autofill_setup_dialog_message">ဒီတစ္ခုကဲ့သို႔ပင္ ဘေရာက္ဇာသည္ ဝက္ဘ္ေဖာင္မ်ားကို အလိုအေလ်ာက္ျဖည့္ၿပီးေစႏိုင္သည္။ အလိုအေလ်ာက္ စာျဖည့္ျခင္း ထည့္လိုပါသလား?</string>
+  <string name="autofill_setup_dialog_negative_toast">ဘေရာက္ဇာ &gt; ဆက္တင္မ်ား &gt; အေထြေထြ ဖန္သားျပင္သုိ႔ သြားၿပီး အလုိအေလ်ာက္ ျဖည့္ေပးသည့္ စာသားကုိ အျမဲ တည္ေဆာက္ႏုိင္ပါသည္။</string>
+  <string name="back">ေနာက္</string>
+  <string name="block">ပိတ္ဆုိ႔ပါ</string>
+  <string name="bookmark_cannot_save_url">ဤ URL ကုိ မွတ္ထား၍ မရပါ။</string>
+  <string name="bookmark_needs_title">စာညႇပ္တြင္ အမည္ရွိရမည္။</string>
+  <string name="bookmark_needs_url">စာညႇပ္တြင္ တည္ေနရာ ရွိရမည္။</string>
+  <string name="bookmark_not_saved">စာညႇပ္မ်ားကုိ သိမ္း၍ မရပါ။</string>
+  <string name="bookmark_saved">အင္တာနက္လိပ္စာ မွတ္တမ္းထဲသုိ႔ ထည့္ၿပီး</string>
+  <string name="bookmark_this_page">ဤစာမ်က္ႏွာကုိ သိမ္းပါ</string>
+  <string name="bookmark_url_not_valid">ဤ URL သည္ အက်ံဳးမဝင္ပါ။</string>
+  <string name="bookmarks">အင္တာနက္လိပ္စာ မွတ္တမ္းမ်ား</string>
+  <string name="bookmarks_add_page">အင္တာနက္လိပ္စာကုိ သိမ္းပါ</string>
+  <string name="browserFrameFormResubmitMessage">သင္ၾကည့္ရန္ ႀကိဳးစားေနေသာ စာမ်က္ႏွာတြင္ ပုိ႔ထားၿပီးသည့္ အခ်က္မ်ား ပါဝင္ေနသည္ (\"POSTDATA\") အခ်က္အလက္ကို သင္ျပန္ပို႔လွ်င္ စာမ်က္ႏွာေပၚတြင္သင္လုပ္ေဆာင္သမွ် (ရွာေဖြမႈတစ္ခု သို႔မဟုတ္ ဝယ္ယူမႈ ကဲ့သို႔ေသာ) မ်ားကို ထပ္မံလုပ္ေဆာင္ေပးလိမ့္မည္။</string>
+  <string name="browser_max_input">ထည့္သြင္းမႈသည္ အမ်ားဆံုး စာလံုးေရ ကန္႔သတ္ခ်က္ %s သုိ႔ ေရာက္ရွိေနပါၿပီ။</string>
+  <string name="browser_max_input_title">စာလံုး အမ်ားဆံုး အေရအတြက္ ကန္႔သတ္ခ်က္သုိ႔ ေရာက္ရွိေနပါၿပီ</string>
+  <string name="browser_tab_crash_message">ဤဝက္ဘ္စာမ်က္ႏွာကုိ ျပသေနစဥ္ ေမွ်ာ္လင့္မထားေသာအရာတစ္ခု ျဖစ္ပြားခဲ့သည္။ ျပန္လည္စတင္ပါ (သုိ႔) အျခားစာမ်က္ႏွာသုိ႔ သြားပါ။
+    </string>
+  <string name="browser_tab_crash_reload">ျပန္ဖြင့္ပါ</string>
+  <string name="browser_tab_crash_snap">အုပ္စ္၊ ဒုကၡဘဲ!</string>
+  <string name="build_date">တည္ေဆာက္ ရက္စြဲ</string>
+  <string name="build_hash">တည္ေဆာက္မႈ သေကၤတ</string>
+  <string name="cancel">ပယ္ဖ်က္ပါ</string>
+  <string name="cannot_download">\"http\" သုိ႔မဟုတ္ \"https\" URL မ်ားကုိသာ ေဒါင္းလုဒ္ လုပ္ႏုိင္သည္။</string>
+  <string name="choose_upload">တင္ရန္ ဖုိင္ေရြးပါ</string>
+  <string name="choosertitle_sharevia">မွ်ေဝရန္</string>
+  <string name="clear">ရွင္းပါ</string>
+  <string name="clear_history">မွတ္တမ္းကုိ ရွင္းပါ</string>
+  <string name="close_other_tabs">အျခားတက္ဘ္မ်ားကုိ ပိတ္ပါ</string>
+  <string name="containing_folder">ထည့္ရန္ေနရာ</string>
+  <string name="contextheader_folder_bookmarkcount">အင္တာနက္လိပ္စာ %d ခု</string>
+  <string name="contextheader_folder_empty">ဖိုင္တြဲအလြတ္</string>
+  <string name="contextmenu_add_contact">အဆက္အသြယ္ ထည့္ပါ</string>
+  <string name="contextmenu_copy">ကူးယူပါ</string>
+  <string name="contextmenu_copylink">လင့္ခ္ URL ကို ကူးပါ</string>
+  <string name="contextmenu_dial_dot">နံပါတ္ႏွိပ္ရန္...</string>
+  <string name="contextmenu_download_image">ပံု သိမ္းဆည္းပါ</string>
+  <string name="contextmenu_map">ေျမပုံ</string>
+  <string name="contextmenu_openlink">ဖြင့္ပါ</string>
+  <string name="contextmenu_openlink_newwindow">တဘ္အသစ္တြင္ ဖြင့္ပါ</string>
+  <string name="contextmenu_openlink_newwindow_background">ေနာက္ခံ တက္ဘ္အသစ္တြင္ ဖြင့္ပါ</string>
+  <string name="contextmenu_savelink">လင့္ခ္ကို သိမ္းပါ</string>
+  <string name="contextmenu_send_mail">အီးေမးလ္ပုိ႔ပါ</string>
+  <string name="contextmenu_set_wallpaper">ေနာက္ခံပံုရိပ္အျဖစ္ ဖန္တီးပါ</string>
+  <string name="contextmenu_sharelink">လင့္ခ္ ေဝမွ်ပါ</string>
+  <string name="contextmenu_view_image">ရုပ္ပံုၾကည့္ပါ</string>
+  <string name="create_shortcut_bookmark">ပင္မဖန္သားျပင္တြင္ ေရွာ့ကတ္ထည့္ပါ</string>
+  <string name="current_page">မွ</string>
+  <string name="delete_bookmark_warning">အင္တာနက္လိပ္စာမွတ္တမ္း \" %s \" ကုိဖ်က္မလား?</string>
+  <string name="delete_folder">ဖုိင္တြဲကုိ ဖ်က္ပစ္ပါ</string>
+  <string name="delete_folder_warning">\" %s \" ဖိုင္တြဲကုိ ဖ်က္မည္လား?</string>
+  <string name="disable_autofill">အလုိအေလ်ာက္ျဖည့္ျခင္းကုိ ပိတ္ပါ</string>
+  <string name="download_default_path">/ေဒါင္းလုတ္ လုပ္ပါ</string>
+  <string name="download_edit_filename_label">အမည္</string>
+  <string name="download_estore_app">Estore အက္ပ္ မတည္ရွိပါ၊ ေဒါင္းလုတ္လုပ္ၿပီး ထည့္သြင္းပါ။</string>
+  <string name="download_file_exist">ဖုိင္ရွိၿပီးသား ျဖစ္သည္။</string>
+  <string name="download_file_exist_msg">ဖုိင္ရွိၿပီးသား ျဖစ္သည္။ ဖုိင္အမည္သစ္ ထည့္သြင္းပါ။</string>
+  <string name="download_filepath_label">လမ္းေၾကာင္း</string>
+  <string name="download_filesize">အရြယ္အစား</string>
+  <string name="download_no_enough_memory">ေဒါင္းလုတ္လုပ္ရန္ မွတ္ဥာဏ္ မလုံေလာက္ပါ</string>
+  <string name="download_no_sdcard_dlg_msg">%s ကုိ ေဒါင္းလုတ္လုပ္ရန္ SD ကတ္လုိအပ္သည္။</string>
+  <string name="download_no_sdcard_dlg_title">SD ကတ္မရွိပါ</string>
+  <string name="download_path_phone_storage_label">/ဖုန္း သိုေလွာင္ခန္း</string>
+  <string name="download_path_sd_card_label">/SD ကတ္</string>
+  <string name="download_path_unavailable_dlg_msg">ေဒါင္းလုတ္ လမ္းေၾကာင္းကုိ ေက်းဇူးျပဳ၍ ျပဳျပင္မြမ္းမံပါ</string>
+  <string name="download_path_unavailable_dlg_title">ေဒါင္းလုတ္ လမ္းေၾကာင္း မရွိပါ</string>
+  <string name="download_pending">ေဒါင္းလုတ္ စလုပ္ေနသည္...</string>
+  <string name="download_sdcard_busy_dlg_msg">SD ကဒ္ အလုပ္မ်ားေနပါသည္။ ေဒါင္းလုဒ္မ်ားကို ခြင့္ျပဳရန္ အသိေပးခ်က္ထဲရွိ USB သိမ္းဆည္းစရာေနရာကို ပိတ္ပါ ဆိုသည္ကို ထိပါ။</string>
+  <string name="download_sdcard_busy_dlg_title">SD ကတ္မရွိပါ</string>
+  <string name="download_settings_title">ေဒါင္းလုတ္ ဆက္တင္မ်ား</string>
+  <string name="download_timeneeded">အခ်ိန္</string>
+  <string name="drm_file_unsupported">DRM ဖုိင္မ်ားကုိ အပ္လုဒ္တင္ျခင္းကုိ ေဆာင္ရြက္၍ မရပါ။</string>
+  <string name="duplicated_folder_warning">ဖုိင္တြဲ ရွိၿပီးသားျဖစ္သည္</string>
+  <string name="edit_bookmark">စာညွပ္ကုိတည္းျဖတ္ပါ</string>
+  <string name="edit_folder">ဖိုင္တြဲ ျပဳျပင္ပါ</string>
+  <string name="empty_bookmarks_folder">အင္တာနက္လိပ္စာမွတ္တမ္း မရွိပါ။</string>
+  <string name="empty_history">ဘေရာက္ဇာမွတ္တမ္း မရွိပါ။</string>
+  <string name="empty_snapshots_folder">သိမ္းထားေသာ စာမ်က္ႏွာမ်ား မရွိပါ။</string>
+  <string name="enable_reader_mode">စာဖတ္ အေနအထား</string>
+  <string name="estore_url_warning">Estore အက္ပ္ကုိ စတင္လုပ္ေဆာင္ေစျခင္း မေအာင္ျမင္ခဲ့ပါ၊ url ရွည္လြန္းေနသည္!</string>
+  <string name="exit">ထြက္ပါ</string>
+  <string name="exit_browser_msg">ဘေရာက္ဇာမွ ထြက္မည့္နည္းလမ္းကုိ ေရြးခ်ယ္ပါ</string>
+  <string name="exit_browser_title">ဘေရာက္ဇာမွ ထြက္ပါ</string>
+  <string name="exit_minimize">ခ်ံဳ႕ပါ</string>
+  <string name="exit_quit">ထြက္မည္</string>
+  <string name="feedback">တုန္႔ျပန္ အၾကံျပဳခ်က္</string>
+  <string name="filename_empty_msg">ေဒါင္းလုတ္ ဖုိင္အမည္ကုိ ကြက္လပ္ထား၍ မရပါ။ မွန္ကန္သည့္ ဖုိင္အမည္ ထည့္သြင္းပါ။</string>
+  <string name="filename_empty_title">ေဒါင္းလုတ္ ဖုိင္အမည္ ကြက္လပ္ျဖစ္ေနသည္</string>
+  <string name="find_on_page">စာမ်က္ႏွာတြင္ရွာပါ</string>
+  <string name="forward">ဆက္ပို႔ပါ</string>
+  <string name="geolocation_permissions_prompt_remember">ဦးစားေပးမ်ားကုိ မွတ္သားထားပါ</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">၂၄ နာရီၾကာ ခြင့္ျပဳပါ</string>
+  <string-array name="geolocation_settings_choices">
+    <item>အျမဲ ျငင္းပယ္ပါ</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>အျမဲ ခြင့္ျပဳပါ</item>
+  </string-array>
+  <string name="help">အကူအညီ</string>
+  <string name="history">မွတ္တမ္း</string>
+  <string name="homepage_set">ပင္မစာမ်က္ႏွာကုိ သတ္မွတ္ၿပီး။</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">မီဒီယာဖုိင္ကုိ ကုိင္တြယ္ရန္ နည္းလမ္းကုိ ေရြးခ်ယ္ပါ</string>
+  <string name="import_bookmarks_dialog_description">ဤစက္ေပၚရွိ လိပ္စာမွတ္ထားမႈမ်ားသည္ Google အေကာင့္ျဖင့္ ဆက္ႏြယ္မႈမရွိပါ။ အေကာင့္တစ္ခုသို႔ ဤအင္တာနက္လိပ္စာမ်ားကိုေပါင္းထည့္ျခင္းျဖင့္ ၄င္းတို႔ကိုသိမ္းပါ။ ၄င္းတို႔ကို ဆင့္ခ္လုပ္လိုျခင္းမရွိပါက ယခုအင္တာနက္လိပ္စာမွတ္တမ္းမ်ားကို ဖ်က္ပစ္ပါ။</string>
+  <string name="import_bookmarks_dialog_remove">အင္တာနက္လိပ္စာ မွတ္တမ္းမ်ားကုိ ဖ်က္ပါ</string>
+  <string name="invalid_path">အက်ံဳးမဝင္သည့္ လမ္းေၾကာင္း</string>
+  <string name="loading_video">ဗီဒီယုိ ဖြင့္ေနသည္...</string>
+  <string name="local_bookmarks">ေဒသတြင္း</string>
+  <string name="location">လိပ္စာ</string>
+  <string name="max_tabs_warning">ေနာက္ထပ္ တဘ္မ်ား မရေတာ့ပါ</string>
+  <string name="max_url_character_limit_msg">အမ်ားဆံုး URL ကန္႔သတ္ခ်က္သို႔ ေရာက္ေနပါၿပီ</string>
+  <string name="mdm_managed_alert">သင့္စီမံေဆာင္ရြက္သူမွ စီမံထားသည္</string>
+  <string name="menu_preferences">ဆက္တင္</string>
+  <string name="menu_save_snapshot">ေအာ့ဖ္လိုင္း ဖတ္ျခင္းအတြက္ သိမ္းဆည္းပါ</string>
+  <string name="menu_share_url">မွ်ေဝပါ</string>
+  <string name="msg_no_google_play">ဝမ္းနည္းပါတယ္၊ Google ပေလးစတုိး အက္ပ္ မတည္ရွိပါ။</string>
+  <string name="my_navigation_add">ထည့္ရန္</string>
+  <string name="my_navigation_add_label">ဝက္ဘ္ဆုိက္ကုိ ထည့္ပါ</string>
+  <string name="my_navigation_address">လိပ္စာ</string>
+  <string name="my_navigation_cannot_save_url">မမွန္ကန္သည့္ URL</string>
+  <string name="my_navigation_delete_label">ဝက္ဘ္ဆုိက္ကုိ ဖ်က္ပစ္ပါ</string>
+  <string name="my_navigation_delete_msg">ဝက္ဘ္ဆုိက္ကုိ ဖ်က္ပစ္မလား?</string>
+  <string name="my_navigation_duplicate_url">URL ရွိေနၿပီးျဖစ္သည္</string>
+  <string name="my_navigation_edit_label">ဝက္ဘ္ဆုိက္ကုိ ျပဳျပင္ပါ</string>
+  <string name="my_navigation_name">ေခါင္းစဥ္</string>
+  <string name="my_navigation_page_title">ပင္မ</string>
+  <string name="name">တံဆိပ္</string>
+  <string name="new_folder">ဖုိင္တြဲအသစ္</string>
+  <string name="new_incognito_tab">သီးသန္႔ ဝင္ေရာက္ၾကည့္ရႈျခင္း</string>
+  <string name="new_tab">တက္ဘ္ အသစ္</string>
+  <string name="no_subfolders">ဖုိင္ခြဲ မရွိပါ။</string>
+  <string name="ok">အိုေက</string>
+  <string name="open_all_in_new_window">အားလံုးကုိ တက္ဘ္အသစ္တြင္ ဖြင့္ပါ</string>
+  <string name="other_bookmarks">အျခား အင္တာနက္လိပ္စာ မွတ္တမ္းမ်ား</string>
+  <string name="overwrite_bookmark_msg">အင္တာနက္လိပ္စာ၏ အမည္ (သုိ႔) လိပ္စာ ရွိထားၿပီးသားျဖစ္ပါသည္။ ထပ္ေရးပစ္မလား?</string>
+  <string name="page_info">စာမ်က္ႏွာ အခ်က္အလက္</string>
+  <string name="page_info_address">လိပ္စာ :</string>
+  <string name="password">စကားဝွက္</string>
+  <string name="path_wrong">လမ္းေၾကာင္း မွားေနသည္</string>
+  <string name="permission_preload_label">ႀကိဳတင္လုပ္ေဆာင္မႈ ရလဒ္မ်ား</string>
+  <string name="powersave_dialog_off">ပါဝါေခြ်တာ အေနအထားကုိ ပိတ္ထားသည္။\nဘေရာက္ဇာကုိ ျပန္စတင္ပါ။</string>
+  <string name="powersave_dialog_on">ဖြင့္ထားၿပီး- ပေရာ္ဆက္ဆာ ပင္မ ထိန္းခ်ဳပ္မႈ။\nပိတ္ထားၿပီး- စြမ္းေဆာင္ရည္ျမင့္မားေသာ အဂၤါရပ္မ်ား။\nဘေရာက္ဇာကုိ ျပန္စတင္ပါ။</string>
+  <string name="pref_accessibility_title">သံုးခြင့္ရမႈ</string>
+  <string name="pref_accessibility_title_summary">စာလံုးအရြယ္အစားႏွင့္ ခ်ံဳ႕ခ်ဲ႕</string>
+  <string name="pref_autofill_enabled">အလိုလို-ျဖည့္ရန္ ေဆာင္ရြက္ပါ</string>
+  <string name="pref_autofill_enabled_summary">တစ္ခ်က္ထိလိုက္ရံုျဖင့္ ဝက္ဘ္ေဖာင္မ်ားကိုျဖည့္ျပီးသြားပါေစ</string>
+  <string name="pref_autofill_profile_editor">အလုိအေလ်ာက္ျဖည့္မည့္ စာသား</string>
+  <string name="pref_autofill_profile_editor_summary">ဝက္ဘ္ေဖာင္မ်ားကို အလိုအေလ်ာက္ျဖည့္ရန္ စာကို သတ္မွတ္ပါ</string>
+  <string name="pref_content_homepage">မူလ စာမ်က္ႏွာ</string>
+  <string name="pref_content_javascript">JavaScript ဖြင့္ပါ</string>
+  <string name="pref_content_load_images">ပံုမ်ားကုိ ရယူပါ</string>
+  <string name="pref_content_load_images_summary">ဝက္ဘ္ဆိုက္စာမ်က္နွာမ်ားေပၚတြင္ ရုပ္ပံုမ်ားကို ျပသပါ</string>
+  <string name="pref_content_open_in_background">ေနာက္ဘက္တြင္ ဖြင့္ပါ</string>
+  <string name="pref_content_open_in_background_summary">လက္ရွိ တက္ဘ္၏ေနာက္တြင္ တက္ဘ္အသစ္မ်ား ဖြင့္ပါ</string>
+  <string name="pref_content_search_engine">ရွာေဖြ အင္ဂ်င္</string>
+  <string name="pref_content_search_engine_summary">ရွာေဖြအင္ဂ်င္ ေရြးခ်ယ္ပါ</string>
+  <string name="pref_content_title">ပါဝင္အေၾကာင္းအရာ ဆက္တင္</string>
+  <string name="pref_content_title_summary">ဝက္ဘ္ ပါဝင္အေၾကာင္းအရာ ဆက္တင္</string>
+  <string name="pref_data_preload_summary">ရွာေဖြမႈရလဒ္မ်ားကို ေနာက္ခံတြင္ ယံုယံုၾကည္ၾကည္ျဖင့္ ႀကိဳတင္ျပရန္ ဘေရာက္ဆာကိုခြင့္ျပဳပါ</string>
+  <string name="pref_data_preload_title">ရွာေဖြမႈရလဒ္မ်ား ႀကိဳတင္ျပေနျခင္း</string>
+  <string name="pref_default_site_settings_title">မူလအတုိင္း သတ္မွတ္မည့္ ဝက္ဘ္ဆုိက္ ဆက္တင္မ်ား</string>
+  <string name="pref_default_text_encoding">စာသားကို ကုဒ္ေျပာင္းျခင္း</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">ျပစ္ခ်က္ရွာေဖြဖယ္ရွားပါ</string>
+  <string name="pref_disable_edge_swipe">အစြန္းဖက္သုိ႔ ပြတ္ဆြဲမႈကုိ ပိတ္ပါ</string>
+  <string name="pref_do_not_track">\'ေျခရာမခံပါႏွင့္\' ကုိေတာင္းဆုိပါ</string>
+  <string name="pref_download_path_setting_screen_title">ေဒါင္းလုတ္ လမ္းေၾကာင္းကုိ စိတ္ႀကိဳက္သတ္မွတ္ပါ</string>
+  <string name="pref_download_title">လမ္းေၾကာင္း ဆက္တင္မ်ားကုိ ေဒါင္းလုတ္လုပ္ပါ</string>
+  <string name="pref_edge_swipe_disabled_toast">အစြန္းဖက္မွ ပြတ္ဆြဲျခင္းကုိ ပိတ္ထားပါသည္</string>
+  <string name="pref_edge_swipe_option_close">ပိတ္ပါ</string>
+  <string name="pref_edge_swipe_option_msg">ပြတ္ဆြဲသည့္အခါ သင္ျပဳလုပ္လုိပါသလား-</string>
+  <string name="pref_edge_swipe_title">အစြန္းဖက္မွ ပြတ္ဆြဲျခင္း</string>
+  <string name="pref_edge_swipe_unknown">အျပဳအမူကုိ ေရြးပါ</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">ျပန္သတ္မွတ္ပါ</string>
+  <string name="pref_extras_reset_default">မူရင္းပံုစံအတုိင္း႔ ျပန္လည္သတ္မွတ္ပါ</string>
+  <string name="pref_extras_reset_default_dlg">မူရင္းတန္ဖိုးမ်ားသို႔ ဆက္တင္မ်ားျပန္ေျပာင္းမလား?</string>
+  <string name="pref_extras_reset_default_summary">မူရင္းဆက္တင္အတုိင္း ျပန္ထားပါ</string>
+  <string name="pref_extras_title">အဆင့္ျမင့္</string>
+  <string name="pref_extras_website_settings">ဆုိက္တစ္ခုခ်င္းစီ ဆက္တင္မ်ား</string>
+  <string name="pref_extras_website_settings_summary">ဝက္ဘ္တစ္ခုစီအတြက္ အဆင့္ျမင့္ဆက္တင္မ်ား</string>
+  <string name="pref_font_size_category">စာသားအရြယ္အစား</string>
+  <string name="pref_force_userscalable">မွန္ဘီလူးသံုးနိုင္ေစရန္တြန္းအားေပးပါ</string>
+  <string name="pref_force_userscalable_summary">မွန္ဘီလူး၏ လုပ္ေဆာင္မႈကို ထိန္းခ်ဳပ္ရန္ ဝက္ဘ္ဆိုက္တစ္ခု၏ ေတာင္းခံမႈကို ပယ္ဖ်က္ပါ</string>
+  <string name="pref_general_autofill_title">အလုိအေလ်ာက္-ျဖည့္</string>
+  <string name="pref_general_title">အေထြေထြ</string>
+  <string-array name="pref_homepage_choices">
+    <item>လက္ရွိစာမ်က္ႏွာ</item>
+    <item>စာမ်က္ႏွာအလြတ္</item>
+    <item>မူလသတ္မွတ္ စာမ်က္ႏွာ</item>
+    <item>အမ်ားဆံုး သြားခဲ့ေသာ ဆိုက္မ်ား</item>
+    <item>အျခား</item>
+  </string-array>
+  <string name="pref_invalid_cert">ဆုိက္တြင္ မမွန္ကန္သည့္ SSL အသိအမွတ္ျပဳလက္မွတ္ ရွိေနသည္။</string>
+  <string name="pref_inverted">ပံုေဖာ္ျခင္းကို ေျပာင္းျပန္လွန္ျခင္း</string>
+  <string name="pref_inverted_category">ဖန္သားျပင္ ပံုေဖာ္ျခင္းကို ေျပာင္းျပန္လွန္ပါ</string>
+  <string name="pref_inverted_contrast">ျခားနားခ်က္</string>
+  <string name="pref_inverted_summary">အနက္မွအျဖဴျဖစ္ေစျခင္း နွင့္ အျပန္အလွန္</string>
+  <string name="pref_lab_fullscreen">ရသမ်ိဳးစံုေပးစြမ္းႏုိင္ေသာ</string>
+  <string name="pref_lab_fullscreen_summary">ဘေရာက္ဇာကုိ ဖန္သားျပင္ျပည့္ လုပ္ပါ</string>
+  <string name="pref_link_prefetch_summary">ေနာက္ဘက္တြင္ ခ်ိတ္ဆက္ထားေသာ ဝက္ဘ္စာမ်က္နွာမ်ားကို ႀကိဳတင္ျပရန္ ဘေရာက္ဆာမ်ားကိုခြင့္ျပဳပါ</string>
+  <string name="pref_link_prefetch_title">ဝက္ဘ္စာမ်က္နွာ ႀကိဳတင္ျပျခင္း</string>
+  <string name="pref_min_font_size">အေသးဆံုး ေဖာင့္အရြယ္အစား</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">ည အေနအထား</string>
+  <string name="pref_nightmode_enabled_summary">ည အေနအထားကုိ ဖြင့္ပါ</string>
+  <string name="pref_powersave_enabled">ပါဝါ ေခၽြတာျခင္း အေနအထား</string>
+  <string name="pref_powersave_enabled_summary">ပါဝါ ေခြ်တာျခင္း အေနအထားကုိ ဖြင့္ပါ</string>
+  <string name="pref_privacy_clear_cache">ယာယီမွတ္သား</string>
+  <string name="pref_privacy_clear_cache_summary">စက္တြင္းသိုေလွာင္ထားေသာ အေၾကာင္းအရာနွင့္ ေဒတာေဘ့စ္မ်ားကို ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_cookies">ကြတ္ကီးမ်ားႏွင့္ ဆုိက္ေဒတာ</string>
+  <string name="pref_privacy_clear_cookies_summary">ကြတ္ကီးမ်ားႏွင့္ ဆုိက္ေဒတာအားလံုးကုိ ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_form_data">ေဒတာမွ</string>
+  <string name="pref_privacy_clear_form_data_summary">ေဒတာမွ သိမ္းခဲ့သမွ် အားလံုး ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_geolocation_access">တည္ေနရာ ရယူသံုးစြဲမႈ</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">ဆိုက္အားလံုးအတြက္ တည္ေနရာ ရယူသံုးစြဲမႈကို ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_history_dlg">အင္တာနက္စာမ်က္နွာမ်ားသို႔ဝင္ေရာက္မႈ မွတ္တမ္းကို ဖ်က္မည္လား?</string>
+  <string name="pref_privacy_clear_history_summary">အင္တာနက္စာမ်က္နွာမ်ားသို႔ဝင္ေရာက္မႈ မွတ္တမ္းကို ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_passwords">စကားဝွက္မ်ား</string>
+  <string name="pref_privacy_clear_passwords_summary">သိမ္းထားသည့္ စကားဝွက္အားလံုးကုိ ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_selected">ေရြးခ်ယ္ထားေသာ အရာမ်ားကုိ ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_clear_selected_dlg">ေအာက္ပါ ပစၥည္းမ်ားကုိ ရွင္းပစ္မလား?</string>
+  <string name="pref_privacy_clear_selected_summary">စာရင္းထဲရွိ ေရြးခ်ယ္ထားေသာ အရာမ်ားကုိ ရွင္းပစ္ပါ</string>
+  <string name="pref_privacy_enable_geolocation">တည္ေနရာ</string>
+  <string name="pref_privacy_security_title">ကုိယ္ေရးလံုျခံဳမႈႏွင့္ လံုျခံဳေရး</string>
+  <string name="pref_privacy_security_title_summary">ဘေရာက္ဇာ လံုျခံဳေရးႏွင့္ ကုိယ္ေရးလံုျခံဳမႈ ဆက္တင္မ်ား</string>
+  <string name="pref_sample_font_size">မိမိလုိခ်င္သည့္ စာဖတ္မည့္ စာလံုးအရြယ္အစားကုိ သတ္မွတ္ရန္ ေရႊ႕သည့္ကိရိယာကုိ ဆြဲယူပါ။</string>
+  <string name="pref_security_accept_cookies">ကြတ္ကီးမ်ားကုိ လက္ခံပါ</string>
+  <string name="pref_security_accept_third_party_cookies">ၾကားခံအဖြဲ႔ ကြတ္ကီးမ်ား</string>
+  <string name="pref_security_access_is_allowed">ဝင္ေရာက္ရယူျခင္းကုိ ခြင့္ျပဳထားပါသည္</string>
+  <string name="pref_security_add">ထည့္ရန္</string>
+  <string name="pref_security_allow_camera">ကင္မရာ</string>
+  <string name="pref_security_allow_mic">မိုက္ကရိုဖုန္း</string>
+  <string name="pref_security_allow_popups">ေပါ့ အပ္မ်ား</string>
+  <string name="pref_security_allowed">ခြင့္ျပဳထား</string>
+  <string name="pref_security_ask_before_using">အသံုးမျပဳမီ ေမးပါ</string>
+  <string name="pref_security_not_allowed">ခြင့္မျပဳပါ</string>
+  <string name="pref_security_off">ပိတ္</string>
+  <string name="pref_security_on">ဖြင့္ပါ</string>
+  <string name="pref_security_origin_name">ဝက္ဘ္ဆုိက္ မူရင္း</string>
+  <string name="pref_security_remember">မွတ္ထားရန္</string>
+  <string name="pref_security_remember_passwords">စကား၀ွက္မ်ားကုိ မွတ္ထားပါ</string>
+  <string name="pref_security_save_form_data">အခ်က္အလက္ေဖာင္မ်ားကို မွတ္သားထားပါ</string>
+  <string name="pref_security_web_refiner">ေၾကာ္ျငာမ်ားႏွင့္ အေႏွာင့္အယွက္ျဖစ္ေစသည့္ ပါဝင္အေၾကာင္းအရာ</string>
+  <string name="pref_select_items">ရွင္းပစ္မည့္ ပစၥည္မ်ားကုိ ေရြးပါ</string>
+  <string name="pref_set_homepage_to">သတ္မွတ္ရန္</string>
+  <string name="pref_site_settings_info_panel">လံုျခံဳေရး အခ်က္အလက္</string>
+  <string name="pref_site_settings_title">ဝက္ဘ္ဆုိက္ ဆက္တင္မ်ား</string>
+  <string name="pref_spatial_edge_swipe">တဘ္ ေျပာင္းပါ</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">တဘ္မ်ားကုိေျပာင္းရန္ အစြန္းဖက္မွ ပြတ္ဆြဲပါ</string>
+  <string-array name="pref_temporal_choices">
+    <item>ဘယ္ေတာ့မွ</item>
+    <item>Wi-Fi တြင္သာ</item>
+    <item>အၿမဲတမ္း</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">ယခင္/ေနာက္ထပ္ ဝက္ဘ္ဆုိက္</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">သြားလာၾကည့္ရႈရန္ အစြန္းဖက္မွ ပြတ္ဆြဲပါ</string>
+  <string name="pref_text_zoom">စာသား စေကးတုိင္းျခင္း</string>
+  <string name="pref_valid_cert">SSL အသိအမွတ္ျပဳလက္မွတ္ မွန္ကန္သည္။ ဆက္သြယ္ေရးကုိ ကုဒ္ေျပာင္းထားၿပီးျဖစ္ကာ မည္သူမည္ဝါျဖစ္ေၾကာင္းကုိ စစ္ေဆးအတည္ျပဳၿပီး ျဖစ္ပါသည္။</string>
+  <string name="pref_warning_cert">ဆက္သြယ္ေရးကုိ ကုဒ္ေျပာင္းထားၿပီး မည္သူမည္ဝါျဖစ္သည္ကုိ စစ္ေဆးအတည္ျပဳထားသည္။</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">ေၾကာ္ျငာ %d ခု</item>
+    <item quantity="other">ေၾကာ္ျငာ %d ခု</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">မဲလ္ဝဲ ၿခိမ္းေျမာက္မႈ %d ခု</item>
+    <item quantity="other">မဲလ္ဝဲ ၿခိမ္းေျမာက္မႈ %d ခု</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"%s ကုိပိတ္ဆုိ႔ထားသည္။ "</item>
+    <item>"%1$s ႏွင့္ %2$s ကုိ ပိတ္ဆုိ႔ထားသည္။"</item>
+    <item>"%1$s, %2$s ႏွင့္ %3$s ကုိ ပိတ္ဆုိ႔ထားသည္။"</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">ေျခရာခံကိရိယာ %d ခု</item>
+    <item quantity="other">ေျခရာခံကိရိယာ %d ခု</item>
+  </plurals>
+  <string name="pref_website_title">ဝက္ဘ္ဆုိက္</string>
+  <string name="preview">အႀကိဳျမင္ကြင္း</string>
+  <string name="progress_dialog_setting_wallpaper">ေနာက္ခံပံုကုိ သတ္မွတ္ျခင္း...</string>
+  <string name="received_message_full_screen">မက္ေဆ့ခ်္ ေပးပုိ႔သူမွာ -  %s။</string>
+  <string name="reload">ျပန္စ</string>
+  <string name="remove">ဖယ္</string>
+  <string name="remove_bookmark">အင္တာနက္လိပ္စာ မွတ္တမ္းကုိ ဖ်က္ပါ</string>
+  <string name="remove_from_bookmarks">အင္တာနက္လိပ္စာမွတ္တမ္းထဲမွ ဖယ္ရွားပါ</string>
+  <string name="remove_history_item">မွတ္တမ္းမွ ဖယ္ရွားပါ</string>
+  <string name="remove_snapshot">သိမ္းထားေသာ စာမ်က္ႏွာကုိ ဖ်က္ပါ</string>
+  <string name="removed_from_bookmarks">အင္တာနက္လိပ္စာမွတ္တမ္းမွ ဖယ္ရွားၿပီးပါၿပီ။</string>
+  <string name="replace">အစားထုိးပါ</string>
+  <string name="save_to_bookmarks">အင္တာနက္လိပ္စာမွတ္တမ္းထဲသုိ႔ သိမ္းပါ</string>
+  <string name="saving_snapshot">သိမ္းေနဆဲ...</string>
+  <string name="search_button_text">သြား</string>
+  <string name="search_hint">ရွာပါ (သုိ႔) URL ထည့္ပါ</string>
+  <string name="search_settings_description">အင္တာနက္လိပ္စာ မွတ္တမ္းမ်ားႏွင့္ ဝက္ဘ္ မွတ္တမ္း</string>
+  <string name="search_the_web">ဝက္ဘ္ကုိ ရွာေဖြပါ</string>
+  <string name="security_warning">လံုျခံဳေရး သတိေပးခ်က္</string>
+  <string name="sendText">စာသား လုပ္ေဆာင္မႈတစ္ခုကို ေရြးပါ</string>
+  <string name="set_as_homepage">မူလစာမ်က္ႏွာအျဖစ္ သတ္မွတ္ပါ</string>
+  <string name="share_page">စာမ်က္ႏွာကို ေ၀မွ်ပါ</string>
+  <string name="shortcut_bookmark">အင္တာနက္လိပ္စာမွတ္တမ္း</string>
+  <string name="shortcut_bookmark_title">အင္တာနက္လိပ္စာမွတ္တမ္းကုိ ေရြးပါ</string>
+  <string name="sign_in_to">%1$s  \" %2$s \" ထဲသုိ႔ ဝင္ေရာက္ေနသည္</string>
+  <string name="snapshot_failed">ေအာ့ဖ္လုိင္းျဖစ္ေနစဥ္ ဖတ္ရန္ သိမ္း၍ မရပါ။</string>
+  <string name="snapshot_go_live">တုိက္ရုိက္လႊင့္ပါ</string>
+  <string name="ssl_certificate">လံုၿခံဳမႈဆိုင္ရာ အသိအမွတ္ျပဳလက္မွတ္</string>
+  <string name="ssl_certificate_is_valid">ဤအသိအမွတ္ျပဳလက္မွတ္မွာ တရားဝင္သည္။</string>
+  <string name="ssl_invalid">ဤအသိအမွတ္ျပဳလက္မွတ္ အက်ံဳးမဝင္ပါ။</string>
+  <string name="ssl_unknown">မသိေသာ လက္မွတ္ႏွင့္ ပတ္သက္သည့္ အမွားျဖစ္ပြားသည္။</string>
+  <string name="stop">ရပ္ပါ</string>
+  <string name="stopping">ရပ္ေနဆဲ...</string>
+  <string name="swe_eula">ေနာက္ဆံုး သံုးစြဲသူ လိုင္စင္ သေဘာတူခ်က္</string>
+  <string name="swe_legal">ဥေဒဆိုင္ရာ အခ်က္အလက္မ်ား</string>
+  <string name="swe_open_source_licenses">အခမဲ့ ရင္းျမစ္ လိုင္စင္မ်ား</string>
+  <string name="swe_pref_legal_info_summary">မူပုိင္ခြင့္ (c) ၂၀၁၅၊ The Linux Foundation လုပ္ပုိင္ခြင့္အားလံုးကုိ ရယူထားသည္။</string>
+  <string name="swe_privacy_policy">ကိုယ္ေရးလံုျခံဳမႈ မူဝါဒ</string>
+  <string name="tab_most_visited">အသြားေရာက္ဆံုး</string>
+  <string name="tab_snapshots">သိမ္းထားေသာ စာမ်က္ႏွာမ်ား</string>
+  <string name="time_min">မိနစ္</string>
+  <string name="too_many_subwindows_dialog_message">တစ္ႀကိမ္တြင္ ေပါ့အပ္တစ္ခုကိုသာ ဖြင့္နိုင္ပါသည္။</string>
+  <string name="too_many_subwindows_dialog_title">ေပါ့ပ္အပ္ ပြင့္ေနၿပီးျဖစ္သည္</string>
+  <string name="too_many_windows_dialog_message">တက္ဘ္တစ္ခုပိတ္သည့္တိုင္ေအာင္ အသစ္တစ္ခု ဖြင့္ႏုိင္မည္မဟုတ္ပါ။</string>
+  <string name="too_many_windows_dialog_title">တက္ဘ္ဖြင့္ျခင္းမွာ ကန္႔သတ္ခ်က္ကုိ ေရာက္ေနပါျပီ</string>
+  <string name="ua_switcher_desktop">ဒက္စေတာ့ အရြယ္အစားကုိ ေတာင္းဆုိပါ</string>
+  <string name="unknow_length">အမည္မသိ</string>
+  <string name="uploads_disabled">ဖုိင္တင္ျခင္းကုိ ပိတ္ထားသည္။</string>
+  <string name="user_agent">သံုးစြဲသူေအးဂ်င့္</string>
+  <string name="username">အမည္</string>
+  <string name="version">ဗားရွင္း</string>
+  <string name="video_play">ဖြင့္ပါ</string>
+  <string name="video_save">သိမ္းပါ</string>
+  <string name="website_needs_title">ဝက္ဘ္ဆုိက္တြင္ ေခါင္းစဥ္ ရွိရမည္</string>
+  <string name="website_needs_url">ဝက္ဘ္ဆုိက္တြင္ URL ရွိရမည္</string>
+  <string name="website_settings_add_origin">ဝက္ဘ္ဆုိက္အသစ္</string>
+  <string name="website_settings_clear_all">အားလံုး ရွင္းပါ</string>
+  <string name="website_settings_clear_all_dialog_message">ဝက္ဘ္ဆိုက္အခ်က္အလက္အားလံုးနွင့္ တည္ေနရာခြင့္ျပဳခ်က္ေတာင္းခံျခင္းမ်ားအားလံုးကို ဖ်က္ပစ္မလား?</string>
+  <string name="webstorage_clear_data_dialog_message">ယခုဝက္ဘ္ဆိုက္မွ သိမ္းထားေသာ အခ်က္အလက္မ်ားအားလံုးကို ဖ်က္ပစ္မလား?</string>
+  <string name="webstorage_clear_data_title">သိုေလွာင္ခန္း</string>
+  <string name="webstorage_outofspace_notification_text">ေနရာရွင္းရန္ ထိပါ။</string>
+  <string name="webstorage_outofspace_notification_title">ဘေရာက္ဇာ သုိေလွာင္ခန္း ျပည့္ေနပါၿပီ</string>
+  <string name="webstorage_private_data_title">ကုိယ္ပုိင္သီးသန္႔႔ေဒတာ</string>
+</resources>

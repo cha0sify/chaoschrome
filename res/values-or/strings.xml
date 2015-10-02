@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">ବିଷୟରେ</string>
+  <string name="accessibility_button_addbookmark">ବୁକମାର୍କ ପୃଷ୍ଠା</string>
+  <string name="accessibility_button_back">ପଛକୁ ଫେରନ୍ତୁ</string>
+  <string name="accessibility_button_bookmarks_folder_up">ପୂର୍ବବର୍ତ୍ତୀ ଫୋଲ୍ଡର୍</string>
+  <string name="accessibility_button_clear">ଇନପୁଟ୍ ଖାଲି କରନ୍ତୁ</string>
+  <string name="accessibility_button_closetab">ଟ୍ୟାବ୍ ବନ୍ଦ କରନ୍ତୁ</string>
+  <string name="accessibility_button_forward">ଅଗ୍ରଗାମୀ ଯାଆନ୍ତୁ</string>
+  <string name="accessibility_button_navscreen">ପରିଚାଳକ ପୃଷ୍ଠା</string>
+  <string name="accessibility_button_newincognitotab">ନୂତନ ଗୁପ୍ତ ଟ୍ୟାବ୍ ଖୋଲନ୍ତୁ</string>
+  <string name="accessibility_button_newtab">ନୂତନ ଟ୍ୟାବ୍ ଖୋଲନ୍ତୁ</string>
+  <string name="accessibility_button_refresh">ପୃଷ୍ଠା ସତେଜ କରନ୍ତୁ</string>
+  <string name="accessibility_button_search">ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="accessibility_button_stop">ପୃଷ୍ଠା ଲୋଡ୍ ସ୍ଥଗିତ କରନ୍ତୁ</string>
+  <string name="accessibility_button_voice">ଭଏସ୍ ସନ୍ଧାନ ଆରମ୍ଭ କରନ୍ତୁ</string>
+  <string name="accessibility_state_frozen">ସଞ୍ଚୟ ହୋଇଥିବା ପୃଷ୍ଠା</string>
+  <string name="accessibility_state_incognito">ଗୁପ୍ତ ପୃଷ୍ଠା</string>
+  <string name="accessibility_transition_navscreen">ଟ୍ୟାବ୍ ପରିଚାଳନା</string>
+  <string name="account">ଆକାଉଣ୍ଟ</string>
+  <string name="action">ସାଇନ୍ ଇନ୍</string>
+  <string name="activity_not_found">ଏହି %s ଉଦ୍ଦେଶ୍ୟ ନିୟନ୍ତ୍ରଣ କରିବାକୁ କୌଣସି କାର୍ଯ୍ୟକଳାପ ମିଳିଲା ନାହିଁ</string>
+  <string name="add_bookmark_short">ଯୋଡନ୍ତୁ</string>
+  <string name="add_new_bookmark">ବୁକମାର୍କ ଯୋଡନ୍ତୁ</string>
+  <string name="add_to_homescreen">ହୋମ୍ ସ୍କ୍ରିନ୍‌କୁ ଯୋଡନ୍ତୁ</string>
+  <string name="add_to_homescreen_menu_option">ହୋମ୍ ସ୍କ୍ରିନ୍‌</string>
+  <string name="add_to_other_folder_menu_option">ଫୋଲ୍‌ଡର୍‌ ଚୟନ କରନ୍ତୁ...</string>
+  <string name="added_to_bookmarks">ବୁକମାର୍କଗୁଡିକୁ ଯୋଡାଯାଇଛି।</string>
+  <string name="allow">ଅନୁମତି ଦିଅନ୍ତୁ</string>
+  <string name="application_name">ବ୍ରାଉଜର୍</string>
+  <string name="autofill_profile_editor_address_line_1">ଠିକଣା ଲାଇନ୍ 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">ସାହି ଠିକଣା, P.O. ବକ୍ସ, c/o</string>
+  <string name="autofill_profile_editor_address_line_2">ଠିକଣା ଲାଇନ୍ 2:</string>
+  <string name="autofill_profile_editor_address_line_2_hint">ଆପାର୍ଟମେଣ୍ଟ୍, ସୁଇଟ୍, ୟୁନିଟ୍, ବିଲ୍ଡିଂ, ଫ୍ଲୋର୍ ଇତ୍ୟାଦି।</string>
+  <string name="autofill_profile_editor_city">ସହର/ଟାଉନ୍‌:</string>
+  <string name="autofill_profile_editor_company_name">କମ୍ପାନୀ ନାମ:</string>
+  <string name="autofill_profile_editor_country">ଦେଶ:</string>
+  <string name="autofill_profile_editor_delete_profile">ବିଲୋପ</string>
+  <string name="autofill_profile_editor_email_address">ଇମେଲ୍:</string>
+  <string name="autofill_profile_editor_heading">ୱେବ୍ ଫର୍ମଗୁଡିକରେ ଆପଣ ସ୍ଵତଃ-ପୁରଣ କରିବାକୁ ଚାହୁଁଥିବା ଟେକ୍ସଟ୍ ଟାଇପ୍ କରନ୍ତୁ।</string>
+  <string name="autofill_profile_editor_name">ସମ୍ପୂର୍ଣ୍ଣ ନାମ:</string>
+  <string name="autofill_profile_editor_phone_number">ଫୋନ୍:</string>
+  <string name="autofill_profile_editor_phone_number_invalid">ଅବୈଧ ଫୋନ୍‍ ନମ୍ୱର।</string>
+  <string name="autofill_profile_editor_save_profile">ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="autofill_profile_editor_state">ରାଜ୍ୟ/କ୍ଷେତ୍ର/ଅଞ୍ଚଳ:</string>
+  <string name="autofill_profile_editor_zip_code">ଜିପ୍ କୋଡ୍:</string>
+  <string name="autofill_profile_successful_delete">ସ୍ଵତଃ-ପୂରଣ ଟେକ୍ସଟ୍‌ ବିଲୋପ ହୋଇଛି।</string>
+  <string name="autofill_profile_successful_save">ସ୍ଵତଃ-ପୂରଣ ଟେକ୍ସଟ୍‌ ସଞ୍ଚୟ ହୋଇଛି।</string>
+  <string name="autofill_setup_dialog_message">ବ୍ରାଉଜର୍‍ ସ୍ୱତଃଭାବେ ଏହି ଗୋଟିକ ପରି ୱେବ୍‍ ଫର୍ମଗୁଡିକୁ ସମ୍ପୂର୍ଣ କରିପାରିବ। ଆପଣ ଆପଣଙ୍କ ସ୍ୱତଃ-ପୂରଣ କରୁଥିବା ଟେକ୍ସଟ୍‍ ସେଟ୍‍ ଅପ୍‍ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+  <string name="autofill_setup_dialog_negative_toast">ବ୍ରାଉଜର &gt; ସେଟିଂ &gt; ସାଧାରଣ ସ୍କ୍ରିନ୍‌ ଠାରେ ଆପଣ ସର୍ବଦା ସ୍ଵତଃ-ପୂରଣ ଟେକ୍ସଟ୍‌ ସେଟ୍ କରିପାରିବେ।</string>
+  <string name="back">ପଛକୁ</string>
+  <string name="block">ଅବରୋଧ</string>
+  <string name="bookmark_cannot_save_url">ଏହି URL ବୁକମାର୍କ ହୋଇପାରିବ ନାହିଁ।</string>
+  <string name="bookmark_needs_title">ବୁକମାର୍କରେ ଏକ ନାମ ନିହାତି ଦରକାର।</string>
+  <string name="bookmark_needs_url">ବୁକମାର୍କରେ ଏକ ଅବସ୍ଥାନ ନିହାତି ଦରକାର।</string>
+  <string name="bookmark_not_saved">ବୁକମାର୍କ ସଞ୍ଚୟ କରିପାରିବ ନାହିଁ।</string>
+  <string name="bookmark_saved">ବୁକମାର୍କ ହୋଇଛି</string>
+  <string name="bookmark_this_page">ଏହି ପୃଷ୍ଠା ବୁକମାର୍କ କରନ୍ତୁ</string>
+  <string name="bookmark_url_not_valid">ଏହି URL ବୈଧ ନୁହେଁ।</string>
+  <string name="bookmarks">ବୁକମାର୍କଗୁଡିକ</string>
+  <string name="bookmarks_add_page">ବୁକମାର୍କ ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="browserFrameFormResubmitMessage">ଆପଣ ଦେଖିବାକୁ ଚେଷ୍ଟା କରୁଥିବା ପୃଷ୍ଠାରେ ଉପସ୍ଥାପନା ହୋ‌ଇସାରିଥିବା ଡାଟା ରହିଛି(\"ପୋଷ୍ଠଡାଟା\")। ଯଦି ଆପଣ ଡାଟାକୁ ପୁନଃ ପ୍ରେରଣ କରନ୍ତି, ପୃଷ୍ଠାରେ ଥିବା ଫର୍ମରେ ନିଆଯାଇଥିବା ଯେ କୌଣସି କାର୍ଯ୍ୟାନୁଷ୍ଠାନ(ଯେପରିକି ଏକ ସନ୍ଧାନ କରିବା କିମ୍ୱା ଅନଲାଇନ୍‍ କ୍ରୟ କରିବା) ପୁନଃ ପୁନଃରାବୃତ୍ତି ହେବ।</string>
+  <string name="browser_max_input">ଆପଣଙ୍କ ଇନପୁଟ୍ %s ବର୍ଣ୍ଣଗୁଡିକର ସର୍ବାଧିକ ସୀମାରେ ପହଞ୍ଚିଛି।</string>
+  <string name="browser_max_input_title">ସର୍ବାଧିକ ନମ୍ଵର୍ ବର୍ଣ୍ଣଗୁଡିକ ପାଇଁ ସୀମାରେ ପହଞ୍ଚିଛି</string>
+  <string name="browser_tab_crash_message">ଏହି ୱେବ‌ପୃଷ୍ଠା ପ୍ରଦର୍ଶନ କରିବା ସମୟରେ କିଛି ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଛି। ଦୟାକରି ପୁନଃ ଲୋଡ୍‍ କରନ୍ତୁ ଅଥବା ଅନ୍ୟ ଏକ ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ।
+    </string>
+  <string name="browser_tab_crash_reload">ପୁନଃଲୋଡ୍</string>
+  <string name="browser_tab_crash_snap">ଓହଃ, ସ୍ନାପ୍ !</string>
+  <string name="build_date">ତାରିଖ ନିର୍ମାଣ କରନ୍ତୁ</string>
+  <string name="build_hash">ହାସ୍ ନିର୍ମାଣ କରନ୍ତୁ</string>
+  <string name="cancel">ବାତିଲ୍</string>
+  <string name="cannot_download">କେବଳ \"http\" କିମ୍ୱା \"https\" URLଗୁଡିକ ଡାଉନଲୋଡ୍ ହୋଇପାରିବ।</string>
+  <string name="choose_upload">ଅପଲୋଡ୍ ପାଇଁ ଫାଇଲ୍ ବାଛନ୍ତୁ</string>
+  <string name="choosertitle_sharevia">ଏହା ମାଧ୍ୟମରେ ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="clear">ଖାଲି</string>
+  <string name="clear_history">ଇତିହାସ ଖାଲି କରନ୍ତୁ</string>
+  <string name="close_other_tabs">ଅନ୍ୟ ଟ୍ୟାବଗୁଡିକ ବନ୍ଦ କରନ୍ତୁ</string>
+  <string name="containing_folder">ଏଥିକୁ ଯୋଡନ୍ତୁ</string>
+  <string name="contextheader_folder_bookmarkcount">%dଟି ବୁକମାର୍କ</string>
+  <string name="contextheader_folder_empty">ଶୂନ୍ୟ ଫୋଲ୍ଡର୍</string>
+  <string name="contextmenu_add_contact">ସମ୍ପର୍କ ଯୋଡନ୍ତୁ</string>
+  <string name="contextmenu_copy">କପି</string>
+  <string name="contextmenu_copylink">URL ଲିଙ୍କ୍ କପି କରନ୍ତୁ</string>
+  <string name="contextmenu_dial_dot">ଡାୟଲ୍...</string>
+  <string name="contextmenu_download_image">ଫଟୋ ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="contextmenu_map">ମାନଚିତ୍ର</string>
+  <string name="contextmenu_openlink">ଖୋଲନ୍ତୁ</string>
+  <string name="contextmenu_openlink_newwindow">ନୂତନ ଟ୍ୟାବରେ ଖୋଲନ୍ତୁ</string>
+  <string name="contextmenu_openlink_newwindow_background">ନୂତନ ପୃଷ୍ଠପଟ ଟ୍ୟାବରେ ଖୋଲନ୍ତୁ</string>
+  <string name="contextmenu_savelink">ଲିଙ୍କ୍ ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="contextmenu_send_mail">ଇମେଲ ପ୍ରେରଣ କରନ୍ତୁ</string>
+  <string name="contextmenu_set_wallpaper">ୱାଲପେପର୍ ଭାବେ ସେଟ୍ କରନ୍ତୁ</string>
+  <string name="contextmenu_sharelink">ଲିଙ୍କ୍ ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="contextmenu_view_image">ଫଟୋ ଦେଖନ୍ତୁ</string>
+  <string name="create_shortcut_bookmark">ହୋମକୁ ସର୍ଟକଟ୍ ଯୋଡନ୍ତୁ</string>
+  <string name="current_page">ଠାରୁ</string>
+  <string name="delete_bookmark_warning">ବୁକମାର୍କ ବିଲୋପ କରନ୍ତୁ\" %s \"?</string>
+  <string name="delete_folder">ଫୋଲ୍ଡର୍ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="delete_folder_warning">ଫୋଲ୍ଡରକୁ ବିଲୋପ କରିବେ କି\" %s \"?</string>
+  <string name="disable_autofill">ସ୍ଵତଃ-ପୁରଣ ଅକ୍ଷମ କରନ୍ତୁ</string>
+  <string name="download_default_path">/ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
+  <string name="download_edit_filename_label">ନାମ</string>
+  <string name="download_estore_app">Estore ଆପ୍ଲିକେସନ୍‌ ବିଦ୍ୟମାନ ନାହିଁ, ଦୟାକରି ଏହାକୁ ଡାଉନଲୋଡ୍ କରି ସଂସ୍ଥାପନ କରନ୍ତୁ।</string>
+  <string name="download_file_exist">ଫାଇଲ୍ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି</string>
+  <string name="download_file_exist_msg">ଫାଇଲ୍ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି। ଦୟାକରି ଏକ ନୂତନ ଫାଇଲନାମ ଇନପୁଟ୍‍ କରନ୍ତୁ।</string>
+  <string name="download_filepath_label">ପଥ</string>
+  <string name="download_filesize">ଆକାର</string>
+  <string name="download_no_enough_memory">ଡାଉନଲୋଡ୍ ପାଇଁ ଅପ୍ରଚୁର ମେମୋରୀ</string>
+  <string name="download_no_sdcard_dlg_msg">%s ଡାଉନଲୋଡ୍ କରିବାକୁ ଏକ SD କାର୍ଡ୍ ଆବଶ୍ୟକୀୟ।</string>
+  <string name="download_no_sdcard_dlg_title">କୌଣସି SD କାର୍ଡ୍ ନାହିଁ</string>
+  <string name="download_path_phone_storage_label">/ଫୋନ୍ ଷ୍ଟୋରେଜ୍</string>
+  <string name="download_path_sd_card_label">/SD କାର୍ଡ୍</string>
+  <string name="download_path_unavailable_dlg_msg">ଦୟାକରି ଡାଉନଲୋଡ୍ ଡିରେକ୍ଟୋରୀ ରୂପାନ୍ତରଣ କରନ୍ତୁ</string>
+  <string name="download_path_unavailable_dlg_title">ଡାଉନଲୋଡ୍ ଡିରେକ୍ଟୋରୀ ଅନୁପଲବ୍ଧ ଅଛି</string>
+  <string name="download_pending">ଡାଉନଲୋଡ୍ ଆରମ୍ଭ କରୁଛି...</string>
+  <string name="download_sdcard_busy_dlg_msg">SD କାର୍ଡ୍ ବ୍ୟସ୍ତ ଅଛି। ଡାଉନଲୋଡକୁ ଅନୁମତି ଦେବାକୁ, ବିଜ୍ଞପ୍ତିରେ ଥିବା ଟର୍ନ୍‌ ଅଫ୍‌ USB ଷ୍ଟୋରେଜ୍‍କୁ ସ୍ପର୍ଶ କରନ୍ତୁ।</string>
+  <string name="download_sdcard_busy_dlg_title">SD କାର୍ଡ୍‌ ଅନୁପଲବ୍ଧ</string>
+  <string name="download_settings_title">ସେଟିଂସ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
+  <string name="download_timeneeded">ସମୟ</string>
+  <string name="drm_file_unsupported">DRM ଫାଇଲଗୁଡିକ ଅପଲୋଡ୍ କରିବା ସମର୍ଥିତ ହେଉନାହିଁ!</string>
+  <string name="duplicated_folder_warning">ପୂର୍ବରୁ ଫୋଲ୍ଡର୍ ବିଦ୍ୟମାନ</string>
+  <string name="edit_bookmark">ବୁକମାର୍କ ସମ୍ପାଦନ</string>
+  <string name="edit_folder">ଫୋଲ୍ଡର୍ ସମ୍ପାଦନ</string>
+  <string name="empty_bookmarks_folder">କୌଣସି ବୁକମାର୍କ ନାହିଁ।</string>
+  <string name="empty_history">କୌଣସି ବ୍ରାଉଜର୍ ଇତିହାସ ନାହିଁ।</string>
+  <string name="empty_snapshots_folder">କୌଣସି ସଞ୍ଚୟ ପୃଷ୍ଠା ନାହିଁ।</string>
+  <string name="enable_reader_mode">ପାଠକ ମୋଡ୍</string>
+  <string name="estore_url_warning">Estore ଆପ୍ଲିକେସନ୍‌ ଉନ୍ମୋଚନ ବିଫଳ ହୋଇଛି, url ବହୁତ ଲମ୍ଵା ଅଟେ।</string>
+  <string name="exit">ପ୍ରସ୍ଥାନ</string>
+  <string name="exit_browser_msg">ଦୟାକରି ବ୍ରାଉଜର୍ କିପରି ପ୍ରସ୍ଥାନ କରିବେ ଚୟନ କରନ୍ତୁ</string>
+  <string name="exit_browser_title">ବ୍ରାଉଜର୍ ପ୍ରସ୍ଥାନ କରନ୍ତୁ</string>
+  <string name="exit_minimize">ସର୍ବନିମ୍ନ</string>
+  <string name="exit_quit">ପରିତ୍ୟାଗ</string>
+  <string name="feedback">ମତାମତ</string>
+  <string name="filename_empty_msg">ଫାଇଲନାମ ଡାଉନଲୋଡ୍ ଖାଲି ହୋଇପାରିବ ନାହିଁ। ଦୟାକରି ଏକ ବୈଧ ଫାଇଲନାମ ପ୍ରବେଶ କରନ୍ତୁ।</string>
+  <string name="filename_empty_title">ଫାଇଲନାମ ଡାଉନଲୋଡ୍ ଖାଲି ଅଛି।</string>
+  <string name="find_on_page">ପୃଷ୍ଠାରେ ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="forward">ଅଗ୍ରଗାମୀ</string>
+  <string name="geolocation_permissions_prompt_remember">ପ୍ରାଧାନ୍ୟ ମନେରଖନ୍ତୁ</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">24 ଘଣ୍ଟା ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+  <string-array name="geolocation_settings_choices">
+    <item>ସର୍ବଦା ଅଗ୍ରାହ୍ୟ</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>ସର୍ବଦା ଅନୁମତି ଦିଅନ୍ତୁ</item>
+  </string-array>
+  <string name="help">ସହାୟତା</string>
+  <string name="history">ଇତିହାସ</string>
+  <string name="homepage_set">ହୋମପେଜ୍ ସେଟ୍ କରନ୍ତୁ।</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">ଦୟାକରି ମିଡିଆ ଫାଇଲ୍ କିପରି ନିୟନ୍ତ୍ରଣ କରିବେ ଚୟନ କରନ୍ତୁ</string>
+  <string name="import_bookmarks_dialog_description">ଏହି ଡିଭାଇସ୍‌ରେ ଥିବା ବୁକମାର୍କଗୁଡିକ ଏପର୍ଯ୍ୟନ୍ତ ଏକ Google ଆକାଉଣ୍ଟ୍ ସହ ସଂଯୋଜିତ ହୋ‌ଇନାହିଁ। ଏହି ବୁକମାର୍କଗୁଡିକୁ ଏକ ଆକାଉଣ୍ଟ୍ ସହ ଯୋଗ କରି ସଞ୍ଚୟ କରନ୍ତୁ। ଯଦି ଆପଣ ଏହି ବୁକମାର୍କଗୁଡିକୁ ସିଙ୍କ୍ କରିବାକୁ ଚାହୁଁନାହାନ୍ତି,ସେଗୁଡିକୁ ବିଲୋପ କରିଦିଅନ୍ତୁ।</string>
+  <string name="import_bookmarks_dialog_remove">ବୁକମାର୍କଗୁଡିକୁ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="invalid_path">ଅବୈଧ ପଥ</string>
+  <string name="loading_video">ଭିଡିଓ ଲୋଡ୍ ହେଉଛି...</string>
+  <string name="local_bookmarks">ସ୍ଥାନୀୟ</string>
+  <string name="location">ଠିକଣା</string>
+  <string name="max_tabs_warning">ଆଉ କୌଣସି ଟ୍ୟାବ୍‌ ଉପଲବ୍ଧ ନାହିଁ</string>
+  <string name="max_url_character_limit_msg">URL ସର୍ବାଧିକ ସୀମାରେ ପହଞ୍ଚିଛି</string>
+  <string name="mdm_managed_alert">ଆପଣଙ୍କ ପ୍ରଶାସକଙ୍କ ଦ୍ୱାରା ପରିଚାଳିତ</string>
+  <string name="menu_preferences">ସେଟିଂସ୍‌</string>
+  <string name="menu_save_snapshot">ଅଫ‌ଲାଇନ୍ ପଢିବା ପାଇଁ ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="menu_share_url">ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="msg_no_google_play">ଦୁଃଖିତ, Google Play store ଆପ୍ଲିକେସନ୍‌ ବିଦ୍ୟମାନ ନାହିଁ।</string>
+  <string name="my_navigation_add">ଯୋଡନ୍ତୁ</string>
+  <string name="my_navigation_add_label">ୱେବସାଇଟ୍ ଯୋଡନ୍ତୁ</string>
+  <string name="my_navigation_address">ଠିକଣା</string>
+  <string name="my_navigation_cannot_save_url">ଅବୈଧ URL</string>
+  <string name="my_navigation_delete_label">ୱେବସାଇଟ୍ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="my_navigation_delete_msg">ୱେବସାଇଟ୍ ବିଲୋପ କରିବେ?</string>
+  <string name="my_navigation_duplicate_url">URL ପୂର୍ବରୁ ବିଦ୍ୟମାନ</string>
+  <string name="my_navigation_edit_label">ୱେବସାଇଟ୍ ସମ୍ପାଦନ କରନ୍ତୁ</string>
+  <string name="my_navigation_name">ଟାଇଟଲ୍</string>
+  <string name="my_navigation_page_title">ହୋମ୍</string>
+  <string name="name">ଲେବଲ୍</string>
+  <string name="new_folder">ନୂତନ ଫୋଲ୍ଡର୍</string>
+  <string name="new_incognito_tab">ବ୍ୟକ୍ତିଗତ ବ୍ରାଉଜିଂ</string>
+  <string name="new_tab">ନୂତନ ଟ୍ୟାବ୍</string>
+  <string name="no_subfolders">କୌଣସି ଉପଫୋଲ୍ଡରଗୁଡିକ ନାହିଁ।</string>
+  <string name="ok">ଓକେ</string>
+  <string name="open_all_in_new_window">ସମସ୍ତ ନୂତନ ଟ୍ୟାବରେ ଖୋଲନ୍ତୁ</string>
+  <string name="other_bookmarks">ଅନ୍ୟ ବୁକମାର୍କ୍</string>
+  <string name="overwrite_bookmark_msg">ପୂର୍ବରୁ ବିଦ୍ୟମାନ ନାମ କିମ୍ୱା ଠିକଣା ବୁକମାର୍କ କରନ୍ତୁ। ଏହା ଅଧିଲିଖନ କରିବେ?</string>
+  <string name="page_info">ପୃଷ୍ଠା ସୂଚନା</string>
+  <string name="page_info_address">ଠିକଣା:</string>
+  <string name="password">ପାସୱାର୍ଡ୍</string>
+  <string name="path_wrong">ଭୁଲ୍ ପଥ</string>
+  <string name="permission_preload_label">ପୂର୍ବଲୋଡ୍ ଫଳାଫଳଗୁଡିକ</string>
+  <string name="powersave_dialog_off">ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ଅସମର୍ଥ ହୋ‍ଇଛି।\nଦୟାକରି ବ୍ରାଉଜର୍‍କୁ ପୁଣିଥରେ ଆରମ୍ଭ କରନ୍ତୁ।</string>
+  <string name="powersave_dialog_on">ସମର୍ଥ ହୋଇଛି: ପ୍ରୋସେସର୍‍ କୋର୍‍ ନିୟନ୍ତ୍ରଣ।\nଅସମର୍ଥ ହୋ‍ଇଛି: ଅଧିକ କାର୍ଯ୍ୟଦକ୍ଷତା ବୈଶିଷ୍ଟ୍ୟଗୁଡିକ।\nଦୟାକରି ବ୍ରାଉଜର୍‍କୁ ପୁଣିଥରେ ଆରମ୍ଭ କରନ୍ତୁ।</string>
+  <string name="pref_accessibility_title">ପ୍ରବେଶଯୋଗ୍ୟ</string>
+  <string name="pref_accessibility_title_summary">ଟେକ୍ସଟ୍‍ ଆକାର ଓ ଜୁମ୍‍ କରିବା</string>
+  <string name="pref_autofill_enabled">ସ୍ଵତଃ-ପୁରଣ ଫର୍ମ୍</string>
+  <string name="pref_autofill_enabled_summary">ଏକ ଏକକ ଟ୍ୟାପ୍‌ ସହ ୱେବ୍ ଫର୍ମଗୁଡିକ ଫର୍ମଗୁଡିକ ପୁରଣ କରନ୍ତୁ।</string>
+  <string name="pref_autofill_profile_editor">ସ୍ଵତଃ-ପୁରଣ ଟେକ୍ସଟ୍</string>
+  <string name="pref_autofill_profile_editor_summary">ୱେବ୍ ଫର୍ମଗୁଡିକରେ ସ୍ଵତଃ-ପୁରଣ କରିବାକୁ ଟେକ୍ସଟ୍ ସେଟ୍‌ ଅପ୍ କରନ୍ତୁ</string>
+  <string name="pref_content_homepage">ହୋମପେଜ୍</string>
+  <string name="pref_content_javascript">ଜାଭାସ୍କ୍ରିପ୍ଟ ସକ୍ଷମ କରନ୍ତୁ</string>
+  <string name="pref_content_load_images">ଫଟୋଗୁଡିକ ଲୋଡ୍ କରନ୍ତୁ</string>
+  <string name="pref_content_load_images_summary">ୱେବ ପୃଷ୍ଠାଗୁଡିକରେ ଫଟୋଗୁଡିକ ପ୍ରଦର୍ଶନ କରନ୍ତୁ</string>
+  <string name="pref_content_open_in_background">ପୃଷ୍ଠପଟ ଖୋଲନ୍ତୁ</string>
+  <string name="pref_content_open_in_background_summary">ସମ୍ପ୍ରତି ଟ୍ୟାବ୍‌ ପଛରେ ଥିବା ନୂତନ ଟ୍ୟାବ୍‍ ଖୋଲନ୍ତୁ</string>
+  <string name="pref_content_search_engine">ସନ୍ଧାନ ଇଞ୍ଜିନ୍</string>
+  <string name="pref_content_search_engine_summary">ଏକ ସନ୍ଧାନ ଇଞ୍ଜିନ୍ ମନୋନୟନ କରନ୍ତୁ</string>
+  <string name="pref_content_title">ବିଷୟବସ୍ତୁ ସେଟିଂସ୍</string>
+  <string name="pref_content_title_summary">ୱେବ୍‌ ବିଷୟବସ୍ତୁ ସେଟିଂ</string>
+  <string name="pref_data_preload_summary">ପୃଷ୍ଠପଟରେ ଉଚ୍ଚ ଗୋପନୀୟ ସନ୍ଧାନ ଫଳାଫଳଗୁଡିକ ପୂର୍ବଲୋଡ୍ କରିବାକୁ ବ୍ରାଉଜରକୁ ଅନୁମତି ଦିଏ</string>
+  <string name="pref_data_preload_title">ଫଳାଫଳ ପ୍ରିଲୋଡିଂ ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="pref_default_site_settings_title">ଡିଫଲ୍ଟ ସାଇଟ୍‍ ସେଟିଂ</string>
+  <string name="pref_default_text_encoding">ଟେକ୍ସଟ୍ ଏନକୋଡିଂ</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">ଡିବଗ୍</string>
+  <string name="pref_disable_edge_swipe">ଏଜ୍‍ ସ୍ୱାଇପ୍‍ ଅସମର୍ଥ କରନ୍ତୁ</string>
+  <string name="pref_do_not_track">\'ଟ୍ରାକ୍‌ କରନ୍ତୁ ନାହିଁ\' ଅନୁରୋଧ କରନ୍ତୁ</string>
+  <string name="pref_download_path_setting_screen_title">କଷ୍ଟମ୍ ଡାଉନଲୋଡ୍ ପଥ</string>
+  <string name="pref_download_title">ପଥ ସେଟିଂସ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
+  <string name="pref_edge_swipe_disabled_toast">ଏଜ୍‍ରୁ ସ୍ୱାଇପ୍‍ କରିବା ଅସମର୍ଥ କରାଯାଇଛି</string>
+  <string name="pref_edge_swipe_option_close">ପାଖ</string>
+  <string name="pref_edge_swipe_option_msg">ସ୍ୱାଇପ୍‍ କରିବା ସମୟରେ, ଆପଣ ଚାହିଁବେ କି:</string>
+  <string name="pref_edge_swipe_title">ପ୍ରାନ୍ତ ସ୍ୱାଇପ୍‍</string>
+  <string name="pref_edge_swipe_unknown">ଗୁଣବତ୍ତା ଚୟନ କରନ୍ତୁ</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">ପୁନଃ</string>
+  <string name="pref_extras_reset_default">ଡିଫଲ୍ଟକୁ ପୁନଃସେଟ୍ କରନ୍ତୁ</string>
+  <string name="pref_extras_reset_default_dlg">ଡିଫଲ୍ଟ ମୁଲ୍ୟଗୁଡିକୁ ସେଟିଂସ୍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ?</string>
+  <string name="pref_extras_reset_default_summary">ଡିଫଲ୍ଟ ସେଟିଂସ୍ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ</string>
+  <string name="pref_extras_title">ବିକଶିତ</string>
+  <string name="pref_extras_website_settings">ପ୍ରତି ସାଇଟ୍‍ ସେଟିଂସରେ</string>
+  <string name="pref_extras_website_settings_summary">ବ୍ୟକ୍ତିଗତ ୱେବସାଇଟଗୁଡିକ ପାଇଁ ବିକଶିତ ସେଟିଂସ୍</string>
+  <string name="pref_font_size_category">ଟେକ୍ସଟ୍ ଆକାର</string>
+  <string name="pref_force_userscalable">ଜୁମ୍ ସକ୍ଷମ କରିବାକୁ ବାଧ୍ୟ କରନ୍ତୁ</string>
+  <string name="pref_force_userscalable_summary">ଜୁମ୍ ଆଚରଣ ନିୟନ୍ତ୍ରଣ କରିବାକୁ ଏକ ୱେବସାଇଟ୍ ଅନୁରୋଧ ଅଧିଲିଖନ କରନ୍ତୁ</string>
+  <string name="pref_general_autofill_title">ସ୍ଵତଃ-ପୁରଣ</string>
+  <string name="pref_general_title">ସାଧାରଣ</string>
+  <string-array name="pref_homepage_choices">
+    <item>ସମ୍ପ୍ରତି ପୃଷ୍ଠା</item>
+    <item>ଖାଲି ପୃଷ୍ଠା</item>
+    <item>ଡିଫଲ୍ଟ ପୃଷ୍ଠା</item>
+    <item>ପ୍ରାୟତଃ ଭ୍ରମଣ କରିଥିବା ସାଇଟଗୁଡିକ</item>
+    <item>ଅନ୍ୟାନ୍ୟ</item>
+  </string-array>
+  <string name="pref_invalid_cert">ସାଇଟ‌ରେ ଅବୈଧ SSL ସାର୍ଟିଫିକେଟ୍‍ ରହିଛି।</string>
+  <string name="pref_inverted">ବିପରିତ ରୂପାୟନ</string>
+  <string name="pref_inverted_category">ବିପରିତ ସ୍କ୍ରିନ୍ ରୂପାୟନ</string>
+  <string name="pref_inverted_contrast">କଣ୍ଟ୍ରାଷ୍ଟ</string>
+  <string name="pref_inverted_summary">କଳା ଧଳା ହୁଏ ଏବ ଏହାର ଓଲଟା</string>
+  <string name="pref_lab_fullscreen">ଇମର୍ସିଭ୍</string>
+  <string name="pref_lab_fullscreen_summary">ବ୍ରାଉଜର୍ ପୂର୍ଣ୍ଣସ୍କ୍ରିନ୍‍ ତିଆରି କରନ୍ତୁ</string>
+  <string name="pref_link_prefetch_summary">ପୃଷ୍ଠପଟରେ ଲିଙ୍କ୍ ୱେବ୍ ପୃଷ୍ଠାଗୁଡିକ ପୂର୍ବଲୋଡ୍ କରିବାକୁ ବ୍ରାଉଜରଙ୍କୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+  <string name="pref_link_prefetch_title">ୱେବ୍ ପୃଷ୍ଠା ପୂର୍ବଲୋଡ୍ ହେଉଛି</string>
+  <string name="pref_min_font_size">ସର୍ବନିମ୍ନ ଫଣ୍ଟ ଆକାର</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">ରାତ୍ରି ମୋଡ୍‍</string>
+  <string name="pref_nightmode_enabled_summary">ରାତ୍ରି ମୋଡ୍‍ ଅନ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_powersave_enabled">ପାୱାର୍‍ ସଞ୍ଚୟ ମୋଡ୍‍</string>
+  <string name="pref_powersave_enabled_summary">ପାୱାର୍‍ ସଞ୍ଚୟ ମୋଡ୍‍ ଅନ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_cache">କ୍ୟାଚ୍</string>
+  <string name="pref_privacy_clear_cache_summary">ସ୍ଥାନୀୟ ଭାବେ କ୍ୟାଚ୍ ହୋଇଥିବା ବିଷୟବସ୍ତୁ ଏବଂ ଡାଟାବେସ୍ ଖାଲି କରିବେ</string>
+  <string name="pref_privacy_clear_cookies">କୁକିଜ୍‍ ଏବଂ ସାଇଟ୍‍ ଡାଟା</string>
+  <string name="pref_privacy_clear_cookies_summary">ସମସ୍ତ ବ୍ରାଉଜର କୁକିଜ୍‍ ଏବଂ ସାଇଟ୍‍ ଡାଟା ମୁକ୍ତ କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_form_data">ଡାଟା ଫର୍ମ୍</string>
+  <string name="pref_privacy_clear_form_data_summary">ଡାଟାରୁ ସମସ୍ତ ସଞ୍ଚୟ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_geolocation_access">ଅବସ୍ଥାନ ଆକସେସ୍</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">ସମସ୍ତ ୱେବସାଇଟ୍‌ ପାଇଁ ଅବସ୍ଥାନ ପ୍ରବେଶ ଖାଲି କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_history_dlg">ବ୍ରାଉଜର୍ ନେଭିଗେସନ୍ ଇତିହାସ ବିଲୋପ କରିବେ?</string>
+  <string name="pref_privacy_clear_history_summary">ବ୍ରାଉଜର୍ ନେଭିଗେସନ୍ ଇତିହାସ ଖାଲି କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_passwords">ପାସୱା‌ର୍ଡଗୁଡିକ</string>
+  <string name="pref_privacy_clear_passwords_summary">ସମସ୍ତ ସଞ୍ଚୟ ହୋଇଥିବା ପାସୱାର୍ଡ୍ ଖାଲି କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_selected">ଚୟନିତ ଆଇଟମଗୁଡିକ ଖାଲି କରନ୍ତୁ</string>
+  <string name="pref_privacy_clear_selected_dlg">ନିମ୍ନୋକ୍ତ ଆଇଟମଗୁଡିକ ଖାଲି କରିବେ?</string>
+  <string name="pref_privacy_clear_selected_summary">ତାଲିକାରୁ ଚୟନିତ ଆଇଟମଗୁଡିକ ଖାଲି କରନ୍ତୁ</string>
+  <string name="pref_privacy_enable_geolocation">ଅବସ୍ଥାନ</string>
+  <string name="pref_privacy_security_title">ଗୋପନୀୟତା ଏବଂ ସୁରକ୍ଷା</string>
+  <string name="pref_privacy_security_title_summary">ବ୍ରାଉଜର୍‍ ସୁରକ୍ଷା ଓ ଗୋପନୀୟତା ସେଟିଂ</string>
+  <string name="pref_sample_font_size">ଚାହୁଁଥିବା ଆରାମଦାୟକ ପଢିବା ଆକାର ସେଟ୍ କରିବାକୁ ଫଣ୍ଟ ଆକାର ନିୟନ୍ତ୍ରଣ କରିବାକୁ ସ୍ଲାଇଡର୍ ଡ୍ରାଗ୍ କରନ୍ତୁ।</string>
+  <string name="pref_security_accept_cookies">କୁକୀଗୁଡିକ ଗ୍ରହଣ କରନ୍ତୁ</string>
+  <string name="pref_security_accept_third_party_cookies">ତୃତୀୟ ପକ୍ଷ କୁକିଜ୍‍</string>
+  <string name="pref_security_access_is_allowed">ଆକସେସ୍‍ ପାଇଁ ଅନୁମତି ଦିଆଯାଇଛି</string>
+  <string name="pref_security_add">ଯୋଡନ୍ତୁ</string>
+  <string name="pref_security_allow_camera">କ୍ୟାମେରା</string>
+  <string name="pref_security_allow_mic">ମାଇକ୍ରୋଫୋନ୍‍</string>
+  <string name="pref_security_allow_popups">ପପ୍‍ ଅପଗୁଡିକ</string>
+  <string name="pref_security_allowed">ଅନୁମୋଦିତ ହୋଇଛି</string>
+  <string name="pref_security_ask_before_using">ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ପଚାରନ୍ତୁ</string>
+  <string name="pref_security_not_allowed">ଅନୁମୋଦିତ ନୁହେଁ</string>
+  <string name="pref_security_off">ଅଫ୍</string>
+  <string name="pref_security_on">ଅନ</string>
+  <string name="pref_security_origin_name">ସାଇଟ୍‍ ଉତ୍ପତ୍ତି</string>
+  <string name="pref_security_remember">ମନେରଖିବା</string>
+  <string name="pref_security_remember_passwords">ପାସୱାର୍ଡ୍ ମନେରଖିବା</string>
+  <string name="pref_security_save_form_data">ଡାଟା ଠାରୁ ମନେରଖିବା</string>
+  <string name="pref_security_web_refiner">ବିଞାପନ ଓ ବିଭ୍ରାନ୍ତକାରୀ ବିଷୟବସ୍ତୁ</string>
+  <string name="pref_select_items">ଖାଲି କରିବାକୁ ଆଇଟମଗୁଡିକ ଚୟନ କରନ୍ତୁ</string>
+  <string name="pref_set_homepage_to">ଏଥିକୁ ସେଟ୍</string>
+  <string name="pref_site_settings_info_panel">ସୁରକ୍ଷା ସୂଚନା</string>
+  <string name="pref_site_settings_title">ସାଇଟ୍‍ ସେଟିଂସ୍‌</string>
+  <string name="pref_spatial_edge_swipe">ଟ୍ୟାବ୍‍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">ଟ୍ୟାବ୍‍ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ପ୍ରାନ୍ତ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ</string>
+  <string-array name="pref_temporal_choices">
+    <item>କେବେବି ନୁହେଁ</item>
+    <item>କେବଳ Wi-Fi ରେ</item>
+    <item>ସର୍ବଦା</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">ପୂର୍ବବର୍ତ୍ତୀ/ପରବର୍ତ୍ତୀ ୱେବ୍‍ ସାଇଟ୍‍</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">ନେଭିଗେଟ୍‍ କରିବା ପାଇଁ ଏଜ୍‍ରୁ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ</string>
+  <string name="pref_text_zoom">ଟେକ୍ସଟ୍ ସ୍କେଲିଂ</string>
+  <string name="pref_valid_cert">ବୈଧ SSL ସାର୍ଟିଫିକେଟ୍‍। ଯୋଗାଯୋଗ ଏନକ୍ରିପ୍ଟ ହୋ‌ଇଛି ଏବଂ ପ୍ରାମାଣିକତା ଯାଞ୍ଚ ହୋ‍ଇଛି।</string>
+  <string name="pref_warning_cert">ସାଇଟ୍‍ SSL ସାର୍ଟିଫିକେଟରେ ଚେତାବନୀଗୁଡିକ ରହିଛି‍।</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d ବିଞାପନ</item>
+    <item quantity="other">%d ବିଞାପନଗୁଡିକ</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d ମାଲ୍‍ଓୟାର୍‍ ଥ୍ରେଟ୍‍</item>
+    <item quantity="other">%d ମାଲୱାର୍‌ ଥ୍ରେଟଗୁଡିକ</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>“%s ଅବରୋଧ। ”</item>
+    <item>“1$s ଏବଂ %2$s ଅବରୋଧିତ। ”</item>
+    <item>“%1$s, %2$s ଏବଂ %3$s ଅବରୋଧିତ।”</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d ଚିହ୍ନଟକାରୀ</item>
+    <item quantity="other">%dଟି ଚିହ୍ନଟକାରୀ</item>
+  </plurals>
+  <string name="pref_website_title">ୱେବସାଇଟ୍</string>
+  <string name="preview">ପୂର୍ବାବଲୋକନ</string>
+  <string name="progress_dialog_setting_wallpaper">ୱାଲପେପର୍ ସେଟିଂ...</string>
+  <string name="received_message_full_screen">ରୁ ଏକ ବାର୍ତ୍ତା ଗ୍ରହଣ କରନ୍ତୁ:  %s ।</string>
+  <string name="reload">ସତେଜ</string>
+  <string name="remove">ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="remove_bookmark">ବୁକମାର୍କ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="remove_from_bookmarks">ବୁକମାର୍କଗୁଡିକରୁ ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="remove_history_item">ଇତିହାସରୁ ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="remove_snapshot">ସଞ୍ଚୟ ପୃଷ୍ଠାଗୁଡିକ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="removed_from_bookmarks">ବୁକମାର୍କଗୁଡିକରୁ ଅପସାରିତ ହୋଇଛି।</string>
+  <string name="replace">ବିସ୍ଥାପନ କରନ୍ତୁ</string>
+  <string name="save_to_bookmarks">ବୁକମାର୍କଗୁଡିକୁ ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="saving_snapshot">ସଞ୍ଚୟ...</string>
+  <string name="search_button_text">ଯାଆନ୍ତୁ</string>
+  <string name="search_hint">URL ସନ୍ଧାନ କିମ୍ୱା ଟାଇପ୍ କରନ୍ତୁ</string>
+  <string name="search_settings_description">ବୁକମାର୍କଗୁଡିକ ଏବଂ ୱେବ୍ ଇତିହାସ</string>
+  <string name="search_the_web">ୱେବ୍ ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="security_warning">ସୁରକ୍ଷା ସତର୍କତା</string>
+  <string name="sendText">ଟେକ୍ସଟ୍‌ ପାଇଁ ଏକ କ୍ରିୟା ଚୟନ କରନ୍ତୁ</string>
+  <string name="set_as_homepage">ହୋମପେଜ୍ ଭାବେ ସେଟ୍ କରନ୍ତୁ</string>
+  <string name="share_page">ପୃଷ୍ଠା ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="shortcut_bookmark">ବୁକମାର୍କ</string>
+  <string name="shortcut_bookmark_title">ଏକ ବୁକମାର୍କ ମନୋନୟନ କରନ୍ତୁ</string>
+  <string name="sign_in_to">%1$s \" %2$s \"କୁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ</string>
+  <string name="snapshot_failed">ଅଫ‌ଲାଇନ୍ ପଢିବା ପାଇଁ ସଞ୍ଚୟ କରିପାରିବ ନାହିଁ।</string>
+  <string name="snapshot_go_live">ଲାଇଭ୍ ଦେଖନ୍ତୁ</string>
+  <string name="ssl_certificate">ସୁରକ୍ଷା ସାର୍ଟିଫିକେଟ୍</string>
+  <string name="ssl_certificate_is_valid">ଏହି ସାର୍ଟିଫିକେଟ୍ ବୈଧ ଅଟେ।</string>
+  <string name="ssl_invalid">ଏହି ସାର୍ଟିଫିକେଟ୍ ଅବୈଧ ଅଟେ।</string>
+  <string name="ssl_unknown">ଅଜ୍ଞାତ ସାର୍ଟିଫିକେଟ୍ ତ୍ରୁଟି।</string>
+  <string name="stop">ସ୍ଥଗିତ</string>
+  <string name="stopping">ସ୍ଥଗିତ କରୁଛି...</string>
+  <string name="swe_eula">ଉପଭୋକ୍ତା ଲାଇସେନ୍ସ ରାଜିନାମା ଶେଷ କରନ୍ତୁ</string>
+  <string name="swe_legal">ଆଇନଗତ ସୂଚନା</string>
+  <string name="swe_open_source_licenses">ମୁକ୍ତ ଉତ୍ସ ଲାଇସେନ୍ସଗୁଡିକ</string>
+  <string name="swe_pref_legal_info_summary">କପିରାଇଟ୍‍ (c) 2015, ଲିନେକ୍ସ୍‌ ଫାଉଣ୍ଡେସନ୍‍। ସମସ୍ତ ଅଧିକାରକୁ ସଂରକ୍ଷଣ କରାଯାଇଛି।</string>
+  <string name="swe_privacy_policy">ଗୋପନୀୟତା ନୀତି</string>
+  <string name="tab_most_visited">ପ୍ରାୟତଃ ଭ୍ରମଣ କରିଥିବା</string>
+  <string name="tab_snapshots">ପୃଷ୍ଠାଗୁଡିକ ସଞ୍ଚୟ ହୋଇଛି</string>
+  <string name="time_min">ସର୍ବନିମ୍ନ</string>
+  <string name="too_many_subwindows_dialog_message">ଏକ ସମୟରେ କେବଳ ଗୋଟିଏ ପପ୍-ଅପ୍
+      ଖୋଲିବ।</string>
+  <string name="too_many_subwindows_dialog_title">ପୂର୍ବରୁ ପପ୍-ଅପ୍ ଖୋଲାଅଛି</string>
+  <string name="too_many_windows_dialog_message">ଯେପର୍ଯ୍ୟନ୍ତ ଗୋଟିଏ ବନ୍ଦ କରିନାହାନ୍ତି ଏକ ନୂତନ ଟ୍ୟାବ୍ ଖୋଲିପାରିବେ ନାହିଁ।</string>
+  <string name="too_many_windows_dialog_title">ଟ୍ୟାବ୍ ସୀମାରେ ପହଞ୍ଚିଛି</string>
+  <string name="ua_switcher_desktop">ଡେସ୍କଟପ୍ ସାଇଟର ଅନୁରୋଧ</string>
+  <string name="unknow_length">ଅଜ୍ଞାତ</string>
+  <string name="uploads_disabled">ଫାଇଲ୍ ଅପଲୋଡ୍ ଅକ୍ଷମ ହୋଇଛି।</string>
+  <string name="user_agent">ଉପଭୋକ୍ତା ଏଜେଣ୍ଟ</string>
+  <string name="username">ନାମ</string>
+  <string name="version">ସଂସ୍କରଣ</string>
+  <string name="video_play">ଚାଳନ</string>
+  <string name="video_save">ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="website_needs_title">ୱେବସାଇଟର ଏକ ଟାଇଟଲ୍ ହେବା ଜରୁରୀ</string>
+  <string name="website_needs_url">ୱେବସାଇଟର ଏକ URL ହେବା ଜରୁରୀ</string>
+  <string name="website_settings_add_origin">ନୂତନ ସାଇଟ୍‍</string>
+  <string name="website_settings_clear_all">ସମସ୍ତ ଖାଲି କରନ୍ତୁ</string>
+  <string name="website_settings_clear_all_dialog_message">ସମସ୍ତ ୱେବସାଇଟ୍ ଡାଟା ଏବଂ ଅବସ୍ଥାନ ଅନୁମତିଗୁଡିକ ବିଲୋପ କରିବେ?</string>
+  <string name="webstorage_clear_data_dialog_message">ଏହି ୱେବସାଇଟ୍ ଦ୍ୱାରା ଷ୍ଟୋର୍ ହୋଇଥିବା ସମସ୍ତ ବିଲୋପ କରିବେ?</string>
+  <string name="webstorage_clear_data_title">ଷ୍ଟୋରେଜ୍</string>
+  <string name="webstorage_outofspace_notification_text">ସ୍ପେସ୍ ଖାଲି କରିବାକୁ ସ୍ପର୍ଶ କରନ୍ତୁ।</string>
+  <string name="webstorage_outofspace_notification_title">ବ୍ରାଉଜର୍ ଷ୍ଟୋରେଜ୍ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
+  <string name="webstorage_private_data_title">ବ୍ୟକ୍ତିଗତ ଡାଟା</string>
+</resources>

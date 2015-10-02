@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">អំពី</string>
+  <string name="accessibility_button_addbookmark">ចំណាំ​ទំព័រ</string>
+  <string name="accessibility_button_back">ថយក្រោយ</string>
+  <string name="accessibility_button_bookmarks_folder_up">ថត​ពីមុន</string>
+  <string name="accessibility_button_clear">សម្អាត​ការបញ្ចូល</string>
+  <string name="accessibility_button_closetab">បិទ​ផ្ទាំង</string>
+  <string name="accessibility_button_forward">ទៅមុខ</string>
+  <string name="accessibility_button_navscreen">កម្មវិធី​​គ្រប់គ្រងទំព័រ</string>
+  <string name="accessibility_button_newincognitotab">បើក​ផ្អាំង​អនាមិក​ថ្មី</string>
+  <string name="accessibility_button_newtab">បើក​ផ្ទាំង​ថ្មី</string>
+  <string name="accessibility_button_refresh">ផ្ទុក​ទំព័រ​ឡើង​វិញ</string>
+  <string name="accessibility_button_search">ស្វែងរក</string>
+  <string name="accessibility_button_stop">បញ្ឈប់ការផ្ទុកទំព័រ</string>
+  <string name="accessibility_button_voice">ចាប់ផ្ដើម​ការស្វែងរក​ដោយ​សំឡេង</string>
+  <string name="accessibility_state_frozen">ទំព័របាន​រក្សា​ទុក</string>
+  <string name="accessibility_state_incognito">ទំព័រ​អនាមិក</string>
+  <string name="accessibility_transition_navscreen">ការគ្រប់គ្រងផ្ទាំង</string>
+  <string name="account">គណនី</string>
+  <string name="action">ចូល</string>
+  <string name="activity_not_found">រក​មិន​ឃើញ​សកម្មភាព​ ដើម្បី​គ្រប់គ្រង​​គោលបំណង​នេះ %s</string>
+  <string name="add_bookmark_short">បន្ថែម</string>
+  <string name="add_new_bookmark">ថែម​ចំណាំ</string>
+  <string name="add_to_homescreen">បន្ថែម​អេក្រង់​ដើម</string>
+  <string name="add_to_homescreen_menu_option">អេក្រង់ដើម</string>
+  <string name="add_to_other_folder_menu_option">ជ្រើស​ថត...</string>
+  <string name="added_to_bookmarks">បាន​បន្ថែម​ទៅ​​ចំណាំ។</string>
+  <string name="allow">អនុញ្ញាត​</string>
+  <string name="application_name">កម្មវិធី​អ៊ីនធឺណិត</string>
+  <string name="autofill_profile_editor_address_line_1">អាសយដ្ឋានទី 1៖</string>
+  <string name="autofill_profile_editor_address_line_1_hint">អាសយដ្ឋានផ្លូវ, ប្រអប់ P.O និង c/o</string>
+  <string name="autofill_profile_editor_address_line_2">អាសយដ្ឋានទី 2៖</string>
+  <string name="autofill_profile_editor_address_line_2_hint">ខុនដូរ, ផ្ទះ, បន្ទប់, អាគារ, ជាន់, ។ល។</string>
+  <string name="autofill_profile_editor_city">ទីក្រុង/ទីប្រជុំជន៖</string>
+  <string name="autofill_profile_editor_company_name">ឈ្មោះក្រុមហ៊ុន៖</string>
+  <string name="autofill_profile_editor_country">ប្រទេស៖</string>
+  <string name="autofill_profile_editor_delete_profile">លុបចោល</string>
+  <string name="autofill_profile_editor_email_address">អ៊ីមែល៖</string>
+  <string name="autofill_profile_editor_heading">វាយអត្ថបទដែលអ្នកចង់ស្វ័យបំពេញក្នុងទម្រង់វិប។</string>
+  <string name="autofill_profile_editor_name">ឈ្មោះពេញ៖</string>
+  <string name="autofill_profile_editor_phone_number">ទូរសព្ទ៖</string>
+  <string name="autofill_profile_editor_phone_number_invalid">លេខ​ទូរសព្ទ​​មិន​ត្រឹមត្រូវ។</string>
+  <string name="autofill_profile_editor_save_profile">រក្សាទុក</string>
+  <string name="autofill_profile_editor_state">រដ្ឋ/ខេត្ត/តំបន់៖</string>
+  <string name="autofill_profile_editor_zip_code">លេខ​កូដ​តំបន់៖</string>
+  <string name="autofill_profile_successful_delete">បាន​លុប​អត្ថបទ​​​​បំពេញ​ដោយ​ស្វ័យ​ប្រវត្តិ។</string>
+  <string name="autofill_profile_successful_save">បាន​រក្សាទុក​អត្ថបទ​​​បំពេញ​ដោយ​ស្វ័យ​ប្រវត្តិ។</string>
+  <string name="autofill_setup_dialog_message">កម្មវិធី​រុករកអាចបំពេញទម្រង់វេបដូចមួយនេះដោយស្វ័យប្រវត្តិ។ តើអ្នកចង់រៀបចំអត្ថបទស្វ័យបំពេញរបស់អ្នកទេ?</string>
+  <string name="autofill_setup_dialog_negative_toast">អ្នក​តែងតែ​រៀបចំ​អត្ថបទ​បំពេញ​ដោយ​ស្វ័យ​ប្រវត្តិ​ពី​កម្មវិធី​អ៊ីនធឺណិត &gt; ការ​កំណត់ &gt; អេក្រង់​ទូទៅ។</string>
+  <string name="back">ថយក្រោយ</string>
+  <string name="block">ទប់ស្កាត់</string>
+  <string name="bookmark_cannot_save_url">URL នេះមិនអាច​​ត្រូវ​បាន​​ចំណាំទេ។</string>
+  <string name="bookmark_needs_title">ចំណាំ​ត្រូវ​តែ​មាន​ឈ្មោះ។</string>
+  <string name="bookmark_needs_url">ចំណាំ​ត្រូវ​តែ​មាន​ទីតាំង។</string>
+  <string name="bookmark_not_saved">មិន​អាចរក្សាទុកចំណាំ។</string>
+  <string name="bookmark_saved">បាន​​ចំណាំ</string>
+  <string name="bookmark_this_page">ចំណាំទំព័រនេះ</string>
+  <string name="bookmark_url_not_valid">URL នេះមិន​ត្រឹមត្រូវ។</string>
+  <string name="bookmarks">​ចំណាំ</string>
+  <string name="bookmarks_add_page">រក្សាទុកចំណាំ</string>
+  <string name="browserFrameFormResubmitMessage">ទំព័រ​ដែល​អ្នក​ព្យាយាម​មើល​មាន​ទិន្នន័យ​ជាក់លាក់​ដែល​ត្រូវ​បាន​ដាក់​ស្នើ​រួច​ហើយ (\"POSTDATA\"). ប្រសិនបើអ្នកផ្ញើទិន្នន័យនេះឡើងវិញ សកម្មភាពណាមួយដែលទម្រង់នៅលើទំព័រនេះបានដោះស្រាយ (ដូចជាការស្វែងរក ឬការទិញេលិបណ្តាញ) នឹងត្រូវបានធ្វើដដែល។</string>
+  <string name="browser_max_input">ការ​បញ្ចូល​របស់​អ្នក​បាន​ដល់​ចំនួន​តួអក្សរ​កំណត់  %s</string>
+  <string name="browser_max_input_title">បាន​ដក់​ដែន​កំណត់​​ចំនួន​តួ​អក្សរ​​អតិបរមា</string>
+  <string name="browser_tab_crash_message">ពេល​ខ្លះ​មាន​បញ្ហា​មិន​រំពឹង​ទុក​បាន​កើត​ឡើង​ពេល​បង្ហាញ​ទំព័រ​បណ្ដាញ​នេះ។ សូម​ផ្ទុក​ឡើងវិញ ឬ​ចូល​​ទៅ​ទំព័រ​ផ្សេង។
+    </string>
+  <string name="browser_tab_crash_reload">ផ្ទុក​ឡើងវិញ</string>
+  <string name="browser_tab_crash_snap">អូ, មាន​បញ្ហា !</string>
+  <string name="build_date">កាលបរិច្ឆេទ​បង្កើត</string>
+  <string name="build_hash">បង្កើត​ហាស</string>
+  <string name="cancel">បោះបង់</string>
+  <string name="cannot_download">អាច​ទាញ​យក​តែ URLs \"http\" ឬ \"https\" ប៉ុណ្ណោះ។</string>
+  <string name="choose_upload">ជ្រើសរើសឯកសារសម្រាប់ផ្ទុក​ឡើង</string>
+  <string name="choosertitle_sharevia">ចែក​រំលែក​តាម</string>
+  <string name="clear">សម្អាត</string>
+  <string name="clear_history">សម្អាតប្រវត្តិ</string>
+  <string name="close_other_tabs">បិទ​ផ្ទាំង​​ផ្សេងទៀត</string>
+  <string name="containing_folder">បន្ថែម​​ទៅ</string>
+  <string name="contextheader_folder_bookmarkcount">ចំណាំ %d</string>
+  <string name="contextheader_folder_empty">ថត​​ទទេ</string>
+  <string name="contextmenu_add_contact">បន្ថែម​​ទំនាក់​ទំនង</string>
+  <string name="contextmenu_copy">ចម្លង</string>
+  <string name="contextmenu_copylink">ចម្លង URL តំណ</string>
+  <string name="contextmenu_dial_dot">ហៅ...</string>
+  <string name="contextmenu_download_image">រក្សា​ទុក​រូបភាព</string>
+  <string name="contextmenu_map">ផែនទី</string>
+  <string name="contextmenu_openlink">បើក</string>
+  <string name="contextmenu_openlink_newwindow">បើក​ក្នុង​ផ្ទាំង​​ថ្មី</string>
+  <string name="contextmenu_openlink_newwindow_background">បើក​ក្នុង​ផ្ទាំង​​ផ្ទៃ​ខាង​ក្រោយ​ថ្មី</string>
+  <string name="contextmenu_savelink">រក្សាទុកតំណភ្ជាប់</string>
+  <string name="contextmenu_send_mail">ផ្ញើ​អ៊ីមែល</string>
+  <string name="contextmenu_set_wallpaper">កំណត់​ជា​​​ផ្ទាំង​រូបភាព</string>
+  <string name="contextmenu_sharelink">ចែករំលែក​តំណ</string>
+  <string name="contextmenu_view_image">បង្ហាញ​រូបភាព</string>
+  <string name="create_shortcut_bookmark">​បន្ថែម​​ផ្លូវកាត់​ទៅ​ទំព័រ​ដើម</string>
+  <string name="current_page">ពី</string>
+  <string name="delete_bookmark_warning">លុប​ចំណាំ \" %s \"?</string>
+  <string name="delete_folder">លុបថត</string>
+  <string name="delete_folder_warning">លុប​ថត \" %s \"?</string>
+  <string name="disable_autofill">បិទ​ស្វ័យបំពេញ</string>
+  <string name="download_default_path">/ទាញយក</string>
+  <string name="download_edit_filename_label">ឈ្មោះ</string>
+  <string name="download_estore_app">មិន​ទាន់​មាន​កម្មវិធី Estore សូម​ទាញយក ហើយ​ដំឡើង​វា។</string>
+  <string name="download_file_exist">មាន​ឯកសារ​​ហើយ។</string>
+  <string name="download_file_exist_msg">ឯកសារ​មាន​ហើយ។ សូម​បញ្ចូល​ឈ្មោះ​ឯកសារ​ថ្មី។</string>
+  <string name="download_filepath_label">ផ្លូវ</string>
+  <string name="download_filesize">ទំហំ</string>
+  <string name="download_no_enough_memory">អង្គចងចាំ​មិន​គ្រប់គ្រាន់​សម្រាប់​ទាញយ</string>
+  <string name="download_no_sdcard_dlg_msg">ត្រូវការ​កាត​អេសឌី​ដើម្បី​ទាញយក %s ។</string>
+  <string name="download_no_sdcard_dlg_title">គ្មាន​កាត​អេសឌី</string>
+  <string name="download_path_phone_storage_label">/ការ​ផ្ទុក​​ក្នុង​ទូរសព្ទ</string>
+  <string name="download_path_sd_card_label">កាត​អេសឌី</string>
+  <string name="download_path_unavailable_dlg_msg">សូម​កែ​​ថត​ទាញ​យក</string>
+  <string name="download_path_unavailable_dlg_title">មិនមាន​ទាញយក​ថត​ទេ</string>
+  <string name="download_pending">កំពុង​កំចាប់ផ្តើមទាញយក...</string>
+  <string name="download_sdcard_busy_dlg_msg">កាត​អេសឌី​​ជាប់​រវល់។ ដើម្បីអនុញ្ញាតឲ្យ​​ទាញយក ប៉ះបិទ​ឧបករណ៍​ផ្ទុក​យូអេសប៊ី​ ក្នុងការជូនដំណឹង។</string>
+  <string name="download_sdcard_busy_dlg_title">កាត​អេសឌី​មិនអាច​ប្រើ​បាន</string>
+  <string name="download_settings_title">កំណត់​ការទាញយក</string>
+  <string name="download_timeneeded">ពេលវេលា</string>
+  <string name="drm_file_unsupported">ផ្ទុកឡើង​ឯកសារ DRM មិន​ត្រូវ​បាន​គាំទ្រ!</string>
+  <string name="duplicated_folder_warning">មាន​ថត​រួច​ហើយ</string>
+  <string name="edit_bookmark">កែ​​​ចំណាំ</string>
+  <string name="edit_folder">កែ​ថត</string>
+  <string name="empty_bookmarks_folder">គ្មានទីចំណាំ។</string>
+  <string name="empty_history">គ្មានកំណត់ត្រាឧបករណ៍រុករក។</string>
+  <string name="empty_snapshots_folder">គ្មានទំព័របានរក្សាទុក។</string>
+  <string name="enable_reader_mode">ទម្រង់​កម្មវិធី​អាន</string>
+  <string name="estore_url_warning">បានបរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម Estore url របស់​វា​វែង​ពេក!</string>
+  <string name="exit">ចាកចេញ</string>
+  <string name="exit_browser_msg">សូម​ជ្រើស​វិធី​​ចេញ​ពី​កម្មវិធី​អ៊ីនធឺណិត</string>
+  <string name="exit_browser_title">ចេញ​កម្មវិធី​អ៊ីនធឺណិត</string>
+  <string name="exit_minimize">អប្បបរមា</string>
+  <string name="exit_quit">បិទ</string>
+  <string name="feedback">មតិ​យោបល់</string>
+  <string name="filename_empty_msg">ឈ្មោះ​ឯកសារ​ទាញ​យក​មិន​អាច​ទទេ។ សូម​បញ្ចូល​ឈ្មោះ​ឯកសារ​ត្រឹមត្រូវ។</string>
+  <string name="filename_empty_title">ឈ្មោះ​ឯកសារ​ទាញយក​គឺ​ទទេ</string>
+  <string name="find_on_page">រក​លើ​ទំព័រ</string>
+  <string name="forward">បញ្ជូន​បន្ត</string>
+  <string name="geolocation_permissions_prompt_remember">ចងចាំចំណូលចិត្ត</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">អនុញ្ញាត 24 ម៉ោង</string>
+  <string-array name="geolocation_settings_choices">
+    <item>បដិសេធ​រហូត</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>អនុញ្ញាត​ជា​និច្ច</item>
+  </string-array>
+  <string name="help">ជំនួយ</string>
+  <string name="history">ប្រវត្តិ</string>
+  <string name="homepage_set">កំណត់​​គេហទំព័រ។</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">សូម​ជ្រើស​វិធី​ដើម្បី​គ្រប់គ្រង​ឯកសារ​មេឌៀ</string>
+  <string name="import_bookmarks_dialog_description">ទីចំណាំលើឧបករណ៍នេះមិនត្រូវបានបញ្ចូលជាមួយគណនី Google ទេ។ រក្សាទុកទីចំណាំទាំងនេះដោយបន្ថែមពួកគេទៅគណនីមួយ។ លុបទីចំណាំទាំងនេះ ប្រសិនបើអ្នកមិន​ចង់ធ្វើសមកាលពួកវា។</string>
+  <string name="import_bookmarks_dialog_remove">លុប​​ចំណាំ</string>
+  <string name="invalid_path">ផ្លូវ​មិន​ត្រឹមត្រូវ</string>
+  <string name="loading_video">កំពុងផ្ទុកវីដេអូ...</string>
+  <string name="local_bookmarks">មូលដ្ឋាន</string>
+  <string name="location">អាសយដ្ឋាន</string>
+  <string name="max_tabs_warning">មិនមាន​ផ្ទាំង​ច្រើន​ទៀត</string>
+  <string name="max_url_character_limit_msg">បានដល់​ដែន​កំណត់ URL អតិបរមា</string>
+  <string name="mdm_managed_alert">បាន​គ្រប់គ្រង​ដោយ​អ្នក​គ្រប់គ្រង​របស់​អ្នក</string>
+  <string name="menu_preferences">ការ​កំណត់</string>
+  <string name="menu_save_snapshot">រក្សា​ទុក​សម្រាប់​ការអានពេល​គ្មាន​អ៊ីនធឺណិត</string>
+  <string name="menu_share_url">ចែក​រំលែក</string>
+  <string name="msg_no_google_play">សូម​ទោស ​មិនមាន​កម្មវិធី​ក្នុង​ឃ្លាំង Google កម្សាន្ត​ទេ។</string>
+  <string name="my_navigation_add">បន្ថែម</string>
+  <string name="my_navigation_add_label">បន្ថែម​វេបសាយ</string>
+  <string name="my_navigation_address">អាសយដ្ឋាន</string>
+  <string name="my_navigation_cannot_save_url">URL មិន​ត្រឹមត្រូវ។</string>
+  <string name="my_navigation_delete_label">លុប​វេបសាយ</string>
+  <string name="my_navigation_delete_msg">លុប​វេបសាយ?</string>
+  <string name="my_navigation_duplicate_url">មាន​ URL រួច​ហើយ</string>
+  <string name="my_navigation_edit_label">កែ​វេបសាយ</string>
+  <string name="my_navigation_name">ចំណងជើង</string>
+  <string name="my_navigation_page_title">ដើម</string>
+  <string name="name">ស្លាក</string>
+  <string name="new_folder">ថត​​ថ្មី</string>
+  <string name="new_incognito_tab">ការ​រក​មើល​ឯកជន</string>
+  <string name="new_tab">ផ្ទាំង​​ថ្មី</string>
+  <string name="no_subfolders">មិនមាន​ថត​រង។</string>
+  <string name="ok">យល់ព្រម</string>
+  <string name="open_all_in_new_window">បើក​ទាំងអស់​ក្នុង​ផ្ទាំង​​ថ្មី</string>
+  <string name="other_bookmarks">ចំណាំផ្សេងទៀត</string>
+  <string name="overwrite_bookmark_msg">មាន​ឈ្មោះ​ ឬ​អាសយដ្ឋាន​ចំណាំ​រួច​ហើយ។ សរសេរ​ជាន់​លើ​វា?</string>
+  <string name="page_info">ព័ត៌មាន​ទំព័រ</string>
+  <string name="page_info_address">អាសយដ្ឋាន៖</string>
+  <string name="password">ពាក្យសម្ងាត់</string>
+  <string name="path_wrong">ផ្លូវ​មិន​ត្រឹមត្រូវ</string>
+  <string name="permission_preload_label">ផ្ទុក​លទ្ធផល​ជា​មុន</string>
+  <string name="powersave_dialog_off">បានបិទ​ទម្រង់​សន្សំ​ថ្ម។\nសូម​ចាប់ផ្ដើម​កម្មវិធី​រុករក​ឡើងវិញ។</string>
+  <string name="powersave_dialog_on">បាន​បើក៖ ការ​គ្រប់គ្រង​​ប្រព័ន្ធ​ដំណើរការ​សំខាន់។\nបាន​បិទ៖ លក្ខណៈ​អនុវត្ត​ខ្ពស់។\nសូម​ចាប់ផ្ដើម​កម្មវិធី​រុករក​ឡើងវិញ។</string>
+  <string name="pref_accessibility_title">ភាព​ងាយស្រួល</string>
+  <string name="pref_accessibility_title_summary">ទំហំ​អត្ថបទ និង​ការ​ពង្រីក</string>
+  <string name="pref_autofill_enabled">ការ​បំពេញ​ទម្រង់​ស្វ័យ​ប្រវត្តិ</string>
+  <string name="pref_autofill_enabled_summary">បំពេញ​ទម្រង់​បណ្ដាញ​ដោយ​ប៉ះ​តែ​ម្ដង</string>
+  <string name="pref_autofill_profile_editor">បំពេញ​​អត្ថបទ​ស្វ័យ​ប្រវត្តិ</string>
+  <string name="pref_autofill_profile_editor_summary">រៀបចំ​​អត្ថបទ​ដើម្បី​បំពេញ​ទម្រង់​បណ្ដាញ​ស្វ័យ​ប្រវត្តិ</string>
+  <string name="pref_content_homepage">គេហទំព័រ</string>
+  <string name="pref_content_javascript">បើក JavaScript</string>
+  <string name="pref_content_load_images">ផ្ទុក​រូបភាព</string>
+  <string name="pref_content_load_images_summary">បង្ហាញរូបភាពលើទំព័របណ្ដាញ</string>
+  <string name="pref_content_open_in_background">បើក​ក្នុង​​ផ្ទៃ​ខាង​ក្រោយ</string>
+  <string name="pref_content_open_in_background_summary">បើក​ផ្ទាំង​ខាង​ក្រោយ​ផ្ទាំង​បច្ចុប្បន្ន</string>
+  <string name="pref_content_search_engine">ម៉ាស៊ីន​ស្វែងរក</string>
+  <string name="pref_content_search_engine_summary">ជ្រើសរើសម៉ាស៊ីនស្វែងរកមួយ</string>
+  <string name="pref_content_title">ការ​កំណត់មាតិកា​ព័ត៌មាន</string>
+  <string name="pref_content_title_summary">ការ​កំណត់​មាតិកា​បណ្ដាញ</string>
+  <string name="pref_data_preload_summary">អនុញ្ញាតឧបករណ៍រុករកឱ្យផ្ទុកជាមុននូវលទ្ធផលស្វែងរកដែលមានទំនុកចិត្តខ្ពស់ក្នុងផ្ទៃខាងក្រោយ</string>
+  <string name="pref_data_preload_title">ស្វែងរកលទ្ធផលដែលផ្ទុកជាមុន</string>
+  <string name="pref_default_site_settings_title">ការ​កំណត់​វេបសាយ​លំនាំដើម</string>
+  <string name="pref_default_text_encoding">អ៊ីនកូដ​អត្ថបទ</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">បំបាត់​កំហុស</string>
+  <string name="pref_disable_edge_swipe">បិទ​ការ​អូស​គែម</string>
+  <string name="pref_do_not_track">ស្នើ \'កុំ​តាមដាន\'</string>
+  <string name="pref_download_path_setting_screen_title">ផ្លូវ​ទាញ​យក​ផ្ទាល់​ខ្លួន</string>
+  <string name="pref_download_title">កំណត់​ផ្លូវ​ទាញយក</string>
+  <string name="pref_edge_swipe_disabled_toast">បាន​បិទ​ការ​អូស​ពី​គែម</string>
+  <string name="pref_edge_swipe_option_close">បិទ</string>
+  <string name="pref_edge_swipe_option_msg">នៅ​ពេល​អូស អ្នក​ចង់៖</string>
+  <string name="pref_edge_swipe_title">អូស​គែម</string>
+  <string name="pref_edge_swipe_unknown">ជ្រើស​ឥរិយាបថ</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">កំណត់​ឡើងវិញ</string>
+  <string name="pref_extras_reset_default">កំណត់​ទៅ​លំនាំដើម</string>
+  <string name="pref_extras_reset_default_dlg">ត្រឡប់ការកំណត់ទៅតម្លៃលំនាំដើមវិញ?</string>
+  <string name="pref_extras_reset_default_summary">ស្ដារ​ការកំណត់​លំនាំដើម?</string>
+  <string name="pref_extras_title">កម្រិត​ខ្ពស់</string>
+  <string name="pref_extras_website_settings">កា​រកំណត់​ក្នុង​មួយ​វេបសាយ</string>
+  <string name="pref_extras_website_settings_summary">ការ​កំណត់​កម្រិត​ខ្ពស់​សម្រាប់​វេបសាយ​នីមួយៗ</string>
+  <string name="pref_font_size_category">ទំហំ​អត្ថបទ</string>
+  <string name="pref_force_userscalable">បង្ខំបើក​ការពង្រីក​/បង្រួម</string>
+  <string name="pref_force_userscalable_summary">បដិសេធ​សំណើ​វេបសាយ​ដើម្បី​គ្រប់គ្រង​ឥរិយាបថ​ពង្រីក</string>
+  <string name="pref_general_autofill_title">បំពេញ​ស្វ័យ​ប្រវត្តិ</string>
+  <string name="pref_general_title">ទូទៅ</string>
+  <string-array name="pref_homepage_choices">
+    <item>ទំព័រ​បច្ចុប្បន្ន</item>
+    <item>ទំព័រ​ទទេ</item>
+    <item>ទំព័រ​លំនាំដើម</item>
+    <item>វេបសាយ​បាន​​​មើល​ច្រើន​បំផុត</item>
+    <item>ផ្សេង​ទៀត</item>
+  </string-array>
+  <string name="pref_invalid_cert">វេបសាយ​មាន​វិញ្ញាបនបត្រ SSL មិន​ត្រឹមត្រូវ។</string>
+  <string name="pref_inverted">ការ​បង្ហាញ​បាន​ត្រឡប់</string>
+  <string name="pref_inverted_category">ការ​បង្ហាញ​អេក្រង់​បាន​ត្រឡប់</string>
+  <string name="pref_inverted_contrast">កម្រិតពណ៌</string>
+  <string name="pref_inverted_summary">ខ្មៅប្រែជាស និងផ្ទុយមកវិញ</string>
+  <string name="pref_lab_fullscreen">ភ្ជាប់</string>
+  <string name="pref_lab_fullscreen_summary">ធ្វើ​ឲ្យ​កម្មវិធី​អ៊ីនធឺណិត​ពេញ​អេក្រង់</string>
+  <string name="pref_link_prefetch_summary">អនុញ្ញាតឧបករណ៍រុករកឱ្យផ្ទុកជាមុននូវទំព័រវេប​ដែលបានតភ្ជាប់ក្នុងផ្ទៃខាងក្រោយ</string>
+  <string name="pref_link_prefetch_title">ទំព័រវេប​ដែលផ្ទុកជាមុន</string>
+  <string name="pref_min_font_size">ទំហំ​ពុម្ព​អក្សរ​អប្បបរមា</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">ទម្រង់ពេល​​យប់</string>
+  <string name="pref_nightmode_enabled_summary">បើក​ទម្រង់​ពេល​យប់</string>
+  <string name="pref_powersave_enabled">ទម្រង់​សន្សំ​ថ្ម</string>
+  <string name="pref_powersave_enabled_summary">បើក​ទម្រង់​សន្សំ​ថ្ម</string>
+  <string name="pref_privacy_clear_cache">ឃ្លាំងសម្ងាត់</string>
+  <string name="pref_privacy_clear_cache_summary">សម្អាត​មាតិកា និង​មូលដ្ឋាន​ទិន្នន័យទី​បាន​ដាក់​ក្នុង​ឃ្លាំង​សម្ងាត់​មូលដ្ឋាន</string>
+  <string name="pref_privacy_clear_cookies">ខូគី និង​ទិន្នន័យវេបសាយ</string>
+  <string name="pref_privacy_clear_cookies_summary">សម្អាត​ខូគី​កម្មវិធី​រុករក​ទាំងអស់ និង​ទិន្នន័យ​វេបសាយ</string>
+  <string name="pref_privacy_clear_form_data">ទិន្នន័យ​​​ទម្រង់</string>
+  <string name="pref_privacy_clear_form_data_summary">សម្អាត​ទិន្នន័យទម្រង់ដែលបានរក្សាទុកទាំងអស់</string>
+  <string name="pref_privacy_clear_geolocation_access">ការចូលប្រើ​ទីកន្លែង</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">សម្អាត​ការចូលទៅកាន់ទីតាំងសម្រាប់គេហទំព័រទាំងអស់</string>
+  <string name="pref_privacy_clear_history_dlg">លុប​ប្រវត្តិ​រក​មើល​កម្មវិធី​អ៊ីនធឺណិត​ទាំងអស់?</string>
+  <string name="pref_privacy_clear_history_summary">សម្អាត​ប្រវត្តិ​រក​មើល​កម្មវិធី​អ៊ីនធឺណិត​</string>
+  <string name="pref_privacy_clear_passwords">ពាក្យ​សម្ងាត់</string>
+  <string name="pref_privacy_clear_passwords_summary">សម្ងាត​ពាក្យសម្ងាត់ដែលបានរក្សាទុកទាំងអស់</string>
+  <string name="pref_privacy_clear_selected">សម្ងាត​ធាតុ​​បាន​ជ្រើស</string>
+  <string name="pref_privacy_clear_selected_dlg">សម្ងាត​ធាតុ​ទាំងអស់?</string>
+  <string name="pref_privacy_clear_selected_summary">សម្ងាត​ធាតុ​បាន​ជ្រើស​ក្នុង​បញ្ជី</string>
+  <string name="pref_privacy_enable_geolocation">ទីតាំង</string>
+  <string name="pref_privacy_security_title">ភាព​ឯកជន &amp; សុវត្ថិភាព</string>
+  <string name="pref_privacy_security_title_summary">ការ​កំណត់​ភាព​ឯកជន និង​សុវត្ថិភាព​កម្មវិធី​រុករក</string>
+  <string name="pref_sample_font_size">អូស​គ្រាប់​រំកិល​ ដើម្បី​កែ​ទំហំ​ពុម្ពអក្សរ ដើម្បី​កំណត់​ទំហំ​អាន​​ដែល​ងាយស្រួល។</string>
+  <string name="pref_security_accept_cookies">ព្រម​ទទួល​ខូគី</string>
+  <string name="pref_security_accept_third_party_cookies">ខូគី​ភាគី​ទី​បី</string>
+  <string name="pref_security_access_is_allowed">បាន​អនុញ្ញាត​ការ​ចូល​ដំណើរការ</string>
+  <string name="pref_security_add">បន្ថែម</string>
+  <string name="pref_security_allow_camera">ម៉ាស៊ីន​ថត</string>
+  <string name="pref_security_allow_mic">មីក្រូហ្វូន</string>
+  <string name="pref_security_allow_popups">លេច​ឡើង</string>
+  <string name="pref_security_allowed">បាន​អនុញ្ញាត។</string>
+  <string name="pref_security_ask_before_using">សួរ​មិន​ពេល​ប្រើ</string>
+  <string name="pref_security_not_allowed">មិន​បាន​អនុញ្ញាត</string>
+  <string name="pref_security_off">បិទ</string>
+  <string name="pref_security_on">បើក</string>
+  <string name="pref_security_origin_name">វេបសាយ​ដើម</string>
+  <string name="pref_security_remember">ចង​ចាំ</string>
+  <string name="pref_security_remember_passwords">ចង​ចាំ​ពាក្យ​សម្ងាត់</string>
+  <string name="pref_security_save_form_data">ចងចាំ​ទិន្នន័យ​ទម្រង់</string>
+  <string name="pref_security_web_refiner">​ពាណិជ្ជកម្ម និង​​មាតិកា​រំខាន</string>
+  <string name="pref_select_items">ជ្រើស​ធាតុ​ដើម្បី​សម្អាត</string>
+  <string name="pref_set_homepage_to">កំណត់ទៅ</string>
+  <string name="pref_site_settings_info_panel">ព័ត៌មានសុវត្ថិភាព</string>
+  <string name="pref_site_settings_title">ការ​កំណត់​វេបសាយ</string>
+  <string name="pref_spatial_edge_swipe">ប្ដូរ​ផ្ទាំង</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">អូស​ពីគែម​ដើម្បី​ប្ដូរ​ផ្ទាំង</string>
+  <string-array name="pref_temporal_choices">
+    <item>កុំ</item>
+    <item>តែ​វ៉ាយហ្វាយ​ប៉ុណ្ណោះ</item>
+    <item>ជា​និច្ច</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">វេបសាយ​មុន/បន្ទាប់</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">អូស​ពី​គែម​ដើម្បី​រក​មមើល</string>
+  <string name="pref_text_zoom">ការក្រិត​មាត្រដ្ឋាន​អត្ថបទ</string>
+  <string name="pref_valid_cert">វិញ្ញាបនបត្រ SSL មិន​ត្រឹមត្រូវ។ ការ​ទាក់ទង​ត្រូវ​បាន​ដាក់​លេខ​កូដ ហើយ​អត្តសញ្ញាណ​ត្រូវ​បាន​ផ្ទៀងផ្ទាត់។</string>
+  <string name="pref_warning_cert">វិញ្ញាបនបត្រ​ SSL វេបសាមាន​ការ​ព្រមាន។</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">ពាណិជ្ជកម្ម %d</item>
+    <item quantity="other">ពាណិជ្ជកម្ម %d</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">ការ​គំរាមកំហែង​​របស់​កម្មវិធី​ព្យាបាទ %d</item>
+    <item quantity="other">ការ​គំរាម​កំហែង​របស់​កម្មវិធី​ព្យាបាទ %d</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"បាន​ទប់​ស្កាត់ %s ។ "</item>
+    <item>"បាន​ទប់ស្កាត់ %1$s និង %2$s ។ "</item>
+    <item>"បាន​ទប់ស្កាត់ %1$s, %2$s និង %3$s ។ "</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">កម្មវិធី​តាមដាន %d</item>
+    <item quantity="other">កម្មវិធី​តាមដាន %d</item>
+  </plurals>
+  <string name="pref_website_title">វេបសាយ</string>
+  <string name="preview">មើល​​ជា​មុន</string>
+  <string name="progress_dialog_setting_wallpaper">កំពុង​កំណត់​ផ្ទាំង​រូបភាព...</string>
+  <string name="received_message_full_screen">ទទួល​សារ​ពី៖  %s ។</string>
+  <string name="reload">ធ្វើ​ឲ្យ​ស្រស់</string>
+  <string name="remove">យក​ចេញ</string>
+  <string name="remove_bookmark">លុប​​ចំណាំ</string>
+  <string name="remove_from_bookmarks">លុបចេញពីចំណាំ</string>
+  <string name="remove_history_item">លុបចេញពីប្រវត្តិ</string>
+  <string name="remove_snapshot">លុប​ទំព័រ​​បាន​រក្សាទុក</string>
+  <string name="removed_from_bookmarks">បាន​លុប​ពី​​​ចំណាំ។</string>
+  <string name="replace">ជំនួស</string>
+  <string name="save_to_bookmarks">រក្សាទុកទៅ​ចំណាំ</string>
+  <string name="saving_snapshot">កំពុងរក្សាទុក...</string>
+  <string name="search_button_text">ទៅ</string>
+  <string name="search_hint">ស្វែងរក ឬបញ្ចូល URL</string>
+  <string name="search_settings_description">ចំណាំ និង​ប្រវត្តិ​បណ្ដាញ</string>
+  <string name="search_the_web">ស្វែងរកលើ​បណ្ដាញ</string>
+  <string name="security_warning">កា​រព្រមាន​ពី​សុវត្ថិភាព</string>
+  <string name="sendText">ជ្រើស​សកម្មភាព​សម្រាប់​អត្ថបទ</string>
+  <string name="set_as_homepage">កំណត់​ជា​គេហ​ទំព័រ</string>
+  <string name="share_page">ចែក​រំលែក​ទំព័រ</string>
+  <string name="shortcut_bookmark">ចំណាំ</string>
+  <string name="shortcut_bookmark_title">ជ្រើសរើសចំណាំមួយ</string>
+  <string name="sign_in_to">ចូល​  %1$s  \" %2$s \"</string>
+  <string name="snapshot_failed">មិន​អាច​រក្សាទុក​សម្រាប់​ការ​អាន​ពេល​គ្មាន​អ៊ីនធឺណិត។</string>
+  <string name="snapshot_go_live">​ចូល​ទៅការ​ផ្សាយ​ផ្ទាល់</string>
+  <string name="ssl_certificate">វិញ្ញាបនបត្រ​សុវត្ថិភាព</string>
+  <string name="ssl_certificate_is_valid">វិញ្ញាបនបត្រ​នេះ​​​​ត្រឹមត្រូវ​។</string>
+  <string name="ssl_invalid">វិញ្ញាបនបត្រនេះមិនត្រឹមត្រូវទេ។</string>
+  <string name="ssl_unknown">មិន​ស្គាល់​​កំហុសវិញ្ញាបនបត្រ។</string>
+  <string name="stop">បញ្ឈប់</string>
+  <string name="stopping">កំពុងបញ្ឈប់...</string>
+  <string name="swe_eula">កិច្ចព្រមព្រៀង​អាជ្ញាបណ្ណ​អ្នកប្រើ</string>
+  <string name="swe_legal">ព័ត៌មាន​អំពី​ច្បាប់</string>
+  <string name="swe_open_source_licenses">អាជ្ញាបណ្ណ​កម្មវិធី​កូដ​ចំហ</string>
+  <string name="swe_pref_legal_info_summary">រក្សាសិទ្ធិ​ឆ្នាំ 2015 ដោយ​មូលនិធិ​លីនុច។ រក្សាសិទ្ធិ​គ្រប់យ៉ាង។</string>
+  <string name="swe_privacy_policy">គោលនយោបាយ​​ភាព​ឯកជន</string>
+  <string name="tab_most_visited">បាន​មើល​ច្រើន​បំផុត</string>
+  <string name="tab_snapshots">ទំព័រ​​បាន​រក្សា​ទុក</string>
+  <string name="time_min">នាទី</string>
+  <string name="too_many_subwindows_dialog_message">អាច​បើក​តែ​ផ្ទាំង​លេច​ឡើង​មួយ​ប៉ុណ្ណោះក្នុង​​​ពេល​ម្ដង។</string>
+  <string name="too_many_subwindows_dialog_title">បាន​បើក​ផ្ទាំង​លេច​ឡើង​រួច​ហើយ</string>
+  <string name="too_many_windows_dialog_message">មិន​អាច​បើក​ផ្ទាំង​ថ្មី​ រហូត​ដល់​អ្នក​បិទ​វា។</string>
+  <string name="too_many_windows_dialog_title">បានដល់ការដែន​កំណត់​ផ្ទាំង</string>
+  <string name="ua_switcher_desktop">ស្នើ​ទីតាំង​លើ​ផ្ទៃតុ</string>
+  <string name="unknow_length">មិន​ស្គាល់</string>
+  <string name="uploads_disabled">បាន​​បិទ​ការ​ផ្ទុកឡើង​ឯកសារ។</string>
+  <string name="user_agent">ភ្នាក់ងារ​អ្នក​ប្រើ</string>
+  <string name="username">ឈ្មោះ</string>
+  <string name="version">កំណែ</string>
+  <string name="video_play">លេង</string>
+  <string name="video_save">រក្សាទុក</string>
+  <string name="website_needs_title">វេបសាយ​ត្រូវ​តែ​មាន​ចំណង​ជើង</string>
+  <string name="website_needs_url">វេបសាយ​ត្រូវ​តែ​មាន URL</string>
+  <string name="website_settings_add_origin">វេបសាយ​ថ្មី</string>
+  <string name="website_settings_clear_all">សម្អាត​ទាំង​អស់</string>
+  <string name="website_settings_clear_all_dialog_message">លុប​ទិន្នន័យ​វេបសាយ​ និង​ការ​អនុញ្ញាត​ទីតាំង​ទាំងអស់?</string>
+  <string name="webstorage_clear_data_dialog_message">លុប​ទិន្នន័យ​ទាំងអស់​បាន​រក្សា​ទុក​ដោយ​វេបសាយ​នេះ?</string>
+  <string name="webstorage_clear_data_title">ការ​រក្សាទុក</string>
+  <string name="webstorage_outofspace_notification_text">ប៉ះដើម្បី​ទទួល​បាន​ទំហំ​ទំនេរ។</string>
+  <string name="webstorage_outofspace_notification_title">កន្លែងផ្ទុក​របស់​កម្មវិធី​អ៊ីនធឺណិត​ពេញ</string>
+  <string name="webstorage_private_data_title">ទិន្នន័យ​ឯកជន</string>
+</resources>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">பற்றி</string>
+  <string name="accessibility_button_addbookmark">புக்மார்க் பக்கம்</string>
+  <string name="accessibility_button_back">பின் செல்க</string>
+  <string name="accessibility_button_bookmarks_folder_up">முந்தைய கோப்புறை</string>
+  <string name="accessibility_button_clear">உள்ளீட்டை அழிக்கவும்</string>
+  <string name="accessibility_button_closetab">தாவலை மூடவும்</string>
+  <string name="accessibility_button_forward">முன்னால் செல்க</string>
+  <string name="accessibility_button_navscreen">பக்க மேலாளர்</string>
+  <string name="accessibility_button_newincognitotab">புதிய மாறுவேட தாவலை திறக்கவும்</string>
+  <string name="accessibility_button_newtab">புதிய தாவல்களைத் திறக்கவும்</string>
+  <string name="accessibility_button_refresh">பக்கத்தை புதுப்பிக்கவும்</string>
+  <string name="accessibility_button_search">தேடவும்</string>
+  <string name="accessibility_button_stop">பக்க ஏற்றத்தை நிறுத்தவும்</string>
+  <string name="accessibility_button_voice">குரல் தேடலைத் தொடங்கவும்</string>
+  <string name="accessibility_state_frozen">சேமித்த பக்கம்</string>
+  <string name="accessibility_state_incognito">மாறுவேட பக்கம்</string>
+  <string name="accessibility_transition_navscreen">தாவல் நிர்வாகம்</string>
+  <string name="account">கணக்கு</string>
+  <string name="action">உள்நுழைக</string>
+  <string name="activity_not_found">இந்த செயல்நோக்கத்தை கையாள்வதற்கு செயல்பாடு எதுவும் கண்டறியப்படவில்லை %s</string>
+  <string name="add_bookmark_short">சேர்க்கவும்</string>
+  <string name="add_new_bookmark">புக்மார்க்கைச் சேர்க்கவும்</string>
+  <string name="add_to_homescreen">முகப்புத் திரையில் சேர்க்கவும்</string>
+  <string name="add_to_homescreen_menu_option">முகப்பு திரை</string>
+  <string name="add_to_other_folder_menu_option">கோப்புறையை தேர்வுசெய்க...</string>
+  <string name="added_to_bookmarks">புக்மார்க்குளில் சேர்க்கப்பட்டது.</string>
+  <string name="allow">அனுமதிக்கவும்</string>
+  <string name="application_name">உலாவி</string>
+  <string name="autofill_profile_editor_address_line_1">முகவரி வரி 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">தெரு முகவரி, தபால் பெட்டி. எண், பாதுகாப்பு</string>
+  <string name="autofill_profile_editor_address_line_2">முகவரி வரி 2:</string>
+  <string name="autofill_profile_editor_address_line_2_hint">குடியிருப்பு, தங்கும் விடுதி, யூனிட் , கட்டிடம், தளம் மற்றும் பல.</string>
+  <string name="autofill_profile_editor_city">நகரம்/சிறுநகரம்:</string>
+  <string name="autofill_profile_editor_company_name">நிறுவனப் பெயர்:</string>
+  <string name="autofill_profile_editor_country">தேசம்:</string>
+  <string name="autofill_profile_editor_delete_profile">நீக்கு</string>
+  <string name="autofill_profile_editor_email_address">மின்னஞ்சல்:</string>
+  <string name="autofill_profile_editor_heading">நீங்கள் விரும்பும் உரையை வலைப் படிவங்களில், நீங்கள் விரும்பும் உரையை தானியங்கு-நிரப்பல் தட்டச்சு செய்யும்.</string>
+  <string name="autofill_profile_editor_name">முழுப் பெயர்:</string>
+  <string name="autofill_profile_editor_phone_number">ஃபோன்:</string>
+  <string name="autofill_profile_editor_phone_number_invalid">தவறான ஃபோன் எண்.</string>
+  <string name="autofill_profile_editor_save_profile">சேமி</string>
+  <string name="autofill_profile_editor_state">மாநிலம்/பிரதேசம்/பிராந்தியம்:</string>
+  <string name="autofill_profile_editor_zip_code">ஜிப் குறியீடு:</string>
+  <string name="autofill_profile_successful_delete">தானியங்கு-நிரப்பல் உரை நீக்கப்பட்டது.</string>
+  <string name="autofill_profile_successful_save">தானியங்கு-நிரப்பல் உரை சேமிக்கப்பட்டது.</string>
+  <string name="autofill_setup_dialog_message">உலாவியானது இதைப் போன்றே வலைப் படிவங்களை தானாக முடிக்கும். தானியங்கு-பூர்த்தி உரையை அமைக்க விரும்புகிறீர்களா?</string>
+  <string name="autofill_setup_dialog_negative_toast">உலாவி &gt; அமைவுகள் &gt; பொது திரை என்பதிலிருந்து உங்கள் தானியக்க நிரப்பல் உரையை நீங்கள் எப்போதும் அமைக்கலாம்.</string>
+  <string name="back">பின்னோக்கு</string>
+  <string name="block">தடுக்கவும்</string>
+  <string name="bookmark_cannot_save_url">இந்த URL-ஐ புக்மார்க் செய்ய இயலாது.</string>
+  <string name="bookmark_needs_title">புக்மார்க்கில் பெயர் இருக்க வேண்டும்.</string>
+  <string name="bookmark_needs_url">புக்மார்க்கில் இடம் இருக்க வேண்டும்.</string>
+  <string name="bookmark_not_saved">புக்மார்க்கை சேமிக்க இயலவில்லை.</string>
+  <string name="bookmark_saved">புக்மார்க் செய்யப்பட்டது</string>
+  <string name="bookmark_this_page">இந்த பக்கத்தை புக்மார்க் செய்க</string>
+  <string name="bookmark_url_not_valid">இந்த URL தவறானது.</string>
+  <string name="bookmarks">புக்மார்க்குகள்</string>
+  <string name="bookmarks_add_page">புக்மார்க்கை சேமி</string>
+  <string name="browserFrameFormResubmitMessage">நீங்கள் பார்க்க முயற்சிக்கும் பக்கம் ஏற்கனவே சமர்ப்பிக்கப்பட்ட தரவைக் கொண்டுள்ளது (\"POSTDATA\"). தரவை மீண்டும் அனுப்பினால், அந்தப் பக்கத்தில் மேற்கொண்ட எந்த செயலும் (தேடல் அல்லது ஆன்லைன் வாங்குதல் போன்றவை) மீண்டும் செய்யப்படும்.</string>
+  <string name="browser_max_input">உங்கள் உள்ளீடு அதிகபட்ச வரம்பு %s எழுத்துக்களை அடைந்தது</string>
+  <string name="browser_max_input_title">எழுத்துக்கள் அதிகபட்ச எண்ணிக்கை வரம்பை அடைந்தது</string>
+  <string name="browser_tab_crash_message">இந்த வலைப்பக்கத்தை காட்டும்போது எதிர்பாராத ஒன்று நிகழ்ந்தது. மீண்டும் ஏற்றவும் அல்லது வேறொரு பக்கத்திற்குச் செல்லவும்.
+    </string>
+  <string name="browser_tab_crash_reload">மீண்டும் ஏற்றுக</string>
+  <string name="browser_tab_crash_snap">அச்சச்சோ, ஸ்னாப் !</string>
+  <string name="build_date">தேதியை உருவாக்கவும்</string>
+  <string name="build_hash">வரிசையை உருவாக்குக</string>
+  <string name="cancel">ரத்துசெய்க</string>
+  <string name="cannot_download">\"http\" அல்லது \"https\" URLகள் மட்டும் பதிவிறக்கலாம்.</string>
+  <string name="choose_upload">பதிவேற்ற கோப்பை தேர்வுசெய்க</string>
+  <string name="choosertitle_sharevia">இதன்மூலம் பகிர்க</string>
+  <string name="clear">அகற்றவும்</string>
+  <string name="clear_history">வரலாறு அழிக்கவும்</string>
+  <string name="close_other_tabs">மற்ற தாவல்களை மூடவும்</string>
+  <string name="containing_folder">இதில் சேர்க்கவும்</string>
+  <string name="contextheader_folder_bookmarkcount">%d  புக்மார்க்குகள்</string>
+  <string name="contextheader_folder_empty">காலியான கோப்புறை</string>
+  <string name="contextmenu_add_contact">தொடர்பைச் சேர்க்கவும்</string>
+  <string name="contextmenu_copy">நகல் செய்க</string>
+  <string name="contextmenu_copylink">URL இணைப்பு நகல்</string>
+  <string name="contextmenu_dial_dot">டயல்...</string>
+  <string name="contextmenu_download_image">படத்தை சேமி</string>
+  <string name="contextmenu_map">வரைபடம்</string>
+  <string name="contextmenu_openlink">திறக்கவும்</string>
+  <string name="contextmenu_openlink_newwindow">புதிய தாவலில் திறக்கவும்</string>
+  <string name="contextmenu_openlink_newwindow_background">புதிய பின்னணி தாவலில் திறக்கவும்</string>
+  <string name="contextmenu_savelink">இணைப்பை சேமிக்கவும்</string>
+  <string name="contextmenu_send_mail">மின்னஞ்சலை அனுப்பவும்</string>
+  <string name="contextmenu_set_wallpaper">வால்பேப்பராக அமைக்கவும்</string>
+  <string name="contextmenu_sharelink">இணைப்பை பகிர்க</string>
+  <string name="contextmenu_view_image">படத்தை காண்க</string>
+  <string name="create_shortcut_bookmark">முகப்பில் குறுக்குவழியைச் சேர்க்கவும்</string>
+  <string name="current_page">அனுப்புநர்</string>
+  <string name="delete_bookmark_warning">புக்மார்க்கை நீக்கவா \" %s \"?</string>
+  <string name="delete_folder">கோப்புறையை நீக்குக</string>
+  <string name="delete_folder_warning">\" %s \" கோப்புறையை நீக்கவா?</string>
+  <string name="disable_autofill">தானியங்கு நிரப்பலை செயல்நீக்குக</string>
+  <string name="download_default_path">/பதிவிறக்கு</string>
+  <string name="download_edit_filename_label">பெயர்</string>
+  <string name="download_estore_app">ஈஸ்டோர் பயன்பாடு இல்லை, தயவு செய்து அதைப் பதிவிறக்கி, நிறுவவும்.</string>
+  <string name="download_file_exist">கோப்பு ஏற்கனவே உள்ளது</string>
+  <string name="download_file_exist_msg">கோப்பு ஏற்கனவே உள்ளது. புதிய கோப்புப்பெயரை உள்ளிடவும்.</string>
+  <string name="download_filepath_label">பாதை</string>
+  <string name="download_filesize">அளவு</string>
+  <string name="download_no_enough_memory">பதிவிறக்க, போதுமான நினைவகம் இல்லை</string>
+  <string name="download_no_sdcard_dlg_msg">%s-ஐ பதிவிறக்க, SD  அட்டை தேவைப்படுகிறது.</string>
+  <string name="download_no_sdcard_dlg_title">SD அட்டை ஏதுமில்லை</string>
+  <string name="download_path_phone_storage_label">/ஃபோன் சேமிப்பகம்</string>
+  <string name="download_path_sd_card_label">/SD அட்டை</string>
+  <string name="download_path_unavailable_dlg_msg">பதிவிறக்கக் கோப்பகத்தைத் தயவு செய்து திருத்தவும்</string>
+  <string name="download_path_unavailable_dlg_title">பதிவிறக்கக் கோப்பகம் கிடைக்கவில்லை</string>
+  <string name="download_pending">பதிவிறக்கத்தைத் துவக்குகிறது...</string>
+  <string name="download_sdcard_busy_dlg_msg">SD அட்டை பணிமிகுதியாக உள்ளது. பதிவிறக்கங்களை அனுமதிக்க, அறிவிப்பில் USB சேமிப்பகத்தை அணைக்கவும் என்பதைத் தொடுக.</string>
+  <string name="download_sdcard_busy_dlg_title">SD அட்டை கிடைக்வில்லை</string>
+  <string name="download_settings_title">பதிவிறக்க அமைப்புகள்</string>
+  <string name="download_timeneeded">நேரம்</string>
+  <string name="drm_file_unsupported">பதிவேற்றப்படும் DRM கோப்புகள் ஆதரிக்கப்படவில்லை!</string>
+  <string name="duplicated_folder_warning">கோப்புறை ஏற்கனவே உள்ளது</string>
+  <string name="edit_bookmark">புக்மார்க் திருத்துக</string>
+  <string name="edit_folder">கோப்புறையை திருத்துக</string>
+  <string name="empty_bookmarks_folder">புக்மார்க்குகள் இல்லை.</string>
+  <string name="empty_history">உலாவி வரலாறு எதுவுமில்லை.</string>
+  <string name="empty_snapshots_folder">சேமித்த பக்கங்கள் எதுவுமில்லை.</string>
+  <string name="enable_reader_mode">ரீடர் பயன்முறை</string>
+  <string name="estore_url_warning">ஈஸ்டோர் பயன்பாட்டைத் துவங்குவது தோல்வியுற்றது, url மிகவும் நீளமாகவுள்ளது!</string>
+  <string name="exit">வெளியே</string>
+  <string name="exit_browser_msg">உலாவியில் இருந்து எவ்வாறு வெளியேறுவது என்பதைத் தேர்வுசெய்க</string>
+  <string name="exit_browser_title">உலாவியில் இருந்து வெளியேறு</string>
+  <string name="exit_minimize">சிறிதாக்கு</string>
+  <string name="exit_quit">வெளியேறு</string>
+  <string name="feedback">பின்னூட்டம்</string>
+  <string name="filename_empty_msg">பதிவிறக்க கோப்புபெயர் காலியாக இருக்காது. சரியான கோப்புப்பெயரை உள்ளிடவும்.</string>
+  <string name="filename_empty_title">பதிவிறக்கிய கோப்புப்பெயர் காலியாக உள்ளது</string>
+  <string name="find_on_page">பக்கத்தில் தேடுக</string>
+  <string name="forward">பகிர்தல்</string>
+  <string name="geolocation_permissions_prompt_remember">விருப்பத்தை நினைவுகொள்க</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">24 மணிநேரங்களுக்கு அனுமதிக்கவும்</string>
+  <string-array name="geolocation_settings_choices">
+    <item>எப்போதும் மறுக்கவும்</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>எப்போதும் அனுமதிக்கவும்</item>
+  </string-array>
+  <string name="help">உதவி</string>
+  <string name="history">வரலாறு</string>
+  <string name="homepage_set">முகப்புபக்கத்தை அமைக்கவும்.</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">ஊடக கோப்பகத்தை எவ்வாறு கையாள்வது என்பதை தேர்வுசெய்க</string>
+  <string name="import_bookmarks_dialog_description">இந்தச் சாதனத்தில் உள்ள புக்மார்க்குகள் Google கணக்குடன் இன்னும் தொடர்புபடுத்தவில்லை. இந்த புக்மார்க்குகளை கணக்கில் சேர்ப்பதன் மூலம் அவற்றை சேமிக்கவும். இந்த புக்மார்க்குகளை ஒத்திசைக்க விரும்பவில்லையெனில் அவற்றை நீக்கவும்.</string>
+  <string name="import_bookmarks_dialog_remove">புக்மார்க்குகளை நீக்குக</string>
+  <string name="invalid_path">தவறான பாதை</string>
+  <string name="loading_video">வீடியோவை ஏற்றுகிறது...</string>
+  <string name="local_bookmarks">உள்ளூர்</string>
+  <string name="location">முகவரி</string>
+  <string name="max_tabs_warning">தாவல்கள் எதுவும் கிடைக்கவில்லை</string>
+  <string name="max_url_character_limit_msg">URL அதிகபட்ச வரம்பை அடைந்தது</string>
+  <string name="mdm_managed_alert">உங்கள் நிர்வாகியால் நிர்வகிக்கப்பட்டது </string>
+  <string name="menu_preferences">அமைப்புகள்</string>
+  <string name="menu_save_snapshot">ஆஃப்லைனில் படிக்க சேமிக்கவும்</string>
+  <string name="menu_share_url">பகிர்க</string>
+  <string name="msg_no_google_play">மன்னிக்கவும், Google Play store இல்லை.</string>
+  <string name="my_navigation_add">சேர்க்கவும்</string>
+  <string name="my_navigation_add_label">வலைத்தளத்தை சேர்க்கவும்</string>
+  <string name="my_navigation_address">முகவரி</string>
+  <string name="my_navigation_cannot_save_url">தவறான URL</string>
+  <string name="my_navigation_delete_label">வலைத்தளத்தை நீக்கவும்</string>
+  <string name="my_navigation_delete_msg">வலைத்தளத்தை நீக்கவா?</string>
+  <string name="my_navigation_duplicate_url">URL ஏற்கனவே உள்ளது</string>
+  <string name="my_navigation_edit_label">வலைத்தளத்தை திருத்தவும்</string>
+  <string name="my_navigation_name">தலைப்பு</string>
+  <string name="my_navigation_page_title">முகப்பு</string>
+  <string name="name">லேபிள்</string>
+  <string name="new_folder">புதிய கோப்புறை</string>
+  <string name="new_incognito_tab">தனிப்பட்ட உலாவல்</string>
+  <string name="new_tab">புதிய தாவல்</string>
+  <string name="no_subfolders">துணை கோப்புறைகள் எதுவும் இல்லை.</string>
+  <string name="ok">சரி</string>
+  <string name="open_all_in_new_window">அனைத்தையும் புதிய தாவல்களில் திறக்கவும்</string>
+  <string name="other_bookmarks">மற்ற புக்மார்க்குகள்</string>
+  <string name="overwrite_bookmark_msg">இந்தப் புக்மார்க்கின் பெயர் அல்லது முகவரி ஏற்கனவே உள்ளது. மேலெழுதவா?</string>
+  <string name="page_info">பக்க விவரம்</string>
+  <string name="page_info_address">முகவரி:</string>
+  <string name="password">கடவுச்சொல்</string>
+  <string name="path_wrong">தவறான பாதை</string>
+  <string name="permission_preload_label">முடிவுகளை முன் ஏற்றவும்</string>
+  <string name="powersave_dialog_off">பவர் சேமிப்பு முறை முடக்கப்பட்டது.\nஉலாவியை மீண்டும் தொடங்கவும்.</string>
+  <string name="powersave_dialog_on">செயலாக்கப்பட்டது: பிராசசர் கோர் கட்டுப்பாடு.\nமுடக்கப்பட்டது: உயர் செயல்பாட்டு அம்சங்கள்.\nஉலாவியை மீண்டும் தொடக்கவும்.</string>
+  <string name="pref_accessibility_title">அணுகல்தன்மை</string>
+  <string name="pref_accessibility_title_summary">உரை அளவு மற்றும் பெரிதாக்குதல்</string>
+  <string name="pref_autofill_enabled">படிவம் தானியங்கு-நிரப்பல்</string>
+  <string name="pref_autofill_enabled_summary">ஒற்றை தாவலில் வலை படிவங்களை நிரப்புக</string>
+  <string name="pref_autofill_profile_editor">தானியங்கு-நிரப்பல் உரை</string>
+  <string name="pref_autofill_profile_editor_summary">வலை படிவங்களில், உரையை தானாக-நிரப்ப அமைக்கவும்</string>
+  <string name="pref_content_homepage">முகப்புப் பக்கம்</string>
+  <string name="pref_content_javascript">ஜாவாஸ்க்ரிப்ட் செயல்படுத்துக</string>
+  <string name="pref_content_load_images">படங்களை ஏற்றவும்</string>
+  <string name="pref_content_load_images_summary">வலைப் பக்கங்களில் படங்களை காட்டவும்</string>
+  <string name="pref_content_open_in_background">பின்னணியில் திறக்கவும்</string>
+  <string name="pref_content_open_in_background_summary">தற்போதைய தாவல் பின்னால் புதிய தாவல்களை திறக்கவும்</string>
+  <string name="pref_content_search_engine">தேடு பொறி</string>
+  <string name="pref_content_search_engine_summary">தேடல் பொறி தேர்வுசெய்க</string>
+  <string name="pref_content_title">உள்ளடக்க அமைப்புகள்</string>
+  <string name="pref_content_title_summary">வலை உள்ளடக்க அமைப்பு</string>
+  <string name="pref_data_preload_summary">பின்னணியில் அதிக நம்பிக்கையுள்ள தேடல் முடிவுகளை முன் ஏற்ற உலாவியை அனுமதிக்கவும்</string>
+  <string name="pref_data_preload_title">முன்ஏற்றல் முடிவுகளை தேடுக</string>
+  <string name="pref_default_site_settings_title">இயல்புநிலை தள அமைப்புகள்</string>
+  <string name="pref_default_text_encoding">உரை குறியாக்கம்</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">பிழை திருத்தம்</string>
+  <string name="pref_disable_edge_swipe">முனை ஸ்வைப்பை முடக்கவும்</string>
+  <string name="pref_do_not_track">கோரிக்கை \'ட்ராக் செய்யாதே\'</string>
+  <string name="pref_download_path_setting_screen_title">தனிப்பயன் பதிவிறக்கப் பாதை</string>
+  <string name="pref_download_title">பதிவிறக்கப் பாதை அமைப்புகள்</string>
+  <string name="pref_edge_swipe_disabled_toast">முனையிலிருந்து ஸ்வைப் செய்தல் முடக்கப்பட்டது</string>
+  <string name="pref_edge_swipe_option_close">மூடவும்</string>
+  <string name="pref_edge_swipe_option_msg">ஸ்வைப் செய்யும்போது நீங்கள் விரும்புவது:</string>
+  <string name="pref_edge_swipe_title">முனை ஸ்வைப்</string>
+  <string name="pref_edge_swipe_unknown">நடத்தையை தேர்ந்தெடு</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">மீட்டமை</string>
+  <string name="pref_extras_reset_default">டீஃபால்ட்டிற்கு ரீசெட் செய்க</string>
+  <string name="pref_extras_reset_default_dlg">டீஃபால்ட் மதிப்புகளுக்கு அமைப்புகளை மாற்றியமைக்கவா?</string>
+  <string name="pref_extras_reset_default_summary">டீஃபால்ட் அமைவுகளை மீள்சேமிக்கவும்</string>
+  <string name="pref_extras_title">கூடுதல்</string>
+  <string name="pref_extras_website_settings">தள அமைப்புகள் ஒன்றுக்கு</string>
+  <string name="pref_extras_website_settings_summary">தனித்தனி வலைதளங்களுக்கான மேம்பட்ட அமைவுகள்</string>
+  <string name="pref_font_size_category">உரை அளவு</string>
+  <string name="pref_force_userscalable">ஜூம் செயல்படுத்த தூண்டுக</string>
+  <string name="pref_force_userscalable_summary">ஜூம் நடத்தையை கட்டுப்படுத்த, வலைத்தளத்தின் கோரிக்கையை ஓவர்ரைடு செய்க</string>
+  <string name="pref_general_autofill_title">தானியங்கு-நிரப்பல்</string>
+  <string name="pref_general_title">பொதுவான</string>
+  <string-array name="pref_homepage_choices">
+    <item>நடப்புப் பக்கம்</item>
+    <item>வெற்றுப் பக்கம்</item>
+    <item>டீஃபால்ட் பக்கம்</item>
+    <item>அதிகம் காணப்பட்ட தளங்கள்</item>
+    <item>மற்றவை</item>
+  </string-array>
+  <string name="pref_invalid_cert">தளமானது செல்லாத SSL சான்றிதழைக் கொண்டுள்ளது.</string>
+  <string name="pref_inverted">ஒழுங்கமைவை திருப்புகிறது</string>
+  <string name="pref_inverted_category">திரை ஒழுங்கமைவை திருப்புகிறது</string>
+  <string name="pref_inverted_contrast">மாறுபாடு</string>
+  <string name="pref_inverted_summary">கருப்பு வெள்ளையாக மாறுகிறது மற்றும் தலைகீழாக</string>
+  <string name="pref_lab_fullscreen">அதிவேகம்</string>
+  <string name="pref_lab_fullscreen_summary">உலாவியை முழுத் திரை ஆக்கவும்</string>
+  <string name="pref_link_prefetch_summary">பின்னணியில் இணைக்கப்பட்ட வலைப் பக்கங்களை முன்ஏற்ற உலாவியை அனுமதிக்கவும்</string>
+  <string name="pref_link_prefetch_title">வலைப் பக்கம் முன்ஏற்றப்படுகிறது</string>
+  <string name="pref_min_font_size">குறைந்தபட்ச எழுத்துரு அளவு</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">இரவு பயன்முறை</string>
+  <string name="pref_nightmode_enabled_summary">இரவு பயன்முறையை இயக்கவும்</string>
+  <string name="pref_powersave_enabled">பவர் சேமிப்பு முறை</string>
+  <string name="pref_powersave_enabled_summary">பவர் சேமிப்பு முறையை இயக்கவும்</string>
+  <string name="pref_privacy_clear_cache">தேக்கம்</string>
+  <string name="pref_privacy_clear_cache_summary">உள்ளமைவாக தேக்கப்பட்ட உள்ளடக்கம் மற்றும் தரவுத்தளங்களை துடைக்கவும்</string>
+  <string name="pref_privacy_clear_cookies">குக்கீஸ் மற்றும் தளத்தரவு</string>
+  <string name="pref_privacy_clear_cookies_summary">அனைத்து உலாவி குக்கீஸ் மற்றும் தளத்தரவை அழிக்கவும்</string>
+  <string name="pref_privacy_clear_form_data">படிவத் தரவு</string>
+  <string name="pref_privacy_clear_form_data_summary">சேமிக்கப்பட்ட அனைத்து படிவ தரவையும் துடைக்கவும்</string>
+  <string name="pref_privacy_clear_geolocation_access">இருப்பிட அணுகல்</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">அனைத்து வலைதளங்களுக்கான இட அணுகலை தெளிவு செய்</string>
+  <string name="pref_privacy_clear_history_dlg">உலாவி நகர்வு வரலாற்றை நீக்கவா?</string>
+  <string name="pref_privacy_clear_history_summary">உலாவி நகர்வு வரலாற்றை துடைக்கவும்</string>
+  <string name="pref_privacy_clear_passwords">கடவுச்சொற்கள்</string>
+  <string name="pref_privacy_clear_passwords_summary">சேமிக்கப்பட்ட அனைத்து கடவுச்சொற்களையும் துடைக்கவும்</string>
+  <string name="pref_privacy_clear_selected">தேர்வுசெய்த உருப்படிகளை துடைக்கவும்</string>
+  <string name="pref_privacy_clear_selected_dlg">பின்வரும் உருப்படிகளை துடைக்கவா?</string>
+  <string name="pref_privacy_clear_selected_summary">பட்டியலில், தேர்வுசெய்த உருப்படிகளை துடைக்கவும்</string>
+  <string name="pref_privacy_enable_geolocation">இடம்</string>
+  <string name="pref_privacy_security_title">தனிப்பயன் மற்றும் பாதுகாப்பு</string>
+  <string name="pref_privacy_security_title_summary">உலாவி பாதுகாப்பு மற்றும் தனிப்பயன் அமைப்புகள்</string>
+  <string name="pref_sample_font_size">படிப்பதற்கு வசதியாக விருப்பமான அளவை அமைக்க, எழுத்துரு அளவை சரிசெய்ய ஸ்லைடரை ட்ராக் செய்க.</string>
+  <string name="pref_security_accept_cookies">குக்கீகளை ஏற்கவும்</string>
+  <string name="pref_security_accept_third_party_cookies">மூன்றாம் தரப்பு குக்கீஸ்</string>
+  <string name="pref_security_access_is_allowed">அணுகல் அனுமதிக்கப்பட்டது</string>
+  <string name="pref_security_add">சேர்க்கவும்</string>
+  <string name="pref_security_allow_camera">கேமரா</string>
+  <string name="pref_security_allow_mic">மைக்ரோஃபோன்</string>
+  <string name="pref_security_allow_popups">பாப் அப்கள்</string>
+  <string name="pref_security_allowed">அனுமதித்தது</string>
+  <string name="pref_security_ask_before_using">பயன்படுத்துவதற்கு முன் கேள்</string>
+  <string name="pref_security_not_allowed">அனுமதி இல்லை</string>
+  <string name="pref_security_off">ஆஃப்</string>
+  <string name="pref_security_on">ஆன்</string>
+  <string name="pref_security_origin_name">தள தோற்றம்</string>
+  <string name="pref_security_remember">நினைவுபடுத்தவும்</string>
+  <string name="pref_security_remember_passwords">கடவுச்சொற்களை நினைவுகொள்</string>
+  <string name="pref_security_save_form_data">படிவ தரவை நினைவுகொள்க</string>
+  <string name="pref_security_web_refiner">விளம்பரங்கள் மற்றும் கவனத்தைச் சிதைக்கும் உள்ளடக்கம்</string>
+  <string name="pref_select_items">துடைப்பதற்கு உருப்படிகளை தேர்வுசெய்க</string>
+  <string name="pref_set_homepage_to">இதற்கு அமைக்கவும்</string>
+  <string name="pref_site_settings_info_panel">பாதுகாப்பு தகவல்</string>
+  <string name="pref_site_settings_title">தள அமைப்புகள்</string>
+  <string name="pref_spatial_edge_swipe">மாற்றி தாவல்</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">முனையிலிருந்து, மாற்று தாவலுக்கு ஸ்வைப் செய்யவும்</string>
+  <string-array name="pref_temporal_choices">
+    <item>எ. வேண்டாம்</item>
+    <item>Wi-Fiஇல் மட்டும்</item>
+    <item>எப்போதும்</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">முந்தைய/அடுத்த வலை தளம்</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">வழிசெலுத்த முனையிலிருந்து ஸ்வைப் செய்யவும்</string>
+  <string name="pref_text_zoom">உரை அளவீடு</string>
+  <string name="pref_valid_cert">செல்லத்தக்க SSL சான்றிதழ். தகவல்தொடர்பு மறைகுறியாக்கம் செய்யப்பட்டது மற்றும் அடையாளம் சரிபார்க்கப்பட்டது.</string>
+  <string name="pref_warning_cert">தள SSL சான்றிதழ் எச்சரிக்கைகளைக் கொண்டுள்ளது.</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d விளம்பரம்</item>
+    <item quantity="other">%d விளம்பரங்கள்</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d தீம்பொருள் அச்சுறுத்தல்</item>
+    <item quantity="other">%d தீம்பொருள் அச்சுறுத்தல்கள்</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"%s தடைசெய்யப்பட்டது. "</item>
+    <item>"%1$s மற்றும் %2$s தடைசெய்யப்பட்டது. "</item>
+    <item>"%1$s, %2$s மற்றும் %3$s தடைசெய்யப்பட்டது. "</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d ட்ராக்கர்</item>
+    <item quantity="other">%d ட்ராக்கர்கள்</item>
+  </plurals>
+  <string name="pref_website_title">வலைத்தளம்</string>
+  <string name="preview">முன்பார்வை</string>
+  <string name="progress_dialog_setting_wallpaper">வால்பேப்பரை அமைக்கிறதுu2026</string>
+  <string name="received_message_full_screen">இதிலிருந்து செய்தியை பெறுக:  %s .</string>
+  <string name="reload">புதுப்பிப்பு</string>
+  <string name="remove">அகற்றுக</string>
+  <string name="remove_bookmark">புக்மார்க்கை நீக்கவும்</string>
+  <string name="remove_from_bookmarks">புக்மார்க்குகளிலிருந்து அகற்றவும்</string>
+  <string name="remove_history_item">வரலாற்றிலிருந்து அகற்றவும்</string>
+  <string name="remove_snapshot">சேமிக்கப்பட்ட பக்கத்தை நீக்குக</string>
+  <string name="removed_from_bookmarks">புக்மார்க்குகளிலிருந்து அகற்றவும்.</string>
+  <string name="replace">மாற்றுக</string>
+  <string name="save_to_bookmarks">புக்மார்க்குகளில் சேமி</string>
+  <string name="saving_snapshot">சேமிக்கிறது...</string>
+  <string name="search_button_text">செல்க</string>
+  <string name="search_hint">URL தேடுக அல்லது தட்டச்சு செய்க</string>
+  <string name="search_settings_description">புக்மார்க்குகள் மற்றும் வலை வரலாறு</string>
+  <string name="search_the_web">வலை தேடுக</string>
+  <string name="security_warning">பாதுகாப்பு எச்சரிக்கை</string>
+  <string name="sendText">உரைக்கு செயலை தேர்வுசெய்க</string>
+  <string name="set_as_homepage">முகப்புப் பக்கமாக அமைக்கவும்</string>
+  <string name="share_page">பக்கம் பகிர்வு</string>
+  <string name="shortcut_bookmark">புக்மார்க்</string>
+  <string name="shortcut_bookmark_title">புக்மார்க்கை தேர்வுசெய்க</string>
+  <string name="sign_in_to">%1$s  \" %2$s \" உள்நுழைக</string>
+  <string name="snapshot_failed">ஆஃப்லைன் வாசித்தலுக்கென சேமிக்க இயலவில்லை.</string>
+  <string name="snapshot_go_live">நேரடிக்கு செல்க</string>
+  <string name="ssl_certificate">பாதுகாப்புச் சான்றிதழ்</string>
+  <string name="ssl_certificate_is_valid">இந்தச் சான்றிதழ் செல்லுபடியானது.</string>
+  <string name="ssl_invalid">இந்த சான்றிதழ் தவறானது.</string>
+  <string name="ssl_unknown">தெரியாத சான்றிதழ் பிழை ஏற்பட்டுள்ளது.</string>
+  <string name="stop">நிறுத்தவும்</string>
+  <string name="stopping">நிறுத்துகிறது...</string>
+  <string name="swe_eula">இறுதி பயனர் உரிம ஒப்பந்தம்</string>
+  <string name="swe_legal">சட்டப்பூர்வ விவரம்</string>
+  <string name="swe_open_source_licenses">திறந்த மூல உரிமங்கள்</string>
+  <string name="swe_pref_legal_info_summary">Copyright (c) 2015, The Linux Foundation. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</string>
+  <string name="swe_privacy_policy">தனியுரிமைக் கொள்கை</string>
+  <string name="tab_most_visited">அதிகம் பார்த்தது</string>
+  <string name="tab_snapshots">சேமித்த பக்கங்கள்</string>
+  <string name="time_min">நிமி</string>
+  <string name="too_many_subwindows_dialog_message">ஒரு நேரத்தில் ஒரே ஒரு பாப்-அப் மட்டுமே திறக்கப்படலாம்.</string>
+  <string name="too_many_subwindows_dialog_title">பாப்-அப் ஏற்கனவே திறக்கப்பட்டது</string>
+  <string name="too_many_windows_dialog_message">நீங்கள் ஒன்றை மூடும் வரை புதிய தாவலை திறக்க இயலாது.</string>
+  <string name="too_many_windows_dialog_title">தாவல் வரம்பு அடைந்தது</string>
+  <string name="ua_switcher_desktop">டெஸ்க்டாப் தள கோரிக்கை</string>
+  <string name="unknow_length">தெரியாத</string>
+  <string name="uploads_disabled">கோப்பு பதிவேற்றங்கள் செயல்நீக்கப்பட்டன.</string>
+  <string name="user_agent">பயனர் முகவர்</string>
+  <string name="username">பெயர்</string>
+  <string name="version">பதிப்பு</string>
+  <string name="video_play">இயக்குக</string>
+  <string name="video_save">சேமி</string>
+  <string name="website_needs_title">வலைத்தளத்திற்கு, தலைப்பு இருக்க வேண்டும்</string>
+  <string name="website_needs_url">வலைத்தளத்திற்கு, URL இருக்க வேண்டும்</string>
+  <string name="website_settings_add_origin">புதிய தளம்</string>
+  <string name="website_settings_clear_all">எல்லாம் அழிக்கவும்</string>
+  <string name="website_settings_clear_all_dialog_message">அனைத்து இணையதளத் தரவு மற்றும் இட அனுமதிகளையும் நீக்கவா?</string>
+  <string name="webstorage_clear_data_dialog_message">இந்த இணையதளத்தால் சேமிக்கப்பட்ட அனைத்து தரவையும் நீக்கவா?</string>
+  <string name="webstorage_clear_data_title">சேமிப்பகம்</string>
+  <string name="webstorage_outofspace_notification_text">இடத்தை காலியாக்க தொடவும்.</string>
+  <string name="webstorage_outofspace_notification_title">உலாவி சேமிப்பகம் நிறைந்தது</string>
+  <string name="webstorage_private_data_title">தனிப்பட்ட தரவு</string>
+</resources>

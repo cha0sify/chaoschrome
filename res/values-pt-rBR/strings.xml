@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">Sobre</string>
+  <string name="accessibility_button_addbookmark">Favoritar página</string>
+  <string name="accessibility_button_back">Voltar</string>
+  <string name="accessibility_button_bookmarks_folder_up">Pasta anterior</string>
+  <string name="accessibility_button_clear">Apagar entrada</string>
+  <string name="accessibility_button_closetab">Fechar guia</string>
+  <string name="accessibility_button_forward">Avançar</string>
+  <string name="accessibility_button_navscreen">Gerenciador de página</string>
+  <string name="accessibility_button_newincognitotab">Abrir guia anônima</string>
+  <string name="accessibility_button_newtab">Abrir nova guia</string>
+  <string name="accessibility_button_refresh">Atualizar página</string>
+  <string name="accessibility_button_search">Pesquisar</string>
+  <string name="accessibility_button_stop">Parar carregamento de página</string>
+  <string name="accessibility_button_voice">Iniciar pesquisa por voz</string>
+  <string name="accessibility_state_frozen">Página salva</string>
+  <string name="accessibility_state_incognito">Página anônima</string>
+  <string name="accessibility_transition_navscreen">Gerenciamento de guia</string>
+  <string name="account">Conta</string>
+  <string name="action">Fazer login</string>
+  <string name="activity_not_found">Nenhuma atividade encontrada para lidar com esta intenção %s</string>
+  <string name="add_bookmark_short">Adicionar</string>
+  <string name="add_new_bookmark">Adicionar favorito</string>
+  <string name="add_to_homescreen">Adicionar à tela inicial</string>
+  <string name="add_to_homescreen_menu_option">Página inicial</string>
+  <string name="add_to_other_folder_menu_option">Selecionar pasta...</string>
+  <string name="added_to_bookmarks">Adicionado aos favoritos.</string>
+  <string name="allow">Permitir</string>
+  <string name="application_name">Navegador</string>
+  <string name="autofill_profile_editor_address_line_1">Linha de endereço 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">Endereço, caixa postal, c/o</string>
+  <string name="autofill_profile_editor_address_line_2">Linha de endereço 2:</string>
+  <string name="autofill_profile_editor_address_line_2_hint">Apartamento, suíte, unidade, prédio, andar, etc.</string>
+  <string name="autofill_profile_editor_city">Cidade</string>
+  <string name="autofill_profile_editor_company_name">Nome da empresa:</string>
+  <string name="autofill_profile_editor_country">País:</string>
+  <string name="autofill_profile_editor_delete_profile">Excluir</string>
+  <string name="autofill_profile_editor_email_address">E-mail:</string>
+  <string name="autofill_profile_editor_heading">Digite o texto que você deseja para o preenchimento automático de formulários da web.</string>
+  <string name="autofill_profile_editor_name">Nome completo:</string>
+  <string name="autofill_profile_editor_phone_number">Telefone:</string>
+  <string name="autofill_profile_editor_phone_number_invalid">Número inválido de telefone.</string>
+  <string name="autofill_profile_editor_save_profile">Salvar</string>
+  <string name="autofill_profile_editor_state">Estado/província/região:</string>
+  <string name="autofill_profile_editor_zip_code">CEP:</string>
+  <string name="autofill_profile_successful_delete">Texto do preenchimento automático excluído.</string>
+  <string name="autofill_profile_successful_save">Texto do preenchimento automático salvo.</string>
+  <string name="autofill_setup_dialog_message">O navegador pode preencher automaticamente formulários da web como este. Deseja configurar o preenchimento automático de texto?</string>
+  <string name="autofill_setup_dialog_negative_toast">Você sempre pode configurar seu texto de preenchimento automático em Navegador &gt; Configurações &gt; tela Geral.</string>
+  <string name="back">Voltar</string>
+  <string name="block">Bloquear</string>
+  <string name="bookmark_cannot_save_url">Esta URL não pode ser um dos favoritos.</string>
+  <string name="bookmark_needs_title">Favorito deve ter um nome.</string>
+  <string name="bookmark_needs_url">Favorito deve ter um local.</string>
+  <string name="bookmark_not_saved">Não foi possível salvar favorito.</string>
+  <string name="bookmark_saved">Favorito</string>
+  <string name="bookmark_this_page">Favoritar esta página</string>
+  <string name="bookmark_url_not_valid">Esta URL não é válida.</string>
+  <string name="bookmarks">Favoritos</string>
+  <string name="bookmarks_add_page">Salvar nos favoritos</string>
+  <string name="browserFrameFormResubmitMessage">A página que você está tentando exibir contém dados que já foram enviados (\"POSTDATA\"). Se você reenviar os dados, qualquer ação realizada pelo formulário na página (como pesquisa ou compra on-line) será repetida.</string>
+  <string name="browser_max_input">A entrada atingiu o limite máximo de %s caracteres</string>
+  <string name="browser_max_input_title">Limite máximo de caracteres atingido</string>
+  <string name="browser_tab_crash_message">Algo inesperado aconteceu ao exibir esta página. Recarregue ou vá para outra página.
+    </string>
+  <string name="browser_tab_crash_reload">Recarregar</string>
+  <string name="browser_tab_crash_snap">Opa!</string>
+  <string name="build_date">Data do build</string>
+  <string name="build_hash">Hash do build</string>
+  <string name="cancel">Cancelar</string>
+  <string name="cannot_download">Só é possível baixar URLs \ "http\" ou \ "https\".</string>
+  <string name="choose_upload">Escolher um arquivo para upload</string>
+  <string name="choosertitle_sharevia">Compartilhar via</string>
+  <string name="clear">Limpar</string>
+  <string name="clear_history">Apagar histórico</string>
+  <string name="close_other_tabs">Fechar outras guias</string>
+  <string name="containing_folder">Adicionar a</string>
+  <string name="contextheader_folder_bookmarkcount">%d favoritos</string>
+  <string name="contextheader_folder_empty">Pasta vazia</string>
+  <string name="contextmenu_add_contact">Adicionar contato</string>
+  <string name="contextmenu_copy">Copiar</string>
+  <string name="contextmenu_copylink">Copiar URL do link</string>
+  <string name="contextmenu_dial_dot">Discar...</string>
+  <string name="contextmenu_download_image">Salvando imagem</string>
+  <string name="contextmenu_map">Mapa</string>
+  <string name="contextmenu_openlink">Abrir</string>
+  <string name="contextmenu_openlink_newwindow">Abrir em nova guia</string>
+  <string name="contextmenu_openlink_newwindow_background">Abrir em nova guia de fundo</string>
+  <string name="contextmenu_savelink">Salvar link</string>
+  <string name="contextmenu_send_mail">Enviar e-mail</string>
+  <string name="contextmenu_set_wallpaper">Definir como papel de parede</string>
+  <string name="contextmenu_sharelink">Compartilhar link</string>
+  <string name="contextmenu_view_image">Visualizar imagem</string>
+  <string name="create_shortcut_bookmark">Adicionar atalho à página inicial</string>
+  <string name="current_page">de</string>
+  <string name="delete_bookmark_warning">Excluir favorito \" %s \"?</string>
+  <string name="delete_folder">Excluir pasta</string>
+  <string name="delete_folder_warning">Excluir pasta \" %s \"?</string>
+  <string name="disable_autofill">Desativar preenchimento automático</string>
+  <string name="download_default_path">/Download</string>
+  <string name="download_edit_filename_label">Nome</string>
+  <string name="download_estore_app">O aplicativo da loja virtual não existe. Faça download do aplicativo e instale-o.</string>
+  <string name="download_file_exist">Arquivo já existe</string>
+  <string name="download_file_exist_msg">Arquivo já existe. Digite um novo nome de arquivo.</string>
+  <string name="download_filepath_label">Caminho</string>
+  <string name="download_filesize">Tamanho</string>
+  <string name="download_no_enough_memory">Memória insuficiente pra download</string>
+  <string name="download_no_sdcard_dlg_msg">É necessário um cartão SD para baixar %s.</string>
+  <string name="download_no_sdcard_dlg_title">Nenhum cartão SD</string>
+  <string name="download_path_phone_storage_label">/Armazenamento do telefone</string>
+  <string name="download_path_sd_card_label">/Cartão SD</string>
+  <string name="download_path_unavailable_dlg_msg">Modifique o diretório do download</string>
+  <string name="download_path_unavailable_dlg_title">Diretório de download indisponível</string>
+  <string name="download_pending">Iniciando download...</string>
+  <string name="download_sdcard_busy_dlg_msg">O cartão SD está ocupado. Para permitir downloads, toque em Desativar armazenamento USB na notificação.</string>
+  <string name="download_sdcard_busy_dlg_title">Cartão SD não disponível</string>
+  <string name="download_settings_title">Configurações de download</string>
+  <string name="download_timeneeded">Horário</string>
+  <string name="drm_file_unsupported">Não é possível enviar arquivos DRM!</string>
+  <string name="duplicated_folder_warning">Pasta já existe</string>
+  <string name="edit_bookmark">Editar favorito</string>
+  <string name="edit_folder">Editar pasta</string>
+  <string name="empty_bookmarks_folder">Nenhum favorito.</string>
+  <string name="empty_history">Nenhum histórico do navegador.</string>
+  <string name="empty_snapshots_folder">Nenhuma página salva.</string>
+  <string name="enable_reader_mode">Modo leitor</string>
+  <string name="estore_url_warning">Falha na inicialização do aplicativo da loja virtual; o URL é muito longo!</string>
+  <string name="exit">Sair</string>
+  <string name="exit_browser_msg">Selecione como sair do navegador</string>
+  <string name="exit_browser_title">Sair do navegador</string>
+  <string name="exit_minimize">Minimizar</string>
+  <string name="exit_quit">Sair</string>
+  <string name="feedback">Feedback</string>
+  <string name="filename_empty_msg">O nome do arquivo de download não pode ficar em branco. Digite um nome de arquivo válido.</string>
+  <string name="filename_empty_title">O nome do arquivo de download está em branco</string>
+  <string name="find_on_page">Localizar na página</string>
+  <string name="forward">Encaminhar</string>
+  <string name="geolocation_permissions_prompt_remember">Lembrar preferência</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">Permitir por 24 horas</string>
+  <string-array name="geolocation_settings_choices">
+    <item>Negar para sempre</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>Permitir para sempre</item>
+  </string-array>
+  <string name="help">Ajuda</string>
+  <string name="history">Histórico</string>
+  <string name="homepage_set">Página inicial definida.</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">Selecione como tratar arquivo de mídia</string>
+  <string name="import_bookmarks_dialog_description">Os marcadores neste dispositivo ainda não estão associados a uma conta do Google. Para salvar esses marcadores, adicione-os a uma conta. Caso não queira sincronizar esses marcadores, basta excluí-los.</string>
+  <string name="import_bookmarks_dialog_remove">Excluir favoritos</string>
+  <string name="invalid_path">Caminho inválido</string>
+  <string name="loading_video">Carregando vídeo...</string>
+  <string name="local_bookmarks">Local</string>
+  <string name="location">Endereço</string>
+  <string name="max_tabs_warning">Não há mais guias disponíveis</string>
+  <string name="max_url_character_limit_msg">Limite de URL máximo atingido</string>
+  <string name="mdm_managed_alert">Gerenciado por seu administrador</string>
+  <string name="menu_preferences">Configurações</string>
+  <string name="menu_save_snapshot">Salvar para leitura off-line</string>
+  <string name="menu_share_url">Compartilhar</string>
+  <string name="msg_no_google_play">O aplicativo Google Play não existe.</string>
+  <string name="my_navigation_add">adicionar</string>
+  <string name="my_navigation_add_label">Adicionar site</string>
+  <string name="my_navigation_address">Endereço</string>
+  <string name="my_navigation_cannot_save_url">URL inválido</string>
+  <string name="my_navigation_delete_label">Excluir site</string>
+  <string name="my_navigation_delete_msg">Excluir site?</string>
+  <string name="my_navigation_duplicate_url">URL já existe</string>
+  <string name="my_navigation_edit_label">Editar site</string>
+  <string name="my_navigation_name">Título</string>
+  <string name="my_navigation_page_title">Início</string>
+  <string name="name">Marcador</string>
+  <string name="new_folder">Nova pasta</string>
+  <string name="new_incognito_tab">Navegação privada</string>
+  <string name="new_tab">Nova guia</string>
+  <string name="no_subfolders">Nenhuma subpasta.</string>
+  <string name="ok">OK</string>
+  <string name="open_all_in_new_window">Abrir tudo em novas guias</string>
+  <string name="other_bookmarks">Outros favoritos</string>
+  <string name="overwrite_bookmark_msg">Nome ou endereço do favorito já existe. Substituí-lo?</string>
+  <string name="page_info">Informações da página</string>
+  <string name="page_info_address">Endereço:</string>
+  <string name="password">Senha</string>
+  <string name="path_wrong">Caminho errado</string>
+  <string name="permission_preload_label">Resultados pré-carregados</string>
+  <string name="powersave_dialog_off">Modo de economia de energia desativado.\nReinicie o navegador.</string>
+  <string name="powersave_dialog_on">Ativado: Controle do núcleo do processador.\nDesabilitado: Características de alto desempenho.\nReinicie o navegador.</string>
+  <string name="pref_accessibility_title">Acessibilidade</string>
+  <string name="pref_accessibility_title_summary">Tamanho do texto e zoom</string>
+  <string name="pref_autofill_enabled">Preenchimento automático de formulário</string>
+  <string name="pref_autofill_enabled_summary">Preencher formulários da web com único toque</string>
+  <string name="pref_autofill_profile_editor">Texto do preenchimento automático</string>
+  <string name="pref_autofill_profile_editor_summary">Configurar o texto para ser preenchido automaticamente em formulários da web</string>
+  <string name="pref_content_homepage">Página Inicial</string>
+  <string name="pref_content_javascript">Ativar o JavaScript</string>
+  <string name="pref_content_load_images">Carregar imagens</string>
+  <string name="pref_content_load_images_summary">Exibir imagens em páginas da web</string>
+  <string name="pref_content_open_in_background">Abrir em segundo plano</string>
+  <string name="pref_content_open_in_background_summary">Abrir novas guias atrás da guia atual</string>
+  <string name="pref_content_search_engine">Motor de busca</string>
+  <string name="pref_content_search_engine_summary">Escolher mecanismo de pesquisa</string>
+  <string name="pref_content_title">Configurações de conteúdo</string>
+  <string name="pref_content_title_summary">Configurações do conteúdo Web</string>
+  <string name="pref_data_preload_summary">Permitir que navegador faça o carregamento prévio de resultados de pesquisa confidenciais no plano de fundo</string>
+  <string name="pref_data_preload_title">Carregamento prévio de resultado de pesquisa</string>
+  <string name="pref_default_site_settings_title">Configurações padrão do site</string>
+  <string name="pref_default_text_encoding">Codificação de texto</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">Depurar</string>
+  <string name="pref_disable_edge_swipe">Desativar deslizar da borda</string>
+  <string name="pref_do_not_track">Pedido \'Não monitorar\'</string>
+  <string name="pref_download_path_setting_screen_title">Caminho personalizado de download</string>
+  <string name="pref_download_title">Baixar configurações do caminho</string>
+  <string name="pref_edge_swipe_disabled_toast">O recurso deslizar da borda está desativado</string>
+  <string name="pref_edge_swipe_option_close">Fechar</string>
+  <string name="pref_edge_swipe_option_msg">Ao usar o recurso desligar, você gostaria de:</string>
+  <string name="pref_edge_swipe_title">Deslizar da borda</string>
+  <string name="pref_edge_swipe_unknown">Escolher comportamento</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">Redefinir</string>
+  <string name="pref_extras_reset_default">Redefinir para o padrão</string>
+  <string name="pref_extras_reset_default_dlg">Reverter configurações para os valores padrão?</string>
+  <string name="pref_extras_reset_default_summary">Restaurar as configurações padrão</string>
+  <string name="pref_extras_title">Avançado</string>
+  <string name="pref_extras_website_settings">Conforme definições do site</string>
+  <string name="pref_extras_website_settings_summary">Configurações avançadas para sites individuais</string>
+  <string name="pref_font_size_category">Tamanho do texto</string>
+  <string name="pref_force_userscalable">Forçar ativação do zoom</string>
+  <string name="pref_force_userscalable_summary">Substituir a solicitação de um site para controlar o comportamento do zoom</string>
+  <string name="pref_general_autofill_title">Preenchimento automático</string>
+  <string name="pref_general_title">Gerais</string>
+  <string-array name="pref_homepage_choices">
+    <item>Página atual</item>
+    <item>Página em branco</item>
+    <item>Página padrão</item>
+    <item>Sites mais visitados</item>
+    <item>Outros</item>
+  </string-array>
+  <string name="pref_invalid_cert">O site possui um certificado SSL inválido.</string>
+  <string name="pref_inverted">Renderização invertida</string>
+  <string name="pref_inverted_category">Renderização de tela invertida</string>
+  <string name="pref_inverted_contrast">Contraste</string>
+  <string name="pref_inverted_summary">Preto fica branco e vice-versa</string>
+  <string name="pref_lab_fullscreen">Imersivo</string>
+  <string name="pref_lab_fullscreen_summary">Deixar o navegador na tela cheia</string>
+  <string name="pref_link_prefetch_summary">Permitir que o navegador faça o carregamento prévio no plano de fundo de páginas da web vinculadas</string>
+  <string name="pref_link_prefetch_title">Carregamento prévio de página da web</string>
+  <string name="pref_min_font_size">Tamanho mínimo da fonte</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">Modo noturno</string>
+  <string name="pref_nightmode_enabled_summary">Ativar modo noturno</string>
+  <string name="pref_powersave_enabled">Modo de economia de energia</string>
+  <string name="pref_powersave_enabled_summary">Ativar modo de economia de energia</string>
+  <string name="pref_privacy_clear_cache">Cache</string>
+  <string name="pref_privacy_clear_cache_summary">Apagar conteúdo localmente em cache e banco de dados</string>
+  <string name="pref_privacy_clear_cookies">Cookies e dados do Site</string>
+  <string name="pref_privacy_clear_cookies_summary">Limpar todos os cookies do navegador e dados do site</string>
+  <string name="pref_privacy_clear_form_data">Dados de formulário</string>
+  <string name="pref_privacy_clear_form_data_summary">Apagar todos os dados salvos de formulário</string>
+  <string name="pref_privacy_clear_geolocation_access">Acesso à localização</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">Apagar acesso de local para todos os sites</string>
+  <string name="pref_privacy_clear_history_dlg">Excluir histórico de navegação do navegador?</string>
+  <string name="pref_privacy_clear_history_summary">Apagar histórico de navegação do navegador</string>
+  <string name="pref_privacy_clear_passwords">Senhas</string>
+  <string name="pref_privacy_clear_passwords_summary">Apagar todas as senhas salvas</string>
+  <string name="pref_privacy_clear_selected">Apagar itens selecionados</string>
+  <string name="pref_privacy_clear_selected_dlg">Apagar itens a seguir?</string>
+  <string name="pref_privacy_clear_selected_summary">Apagar itens selecionados na lista</string>
+  <string name="pref_privacy_enable_geolocation">Localização</string>
+  <string name="pref_privacy_security_title">Privacidade e segurança</string>
+  <string name="pref_privacy_security_title_summary">Configurações de privacidade e segurança do navegador</string>
+  <string name="pref_sample_font_size">Arraste o controle deslizante para ajustar o tamanho da fonte para que fique em um tamanho confortável para leitura.</string>
+  <string name="pref_security_accept_cookies">Aceitar cookies</string>
+  <string name="pref_security_accept_third_party_cookies">Cookies de terceiros</string>
+  <string name="pref_security_access_is_allowed">acesso permitido</string>
+  <string name="pref_security_add">Adicionar</string>
+  <string name="pref_security_allow_camera">Câmera</string>
+  <string name="pref_security_allow_mic">Microfone</string>
+  <string name="pref_security_allow_popups">Pop-up</string>
+  <string name="pref_security_allowed">Permitido</string>
+  <string name="pref_security_ask_before_using">Pergunte antes de usar</string>
+  <string name="pref_security_not_allowed">Não permitido</string>
+  <string name="pref_security_off">Desligado</string>
+  <string name="pref_security_on">Ativado</string>
+  <string name="pref_security_origin_name">Origem do site</string>
+  <string name="pref_security_remember">Lembrar</string>
+  <string name="pref_security_remember_passwords">Lembrar senhas</string>
+  <string name="pref_security_save_form_data">Lembrar dados de formulário</string>
+  <string name="pref_security_web_refiner">Anúncios e conteúdos que distraem</string>
+  <string name="pref_select_items">Selecionar itens a serem apagados</string>
+  <string name="pref_set_homepage_to">Definir para</string>
+  <string name="pref_site_settings_info_panel">Informações de segurança</string>
+  <string name="pref_site_settings_title">Configurações do site</string>
+  <string name="pref_spatial_edge_swipe">Alterar guia</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">Deslizar da borda para alterar guias</string>
+  <string-array name="pref_temporal_choices">
+    <item>Nunca</item>
+    <item>Apenas no Wi-Fi</item>
+    <item>Sempre</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">Anterior/Próximo site da web</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">Deslizar da borda para navegar</string>
+  <string name="pref_text_zoom">Dimensionamento de texto</string>
+  <string name="pref_valid_cert">Certificado SSL válido. A comunicação é criptografada e a identidade é verificada.</string>
+  <string name="pref_warning_cert">O certificado SSL do site contém avisos.</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d propaganda</item>
+    <item quantity="other">%d propagandas</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d ameaça de malware</item>
+    <item quantity="other">%d ameaças de malware</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"Bloqueado %s. "</item>
+    <item>"Bloqueados %1$s e %2$s. "</item>
+    <item>"Bloqueados %1$s, %2$s e %3$s. "</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d rastreador</item>
+    <item quantity="other">%d rastreadores</item>
+  </plurals>
+  <string name="pref_website_title">Site</string>
+  <string name="preview">Visualizar</string>
+  <string name="progress_dialog_setting_wallpaper">Definindo papel de parede...</string>
+  <string name="received_message_full_screen">Receber mensagem de:  %s .</string>
+  <string name="reload">Atualizar</string>
+  <string name="remove">Remover</string>
+  <string name="remove_bookmark">Excluir favorito</string>
+  <string name="remove_from_bookmarks">Remover dos favoritos</string>
+  <string name="remove_history_item">Remover do histórico</string>
+  <string name="remove_snapshot">Excluir página salva</string>
+  <string name="removed_from_bookmarks">Removido dos favoritos.</string>
+  <string name="replace">Substituir</string>
+  <string name="save_to_bookmarks">Salvar nos favoritos</string>
+  <string name="saving_snapshot">Salvando...</string>
+  <string name="search_button_text">Ir</string>
+  <string name="search_hint">Pesquisar ou digitar URL</string>
+  <string name="search_settings_description">Favoritos e histórico da web</string>
+  <string name="search_the_web">Pesquisar na web</string>
+  <string name="security_warning">Aviso de segurança</string>
+  <string name="sendText">Escolha uma ação para o texto</string>
+  <string name="set_as_homepage">Definir como página inicial</string>
+  <string name="share_page">Compartilhar página</string>
+  <string name="shortcut_bookmark">Marca-página</string>
+  <string name="shortcut_bookmark_title">Escolha um favorito</string>
+  <string name="sign_in_to">Iniciar sessão em %1$s  \" %2$s \"</string>
+  <string name="snapshot_failed">Não foi possível salvar para a leitura off-line</string>
+  <string name="snapshot_go_live">Implantar</string>
+  <string name="ssl_certificate">Certificado de segurança</string>
+  <string name="ssl_certificate_is_valid">Este certificado é válido.</string>
+  <string name="ssl_invalid">Este certificado é inválido.</string>
+  <string name="ssl_unknown">Erro desconhecido de certificado.</string>
+  <string name="stop">Parar</string>
+  <string name="stopping">Parando...</string>
+  <string name="swe_eula">Contrato de licenças do usuário final</string>
+  <string name="swe_legal">Informações legais</string>
+  <string name="swe_open_source_licenses">Licenças de código aberto</string>
+  <string name="swe_pref_legal_info_summary">Copyright (c) 2015, The Linux Foundation. Todos os direitos reservados.</string>
+  <string name="swe_privacy_policy">Política de privacidade</string>
+  <string name="tab_most_visited">Mais visitados</string>
+  <string name="tab_snapshots">Páginas salvas</string>
+  <string name="time_min">min.</string>
+  <string name="too_many_subwindows_dialog_message">Apenas uma janela pop-up pode ser aberta
+      de cada vez.</string>
+  <string name="too_many_subwindows_dialog_title">Janela pop-up já aberta</string>
+  <string name="too_many_windows_dialog_message">Não é possível abrir uma nova guia até você fechar uma.</string>
+  <string name="too_many_windows_dialog_title">Limite de guia atingido.</string>
+  <string name="ua_switcher_desktop">Solicitar site para área de trabalho</string>
+  <string name="unknow_length">Desconhecido</string>
+  <string name="uploads_disabled">Uploads de arquivo estão desativados.</string>
+  <string name="user_agent">Agente do usuário</string>
+  <string name="username">Nome</string>
+  <string name="version">Versão</string>
+  <string name="video_play">Reproduzir</string>
+  <string name="video_save">Salvar</string>
+  <string name="website_needs_title">O site deve ter um título</string>
+  <string name="website_needs_url">O site deve ter um URL</string>
+  <string name="website_settings_add_origin">Novo site</string>
+  <string name="website_settings_clear_all">Limpar tudo</string>
+  <string name="website_settings_clear_all_dialog_message">Excluir todos os dados e as permissões de localização do site?</string>
+  <string name="webstorage_clear_data_dialog_message">Excluir todos os dados armazenados por este site?</string>
+  <string name="webstorage_clear_data_title">Armazenamento</string>
+  <string name="webstorage_outofspace_notification_text">Toque para liberar espaço.</string>
+  <string name="webstorage_outofspace_notification_title">Armazenamento do navegador cheio</string>
+  <string name="webstorage_private_data_title">Dados privados</string>
+</resources>

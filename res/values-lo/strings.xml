@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">ກ່ຽວກັບ</string>
+  <string name="accessibility_button_addbookmark">ໜ້າບຸກມາກ</string>
+  <string name="accessibility_button_back">ກັບຄືນ</string>
+  <string name="accessibility_button_bookmarks_folder_up">ໂຟນເດີກ່ອນໜ້າ</string>
+  <string name="accessibility_button_clear">ລຶບລ້າງຂໍ້ມູນ</string>
+  <string name="accessibility_button_closetab">ປິດແຖບ</string>
+  <string name="accessibility_button_forward">ໄປໜ້າ</string>
+  <string name="accessibility_button_navscreen">ໂຕຈັດການໜ້າ</string>
+  <string name="accessibility_button_newincognitotab">ເປີດໃນແຖບ Incognito</string>
+  <string name="accessibility_button_newtab">ເປີດແຖບໃໝ່</string>
+  <string name="accessibility_button_refresh">ໂຫຼດໜ້າຄືນ</string>
+  <string name="accessibility_button_search">ຊອກຫາ</string>
+  <string name="accessibility_button_stop">ຢຸດໂຫຼດໜ້າ</string>
+  <string name="accessibility_button_voice">ເລີ່ມການຊອກຫາດ້ວຍສຽງ</string>
+  <string name="accessibility_state_frozen">ໜ້າທີ່ບັນທຶກໄວ້</string>
+  <string name="accessibility_state_incognito">ໜ້າ Incognito</string>
+  <string name="accessibility_transition_navscreen">ການຈັດການແຖບ</string>
+  <string name="account">ບັນຊີຜູ່ໃຊ້</string>
+  <string name="action">ເຂົ້າສູ່ລະບົບ</string>
+  <string name="activity_not_found">ບໍ່ພົບການເຄື່ອນໄຫວເພື່ອຮັບມືລາຍການນີ້ %s</string>
+  <string name="add_bookmark_short">​ເພີ່​ມ</string>
+  <string name="add_new_bookmark">ເພີ່ມບຸກມາກ</string>
+  <string name="add_to_homescreen">ເພີ່ມໃສ່ໜ້າຈໍຫຼັກ</string>
+  <string name="add_to_homescreen_menu_option">ໜ້າຈໍຫລັກ</string>
+  <string name="add_to_other_folder_menu_option">ເລືອກໂຟນເດີ...</string>
+  <string name="added_to_bookmarks">ເພີ່ມໃສ່ບຸກມາກແລ້ວ.</string>
+  <string name="allow">ອະນຸຍາດ</string>
+  <string name="application_name">ໂປຣແກຣມທ່ອງເວັບ</string>
+  <string name="autofill_profile_editor_address_line_1">ທີ່ຢູ່ແຖວທີ 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">ທີ່ຢູ່ຖະໜົນ, ຕູ້ ປ.ນ., c/o</string>
+  <string name="autofill_profile_editor_address_line_2">ທີ່ຢູ່ແຖວທີ 2:</string>
+  <string name="autofill_profile_editor_address_line_2_hint">ອາພາດເມັນ, ສູດ, ໜ່ວຍ, ຕຶກ, ຊັ້ນ, ຯລຯ.</string>
+  <string name="autofill_profile_editor_city">ເມືອງ:</string>
+  <string name="autofill_profile_editor_company_name">ຊື່ບໍລິສັດ:</string>
+  <string name="autofill_profile_editor_country">ປະເທດ:</string>
+  <string name="autofill_profile_editor_delete_profile">ລຶບ</string>
+  <string name="autofill_profile_editor_email_address">ອີເມວ:</string>
+  <string name="autofill_profile_editor_heading">ພິມສິ່ງທີ່ທ່ານຕ້ອງການໃສ່ແບບຟອມຕື່ມຂໍ້ມູນອັດຕະໂນມັດ.</string>
+  <string name="autofill_profile_editor_name">ຊື່ເຕັມ:</string>
+  <string name="autofill_profile_editor_phone_number">ໂທລະສັບ:</string>
+  <string name="autofill_profile_editor_phone_number_invalid">ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ.</string>
+  <string name="autofill_profile_editor_save_profile">ບັນທຶກ</string>
+  <string name="autofill_profile_editor_state">ລັດ/ແຂວງ/ເຂດ:</string>
+  <string name="autofill_profile_editor_zip_code">ລະຫັດ Zip:</string>
+  <string name="autofill_profile_successful_delete">ລຶບຂໍ້ຄວາມຕື່ມຂໍ້ມູນອັດຕະໂນມັດແລ້ວ.</string>
+  <string name="autofill_profile_successful_save">ບັນທຶກຂໍ້ຄວາມຕື່ມຂໍ້ມູນອັດຕະໂນມັດແລ້ວ.</string>
+  <string name="autofill_setup_dialog_message">ໂປຣແກຣມທ່ອງເວັບສາມາດຕື່ມແບບຟອມເວັບໄຊແບບນີ້ໄດ້ໂດຍອັດຕະໂນມັດ. ທ່ານຕ້ອງການຕັ້ງຄ່າຂໍ້ຄວາມຕື່ມຂໍ້ມູນອັດຕະໂນມັດຂອງທ່ານບໍ່?</string>
+  <string name="autofill_setup_dialog_negative_toast">ທ່ານສາມາດຕັ້ງຄ່າຂໍ້ຄວາມສຳລັບຕື່ມແບບຟອມອັດຕະໂນມັດໄດ້ຈາກ ໂປຣແກຣມທ່ອງເວັບ &gt; ການຕັ້ງຄ່າ &gt; ໜ້າຈໍທົ່ວໄປ.</string>
+  <string name="back">ກັບ​ຄືນ</string>
+  <string name="block">ບລັອກ</string>
+  <string name="bookmark_cannot_save_url">ບໍ່ສາມາດບຸກມາກ URL ນີ້ໄດ້.</string>
+  <string name="bookmark_needs_title">ບຸກມາກຈະຕ້ອງມີຊື່</string>
+  <string name="bookmark_needs_url">ບຸກມາກຈະຕ້ອງມີບ່ອນຢູ່</string>
+  <string name="bookmark_not_saved">ບໍ່ສາມາດບັນທຶກບຸກມາກໄດ້</string>
+  <string name="bookmark_saved">ຈັດເກັບເຂົ້າບຸກມາກແລ້ວ</string>
+  <string name="bookmark_this_page">ບຸກມາກໜ້ານີ້</string>
+  <string name="bookmark_url_not_valid">URL ນີ້ບໍ່ຖືກຕ້ອງ.</string>
+  <string name="bookmarks">ບຸກມາກ</string>
+  <string name="bookmarks_add_page">ບັນທຶກບຸກມາກ</string>
+  <string name="browserFrameFormResubmitMessage">ໜ້າເວັບທີ່ທ່ານພະຍາຍາມເປີດເບິ່ງນັ້ນມີເນື້ອຫາທີ່ຖືກສົ່ງຂໍ້ມູນໄປກ່ອນແລ້ວ (\"POSTDATA\"). ຫາກທ່ານສົ່ງຂໍ້ມູນໄປອີກຕື່ມ, ຄຳສັ່ງໃດໆ ທີ່ແບບຟອມໃນໜ້າເວັບດັ່ງກ່າວນຳໄປ (ເຊັ່ນ: ການຊອກຫາ ຫຼືການຊື້ເຄື່ອງອອນລາຍ) ຈະຖືກສັ່ງຊໍ້າຄືນອີກເທື່ອນຶ່ງ.</string>
+  <string name="browser_max_input">ການປ້ອນຂໍ້ມູນຂອງທ່ານເກີນຈຳນວນໂຕອັກສອນທີ່ຈຳກັດໄວ້ %s ໂຕອັກສອນ</string>
+  <string name="browser_max_input_title">ຮອດຈຳນວນໂຕອັກສອນທີ່ຈຳກັດໄວ້ແລ້ວ</string>
+  <string name="browser_tab_crash_message">ມີບາງຢ່າງບໍ່ຄາດຄິດເກີດຂຶ້ນໃນການສະແດງຜົນໜ້າເວັບນີ້. ກະລຸນາໂຫຼດຂໍ້ມູນໜ້ານີ້ຄືນ ຫຼືໄປທີ່ໜ້າອື່ນ.
+    </string>
+  <string name="browser_tab_crash_reload">ໂຫຼດຂໍ້ມູນຄືນໃໝ່</string>
+  <string name="browser_tab_crash_snap">ອຸຍ!</string>
+  <string name="build_date">ວັນທີສ້າງ</string>
+  <string name="build_hash">ແຮຊການສ້າງ</string>
+  <string name="cancel">ຍົກ​ເລີກ</string>
+  <string name="cannot_download">ດາວໂຫລດສະເພາະ URL ແບບ \"http\" ຫຼື \"https\".</string>
+  <string name="choose_upload">ເລືອກໄຟລ໌ເພື່ອອັບໂຫລດ</string>
+  <string name="choosertitle_sharevia">ແບ່ງປັນຜ່ານ</string>
+  <string name="clear">ລຶບລ້ງ</string>
+  <string name="clear_history">ລຶບລ້າງປະຫວັດ</string>
+  <string name="close_other_tabs">ປິດແຖບອື່ນໆ</string>
+  <string name="containing_folder">ເພີ່ມໄປທີ່</string>
+  <string name="contextheader_folder_bookmarkcount">%d ບຸກມາກ</string>
+  <string name="contextheader_folder_empty">ໂຟນເດີຫວ່າງເປົ່າ</string>
+  <string name="contextmenu_add_contact">ເພີ່ມລາຍຊື່ຜູ່ຕິດຕໍ່</string>
+  <string name="contextmenu_copy">ສຳເນົາ</string>
+  <string name="contextmenu_copylink">ສຳເນົາ URL ລິ້ງ</string>
+  <string name="contextmenu_dial_dot">ໂທ...</string>
+  <string name="contextmenu_download_image">ບັນທຶກຮູບ</string>
+  <string name="contextmenu_map">ແຜນທີ່</string>
+  <string name="contextmenu_openlink">ເປີດ</string>
+  <string name="contextmenu_openlink_newwindow">ເປີດໃນແຖບໃໝ່</string>
+  <string name="contextmenu_openlink_newwindow_background">ເປີດໃນແຖບພື້ນຫຼັງ</string>
+  <string name="contextmenu_savelink">ບັນທຶກລິ້ງ</string>
+  <string name="contextmenu_send_mail">ສົ່ງອີ​ເມ​ວ</string>
+  <string name="contextmenu_set_wallpaper">ຕັ້ງເປັນພາບພື້ນຫຼັງໜ້າຈໍ</string>
+  <string name="contextmenu_sharelink">ແບ່ງປັນລິ້ງ</string>
+  <string name="contextmenu_view_image">ເບິ່ງຮູບພາບ</string>
+  <string name="create_shortcut_bookmark">ເພີ່ມທາງລັດໄປໃສ່ໜ້າຈໍຫຼັກ</string>
+  <string name="current_page">ຈາກ</string>
+  <string name="delete_bookmark_warning">ລຶບ ບຸກມາກ \" %s \" ບໍ?</string>
+  <string name="delete_folder">ລຶບໂຟນເດີ</string>
+  <string name="delete_folder_warning">ລຶບໂຟນເດີ %s ບໍ?</string>
+  <string name="disable_autofill">ປິດການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ</string>
+  <string name="download_default_path">/ດາວໂຫຼດ</string>
+  <string name="download_edit_filename_label">ຊື່</string>
+  <string name="download_estore_app">ບໍ່ມີແອັບຯ Estore, ກະລຸນາດາວໂຫລດ ແລະຕິດຕັ້ງມັນ.</string>
+  <string name="download_file_exist">ມີໄຟລ໌ຢູ່ກ່ອນແລ້ວ.</string>
+  <string name="download_file_exist_msg">ມີໄຟລ໌ຢູ່ກ່ອນແລ້ວ. ກະລຸນາລະບຸຊື່ໄຟລ໌ໃໝ່.</string>
+  <string name="download_filepath_label">ເສັ້ນທາງ</string>
+  <string name="download_filesize">ຂະໜາດ</string>
+  <string name="download_no_enough_memory">ໜ່ວຍຄວາມຈຳສຳລັບດາວໂຫລດບໍ່ພຽງພໍ</string>
+  <string name="download_no_sdcard_dlg_msg">ຕ້ອງໃຊ້ SD ກາດໃນການດາວໂຫລດ %s.</string>
+  <string name="download_no_sdcard_dlg_title">ບໍ່ມີ SD ກາດ</string>
+  <string name="download_path_phone_storage_label">/ພື້ນທີ່ຈັດເກັບຂໍ້ມູນໂທລະສັບ</string>
+  <string name="download_path_sd_card_label">/SD ກາດ</string>
+  <string name="download_path_unavailable_dlg_msg">ກະລຸນາແກ້ໄຂໂຟນເດີດາວໂຫລດ</string>
+  <string name="download_path_unavailable_dlg_title">ໂຟນເດີດາວໂຫລດບໍ່ສາມາດໃຊ້ໄດ້</string>
+  <string name="download_pending">ເລີ່ມຕົ້ນການດາວໂຫລດ...</string>
+  <string name="download_sdcard_busy_dlg_msg">ແຜ່ນ SD ຂອງທ່ານເຮັດວຽກອື່ນຢູ່. ເພື່ອອະນຸຍາດການດາວໂຫລດ, ໃຫ້ແຕະທີ່ ປິດການນຳໃຊ້ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ USB ໃນການແຈ້ງເຕືອນ.</string>
+  <string name="download_sdcard_busy_dlg_title">SD ກາດບໍ່ສາມາດໃຊ້ໄດ້</string>
+  <string name="download_settings_title">ຕັ້ງຄ່າດາວໂຫຼດ</string>
+  <string name="download_timeneeded">ເວລາ</string>
+  <string name="drm_file_unsupported">ບໍ່ຮອງຮັບການອັບໂຫລດໄຟລ໌ DRM!</string>
+  <string name="duplicated_folder_warning">ມີໂຟນເດີຢູ່ກ່ອນແລ້ວ</string>
+  <string name="edit_bookmark">ແກ້ໄຂບຸກມາກ</string>
+  <string name="edit_folder">ແກ້ໄຂໂຟນເດີ</string>
+  <string name="empty_bookmarks_folder">ບໍ່ມີບຸກມາກ.</string>
+  <string name="empty_history">ບໍ່ມີປະຫວັດໂປຣແກຣມທ່ອງເວັບ.</string>
+  <string name="empty_snapshots_folder">ບໍ່ມີໜ້າທີ່ບັນທຶກໄວ້.</string>
+  <string name="enable_reader_mode">ໂໝດເຄື່ອງອ່ານ</string>
+  <string name="estore_url_warning">ການເປີດແອັບຯ Estore ລົ້ມເຫລວເນື່ອງຈາກ URL ຍາວເກີນໄປ!</string>
+  <string name="exit">ອອກ</string>
+  <string name="exit_browser_msg">ກະລຸນາເລືອກວິທີການອອກໂປຣແກຣມທ່ອງເວັບ</string>
+  <string name="exit_browser_title">ອອກຈາກໂປຣແກຣມທ່ອງເວັບ</string>
+  <string name="exit_minimize">ຫຍໍ້ລົງ</string>
+  <string name="exit_quit">ອອກ</string>
+  <string name="feedback">ຄຳຕິຊົມ</string>
+  <string name="filename_empty_msg">ຊື່ໄຟລ໌ດາວໂຫລດຈະຕ້ອງບໍ່ເວັ້ນຫວ່າງໄວ້. ກະລຸນາລະບຸຊື່ໄຟລ໌ທີ່ຖືກຕ້ອງ.</string>
+  <string name="filename_empty_title">ຊື່ໄຟລ໌ດາວໂຫລດຫວ່າງເປົ່າ</string>
+  <string name="find_on_page">ຊອກຫາໃນໜ້າ</string>
+  <string name="forward">ສົ່ງຕໍ່</string>
+  <string name="geolocation_permissions_prompt_remember">ຈື່ການຕັ້ງຄ່າໄວ້</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">ອະນຸຍາດເປັນເວລາ 24 ຊົ່ວໂມງ</string>
+  <string-array name="geolocation_settings_choices">
+    <item>ປະຕິເສດຕະຫຼອດໄປ</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>ອະນຸຍາດຕະຫຼອດໄປ</item>
+  </string-array>
+  <string name="help">ຊ່ວຍ​ເຫຼືອ</string>
+  <string name="history">ປະຫວັດ</string>
+  <string name="homepage_set">ຕັ້ງຄ່າໜ້າຫລັກ.</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">ກະລຸນາເລືອກວິທີການຈັດການໄຟລ໌ມີເດຍ</string>
+  <string name="import_bookmarks_dialog_description">ບຸກມາກໃນອຸປະກອນນີ້ຍັງບໍ່ທັນເຊື່ອມຕໍ່ກັບບັນຊີ Google ເທື່ອ. ທ່ານສາມາດບັນທຶກບຸກມາກເຫຼົ່ານີ້ດ້ວຍການເພີ່ມມັນໃສ່ບັນຊີໃດນຶ່ງ. ລຶບບຸກມາກເຫຼົ່ານີ້ຫາກທ່ານບໍ່ຕ້ອງການຊິ້ງຂໍ້ມູນພວກມັນ.</string>
+  <string name="import_bookmarks_dialog_remove">ລຶບບຸກມາກ</string>
+  <string name="invalid_path">ເສັ້ນທາງບໍ່ຖືກຕ້ອງ</string>
+  <string name="loading_video">ກຳລັງໂຫຼດວິດີໂອ...</string>
+  <string name="local_bookmarks">ໃນເຄື່ອງ</string>
+  <string name="location">ທີ່ຢູ່</string>
+  <string name="max_tabs_warning">ບໍ່ມີແຖບທີ່ສາມາດໃຊ້ໄດ້</string>
+  <string name="max_url_character_limit_msg">ຮອດຂີດຈຳກັດ URL ສູງສຸດແລ້ວ</string>
+  <string name="mdm_managed_alert">ຈັດການໂດຍຜູ່ເບິ່ງແຍງລະບົບຂອງທ່ານ</string>
+  <string name="menu_preferences">ການຕັ້ງຄ່າ</string>
+  <string name="menu_save_snapshot">ບັນທຶກໄວ້ອ່ານອອບລາຍ</string>
+  <string name="menu_share_url">ແບ່ງປັນ</string>
+  <string name="msg_no_google_play">ຂໍອະໄພ, ບໍ່ມີແອັບຯ Google Play Store ໃນເຄື່ອງ.</string>
+  <string name="my_navigation_add">​ເພີ່​ມ</string>
+  <string name="my_navigation_add_label">ເພີ່ມເວັບໄຊ</string>
+  <string name="my_navigation_address">ທີ່ຢູ່</string>
+  <string name="my_navigation_cannot_save_url">URL ບໍ່ຖືກຕ້ອງ</string>
+  <string name="my_navigation_delete_label">ລຶບເວັບໄຊ</string>
+  <string name="my_navigation_delete_msg">ລຶບເວັບໄຊບໍ?</string>
+  <string name="my_navigation_duplicate_url">ມີ URL ຢູ່ກ່ອນແລ້ວ</string>
+  <string name="my_navigation_edit_label">ແກ້ໄຂເວັບໄຊ</string>
+  <string name="my_navigation_name">ຊື່</string>
+  <string name="my_navigation_page_title">ໜ້າຫຼັກ</string>
+  <string name="name">ປ້າຍກຳກັບ</string>
+  <string name="new_folder">ໂຟນເດີໃໝ່</string>
+  <string name="new_incognito_tab">ການທ່ອງເວັບແບບສ່ວນໂຕ</string>
+  <string name="new_tab">ແຖບໃໝ່</string>
+  <string name="no_subfolders">ບໍ່ມີໂຟນເດີຍ່ອຍ</string>
+  <string name="ok">ຕົກລົງ</string>
+  <string name="open_all_in_new_window">ເປີດທັງໝົດໃນແຖບໃໝ່</string>
+  <string name="other_bookmarks">ບຸກມາກອື່ນໆ</string>
+  <string name="overwrite_bookmark_msg">ຊື່ບຸກມາກ ຫຼືທີ່ຢູ່ບຸກມາກມີຢູ່ກ່ອນແລ້ວ. ຕ້ອງການຂຽນທັບບໍ່?</string>
+  <string name="page_info">ຂໍ້ມູນໜ້າເວັບ</string>
+  <string name="page_info_address">ທີ່ຢູ່:</string>
+  <string name="password">ລະຫັດຜ່ານ</string>
+  <string name="path_wrong">ເສັ້ນທາງຜິດ</string>
+  <string name="permission_preload_label">ຜົນການຊອກຫາການໂຫຼດຂໍ້ມູນລ່ວງໜ້າ</string>
+  <string name="powersave_dialog_off">ໂໝດປະຢັດພະລັງງານຖືກປິດການນຳໃຊ້.\nກະລຸນາປິດແລ້ວເປີດໂປຣແກຣມທ່ອງເວັບຄືນໃໝ່.</string>
+  <string name="powersave_dialog_on">ເປີດນຳໃຊ້ແລ້ວ: ການຄວບຄຸມສ່ວນຫຼັກຂອງໜ່ວຍປະມົນຜົນ.\nຖືກປິດການນຳໃຊ້: ຄຸນສົມບັດປະສິດທິພາບສູງ.\nກະລຸນາປິດແລ້ວເປີດໂປຣແກຣມທ່ອງເວັບຄືນໃໝ່.</string>
+  <string name="pref_accessibility_title">ການຊ່ວຍເຂົ້າເຖິງ</string>
+  <string name="pref_accessibility_title_summary">ຂະໜາດຂໍ້ຄວາມ ແລະການຊູມ</string>
+  <string name="pref_autofill_enabled">ຕື່ມແບບຟອມອັດຕະໂນມັດ</string>
+  <string name="pref_autofill_enabled_summary">ຕື່ມແບບຟອມໃນເວັບໄຊໂດຍອັດຕະໂນມັດດ້ວຍສຳຜັດດຽວ</string>
+  <string name="pref_autofill_profile_editor">ຂໍ້ຄວາມຕື່ມແບບຟອມອັດຕະໂນມັດ</string>
+  <string name="pref_autofill_profile_editor_summary">ຕັ້ງຄ່າຂໍ້ຄວາມຂອງການຕື່ມແບບຟອມເວັບໄຊອັດຕະໂນມັດ</string>
+  <string name="pref_content_homepage">ໜ້າທຳອິດ</string>
+  <string name="pref_content_javascript">ເປີດນຳໃຊ້ JavaScript</string>
+  <string name="pref_content_load_images">ໂຫຼດຮູບພາບ</string>
+  <string name="pref_content_load_images_summary">ສະແດງຮູບພາບໃນໜ້າເວັບໄຊຕ່າງໆ</string>
+  <string name="pref_content_open_in_background">ເປີດໃນພື້ນຫຼັງ</string>
+  <string name="pref_content_open_in_background_summary">ເປີດແຖບໃໝ່ຫຼັງແຖບປັດຈຸບັນ</string>
+  <string name="pref_content_search_engine">ລະບົບຊອກຫາ</string>
+  <string name="pref_content_search_engine_summary">ເລືອກລະບົບຊອກຫາໃດນຶ່ງ</string>
+  <string name="pref_content_title">ການຕັ້ງຄ່າເນື້ອຫາ</string>
+  <string name="pref_content_title_summary">ການຕັ້ງຄ່າເນື້ອຫາເວັບໄຊ</string>
+  <string name="pref_data_preload_summary">ອະນຸຍາດໃຫ້ໂປຣແກຣມທ່ອງເວັບໂຫຼດຜົນການຊອກຫາທີ່ມີຄວາມໝັ້ນໃຈສູງໃນພື້ນຫຼັງ</string>
+  <string name="pref_data_preload_title">ການໂຫຼດຜົນການຊອກຫາລ່ວງໜ້າ</string>
+  <string name="pref_default_site_settings_title">ການຕັ້ງຄ່າເວັບໄຊເລີ່ມຕົ້ນ</string>
+  <string name="pref_default_text_encoding">ການເຂົ້າລະຫັດຂໍ້ຄວາມ</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">ດີບັ໊ກ</string>
+  <string name="pref_disable_edge_swipe">ປິດການປັດຂອບຈໍ</string>
+  <string name="pref_do_not_track">ຮ້ອງຂໍ \'Do Not Track\'</string>
+  <string name="pref_download_path_setting_screen_title">ເສັ້ນທາງດາວໂຫລດແບບກຳນົດເອງ</string>
+  <string name="pref_download_title">ການຕັ້ງຄ່າເສັ້ນທາງດາວໂຫລດ</string>
+  <string name="pref_edge_swipe_disabled_toast">ປິດການປັດຈາກຂອບຈາກແລ້ວ</string>
+  <string name="pref_edge_swipe_option_close">ໃກ້</string>
+  <string name="pref_edge_swipe_option_msg">ເມື່ອປັດໜ້າ, ທ່ານຕ້ອງການ:</string>
+  <string name="pref_edge_swipe_title">ປັດຈາກຂອບຈໍ</string>
+  <string name="pref_edge_swipe_unknown">ເລືອກການເຮັດວຽກ</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">ຣີເຊັດ</string>
+  <string name="pref_extras_reset_default">ຣີເຊັດໄປເປັນຄ່າເລີ່ມຕົ້ນ</string>
+  <string name="pref_extras_reset_default_dlg">ຄືນການຕັ້ງຄ່າໃຫ້ເປັນຄ່າເລີ່ມຕົ້ນບໍ?</string>
+  <string name="pref_extras_reset_default_summary">ກູ້ການຕັ້ງຄ່າເລີ່ມຕົ້ນຄືນມາບໍ?</string>
+  <string name="pref_extras_title">ຂັ້ນສູງ</string>
+  <string name="pref_extras_website_settings">ການຕັ້ງຄ່າຕໍ່ເວັບໄຊ</string>
+  <string name="pref_extras_website_settings_summary">ການຕັ້ງຄ່າຂັ້ນສູງສຳລັບເວັບໄຊແຕ່ລະເວັບ</string>
+  <string name="pref_font_size_category">ຂະໜາດໂຕໜັງສື</string>
+  <string name="pref_force_userscalable">ບັງຄັບການຊູມ</string>
+  <string name="pref_force_userscalable_summary">ລຶບລ້າງຄຳຂໍຂອງເວັບໄຊໃດນຶ່ງເພື່ອຄວບຄຸມພຶດຕິກຳການຊູມ</string>
+  <string name="pref_general_autofill_title">ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ</string>
+  <string name="pref_general_title">ທົ່ວໄປ</string>
+  <string-array name="pref_homepage_choices">
+    <item>ໜ້າປັດຈຸບັນ</item>
+    <item>ໜ້າຫວ່າງເປົ່າ</item>
+    <item>ໜ້າເລີ່ມຕົ້ນ</item>
+    <item>ເວັບໄຊທີ່ເຂົ້າເບິ່ງຫຼາຍທີ່ສຸດ</item>
+    <item>ອື່ນໆ</item>
+  </string-array>
+  <string name="pref_invalid_cert">ເວັບໄຊມີໃບຮັບຮອງ SSL ບໍ່ຖືກຕ້ອງ.</string>
+  <string name="pref_inverted">ການສະແດງປີ້ນ</string>
+  <string name="pref_inverted_category">ການສະແດງໜ້າຈໍປີ້ນ</string>
+  <string name="pref_inverted_contrast">ຄອນທຣາສ</string>
+  <string name="pref_inverted_summary">ດຳເປັນຂາວ ແລະຂາວເປັນດຳ</string>
+  <string name="pref_lab_fullscreen">ເຕັມຈໍ</string>
+  <string name="pref_lab_fullscreen_summary">ເຮັດໃຫ້ໂປຣແກຣມທ່ອງເວັບສະແດງຜົນເຕັມຈໍ</string>
+  <string name="pref_link_prefetch_summary">ອະນຸຍາດໃຫ້ໂປຣແກຣມທ່ອງເວັບໂຫຼດໜ້າເວັບທີ່ເຊື່ອມໂຍງກັນລ່ວງໜ້າໃນພື້ນຫຼັງ</string>
+  <string name="pref_link_prefetch_title">ການໂຫຼດໜ້າເວັບລ່ວງໜ້າ</string>
+  <string name="pref_min_font_size">ຂະໜາດໂຕໜັງສືຕໍ່າສຸດ</string>
+  <string name="pref_min_font_size_value">%d pt</string>
+  <string name="pref_nightmode_enabled">ໂໝດກາງຄືນ</string>
+  <string name="pref_nightmode_enabled_summary">ເປີດໃຊ້ໂໝດກາງຄືນ</string>
+  <string name="pref_powersave_enabled">ໂໝດປະຢັດພະລັງງານ</string>
+  <string name="pref_powersave_enabled_summary">ເປີດໃຊ້ໂໝດປະຢັດພະລັງງານ</string>
+  <string name="pref_privacy_clear_cache">ບ່ອນເກັບຂໍ້ມູນຊົ່ວຄາວ</string>
+  <string name="pref_privacy_clear_cache_summary">ລຶບເນື້ອຫາທີ່ເກັບໄວ້ຊົ່ວຄາວ ຮວມເຖິງຖານຂໍ້ມູນອອກ</string>
+  <string name="pref_privacy_clear_cookies">ຄຸກກີ້ ແລະຂໍ້ມູນເວັບໄຊ</string>
+  <string name="pref_privacy_clear_cookies_summary">ລຶບລ້າງຄຸກກີ້ ແລະຂໍ້ມູນເວັບໄຊໃນໂປຣແກຣມທ່ອງເວັບທັງໝົດອອກ</string>
+  <string name="pref_privacy_clear_form_data">ຂໍ້ມູນແບບຟອມ</string>
+  <string name="pref_privacy_clear_form_data_summary">ລຶບລ້າງຂໍ້ມູນແບບຟອມທີ່ບັນທຶກໄວ້ທັງໝົດອອກ</string>
+  <string name="pref_privacy_clear_geolocation_access">ການເຂົ້າເຖິງຂໍ້ມູນສະຖານທີ່</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">ລຶບລ້າງການເຂົ້າເຖິງຂໍ້ມູນສະຖານທີ່ທັງໝົດອອກ</string>
+  <string name="pref_privacy_clear_history_dlg">ລຶບປະຫວັດການນຳທາງຂອງໂປຣແກຣມທ່ອງເວັບອອກບໍ?</string>
+  <string name="pref_privacy_clear_history_summary">ລຶບລ້າງປະຫວັດການນຳທາງຂອງໂປຣແກຣມທ່ອງເວັບອອກ</string>
+  <string name="pref_privacy_clear_passwords">ລະຫັດ</string>
+  <string name="pref_privacy_clear_passwords_summary">ລຶບລ້າງລະຫັດທີ່ບັນທຶກໄວ້ທັງໝົດອອກ</string>
+  <string name="pref_privacy_clear_selected">ລຶບລ້າງລາຍການທີ່ເລືອກ</string>
+  <string name="pref_privacy_clear_selected_dlg">ລຶບລ້າງລາຍການຕໍ່ໄປນີ້ບໍ່?</string>
+  <string name="pref_privacy_clear_selected_summary">ລຶບລ້າງລາຍການທີ່ເລືອກໃນລາຍຊື່</string>
+  <string name="pref_privacy_enable_geolocation">ສະຖານທີ່</string>
+  <string name="pref_privacy_security_title">ຄວາມເປັນສ່ວນໂຕ &amp; ຄວາມປອດໄພ</string>
+  <string name="pref_privacy_security_title_summary">ການຕັ້ງຄ່າຄວາມປອດໄພ ແລະຄວາມເປັນສ່ວນໂຕຂອງໂປຣແກຣມທ່ອງເວັບ</string>
+  <string name="pref_sample_font_size">ລາກໂຕເລື່ອນເພື່ອປັບຂະໜາດໂຕໜັງສືໃຫ້ເໝາະສົມກັບການອ່ານ.</string>
+  <string name="pref_security_accept_cookies">ຍອມຮັບຄຸກກີ້</string>
+  <string name="pref_security_accept_third_party_cookies">ຄຸກກີ້ຈາກພາກສ່ວນທີສາມ</string>
+  <string name="pref_security_access_is_allowed">ອະນຸຍາດໃຫ້ເຂົ້າເຖິງໄດ້</string>
+  <string name="pref_security_add">​ເພີ່​ມ</string>
+  <string name="pref_security_allow_camera">ກ້ອງຖ່າຍຮູບ</string>
+  <string name="pref_security_allow_mic">ໄມໂຄຣໂຟນ</string>
+  <string name="pref_security_allow_popups">ປັອບອອັບ</string>
+  <string name="pref_security_allowed">ອະນຸຍາດແລ້ວ</string>
+  <string name="pref_security_ask_before_using">ຖາມກ່ອນໃຊ້</string>
+  <string name="pref_security_not_allowed">ບໍ່ໄດ້ຮັບອະນຸຍາດ</string>
+  <string name="pref_security_off">ປິດໄວ້</string>
+  <string name="pref_security_on">ເປີດ</string>
+  <string name="pref_security_origin_name">ທີ່ມາເວັບໄຊ</string>
+  <string name="pref_security_remember">ການຈື່</string>
+  <string name="pref_security_remember_passwords">ຈື່ລະຫັດຜ່ານ</string>
+  <string name="pref_security_save_form_data">ຈື່ຂໍ້ມູນແບບຟອມ</string>
+  <string name="pref_security_web_refiner">ໂຄສະນາ ແລະເນື້ອຫາທີ່ໜ້າລຳຄານ</string>
+  <string name="pref_select_items">ເລືອກລາຍການທີ່ຕ້ອງການລຶບລ້າງ</string>
+  <string name="pref_set_homepage_to">ກຳນົດເປັນ</string>
+  <string name="pref_site_settings_info_panel">ຂໍ້ມູນຄວາມປອດໄພ</string>
+  <string name="pref_site_settings_title">ການຕັ້ງຄ່າເວັບໄຊ</string>
+  <string name="pref_spatial_edge_swipe">ປ່ຽນແຖບ</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">ປັດຈາກຂອບຈໍເພື່ອປ່ຽນແຖບ</string>
+  <string-array name="pref_temporal_choices">
+    <item>ບໍ່ໃຊ້</item>
+    <item>ສະເພາະ Wi-Fi ເທົ່ານັ້ນ</item>
+    <item>ທຸກເທື່ອ</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">ເວັບໄຊ ກ່ອນໜ້າ/ຖັດໄປ</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">ປັດຈາກຂອບຈໍເພື່ອນຳທາງ</string>
+  <string name="pref_text_zoom">ການຂະຫຍາຍໂຕອັກສອນ</string>
+  <string name="pref_valid_cert">ໃບຮັບຮອງ SSL ຖືກຕ້ອງ. ການຕິດຕໍ່ສື່ສານຖືກເຂົ້າລະຫັດ ແລະມີການຢືນຢັນໂຕຕົນແລ້ວ.</string>
+  <string name="pref_warning_cert">ໃບຮັບຮອງ SSL ຂອງເວັບໄຊມີຄຳເຕືອນ.</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d ໂຄສະນາ</item>
+    <item quantity="other">%d ໂຄສະນາ</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d ໄພຄຸກຄາມ</item>
+    <item quantity="other">%d ໄພຄຸກຄາມ</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"ບລັອກ %s ແລ້ວ. "</item>
+    <item>"ບລັອກ %1$s ແລະ %2$s ແລ້ວ."</item>
+    <item>"ບລັອກ %1$s, %2$s ແລະ %3$s ແລ້ວ. "</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d ແທຣັກເກີ</item>
+    <item quantity="other">%d ແທຣັກເກີ</item>
+  </plurals>
+  <string name="pref_website_title">ເວັບໄຊ</string>
+  <string name="preview">ໂຕຢ່າງ</string>
+  <string name="progress_dialog_setting_wallpaper">ຕັ້ງຄ່າພາບພື້ນຫຼັງໜ້າຈໍ...</string>
+  <string name="received_message_full_screen">ຮັບຂໍ້ຄວາມຈາກ:  %s .</string>
+  <string name="reload">ໂຫຼດຂໍ້ມູນຄືນໃໝ່</string>
+  <string name="remove">ລຶບອອກ</string>
+  <string name="remove_bookmark">ລຶບບຸກມາກ</string>
+  <string name="remove_from_bookmarks">ເອົາອອກໄປຈາກບຸກມາກ</string>
+  <string name="remove_history_item">ເອົາອອກໄປຈາກປະຫວັດ</string>
+  <string name="remove_snapshot">ລຶບໜ້າທີ່ໄດ້ບັນທຶກໄວ້</string>
+  <string name="removed_from_bookmarks">ລຶບອອກຈາກບຸກມາກແລ້ວ.</string>
+  <string name="replace">ແທນທີ່</string>
+  <string name="save_to_bookmarks">ບັນທຶກໃສ່ບຸກມາກ</string>
+  <string name="saving_snapshot">ກຳລັງບັນທຶກ...</string>
+  <string name="search_button_text">ໄປ</string>
+  <string name="search_hint">ຊອກຫາ ຫຼືພິມ URL</string>
+  <string name="search_settings_description">ບຸກມາກ ແລະປະຫວັດເວັບໄຊ</string>
+  <string name="search_the_web">ຊອກຫາໃນເວັບ</string>
+  <string name="security_warning">ຄຳເຕືອນຄວາມປອດໄພ</string>
+  <string name="sendText">ເລືອກຄຳສັ່ງສຳລັບຂໍ້ຄວາມ</string>
+  <string name="set_as_homepage">ຕັ້ງເປັນໜ້າທຳອິດ</string>
+  <string name="share_page">ແບ່ງປັນໜ້າ</string>
+  <string name="shortcut_bookmark">ບຸກມາກ</string>
+  <string name="shortcut_bookmark_title">ເລືອກບຸກມາກໃດນຶ່ງ</string>
+  <string name="sign_in_to">ເຂົ້າສູ່ລະບົບ %1$s \" %2$s \"</string>
+  <string name="snapshot_failed">ບໍ່ສາມາດບັນທຶກໄວ້ອ່ານອອບລາຍໄດ້.</string>
+  <string name="snapshot_go_live">Go live</string>
+  <string name="ssl_certificate">ໃບຮັບຮອງຄວາມປອດໄພ</string>
+  <string name="ssl_certificate_is_valid">ໃບຮັບຮອງຄວາມປອດໄພນີ້ຖືກຕ້ອງ.</string>
+  <string name="ssl_invalid">ໃບຮັບຮອງຄວາມປອດໄພນີ້ບໍ່ຖືກຕ້ອງ.</string>
+  <string name="ssl_unknown">ເກີດຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກໃນໃບຮັບຮອງ.</string>
+  <string name="stop">ຢຸດ</string>
+  <string name="stopping">ກຳລັງຢຸດ...</string>
+  <string name="swe_eula">ຂໍ້ຕົກລົງການອະນຸຍາດຜູ່ໃຊ້ປາຍທາງ</string>
+  <string name="swe_legal">ຂໍ້ມູນທາງດ້ານກົດໝາຍ</string>
+  <string name="swe_open_source_licenses">ລິຂະສິດໂອເພນຊອດ</string>
+  <string name="swe_pref_legal_info_summary">ລິຂະສິດ (c) 2015, The Linux Foundation. ສະຫງວນລິຂະສິດທັງໝົດ.</string>
+  <string name="swe_privacy_policy">ນະໂຍບາຍຄວາມເປັນສ່ວນໂຕ</string>
+  <string name="tab_most_visited">ເຂົ້າເບິ່ງຫຼາຍທີ່ສຸດ</string>
+  <string name="tab_snapshots">ໜ້າທີ່ບັນທຶກໄວ້</string>
+  <string name="time_min">ນທ</string>
+  <string name="too_many_subwindows_dialog_message">ເປີດໄດ້ສະເພາະນຶ່ງປັອບອັບ
+ຕໍ່ຄັ້ງ</string>
+  <string name="too_many_subwindows_dialog_title">ມີປັອບອັບເປີດຢູ່ກ່ອນແລ້ວ</string>
+  <string name="too_many_windows_dialog_message">ບໍ່ສາມາດເປີດແຖບໃໝ່ໄດ້ຈົນກວ່າທ່ານຈະປິດແຖບນຶ່ງກ່ອນ.</string>
+  <string name="too_many_windows_dialog_title">ເປີດແຖບຈົນຄົບຈຳນວນແລ້ວ</string>
+  <string name="ua_switcher_desktop">ຮ້ອງຂໍເວັບໄຊແບບເດັກສະທັອບ</string>
+  <string name="unknow_length">ບໍ່ຮູ້ຈັກ</string>
+  <string name="uploads_disabled">ການອັບໂຫລດໄຟລ໌ຖືກປິດການນຳໃຊ້.</string>
+  <string name="user_agent">User Agent</string>
+  <string name="username">ຊື່</string>
+  <string name="version">ເວີຊັນ</string>
+  <string name="video_play">ຫຼິ້ນ</string>
+  <string name="video_save">ບັນທຶກ</string>
+  <string name="website_needs_title">ເວັບໄຊຕ້ອງມີຊື່</string>
+  <string name="website_needs_url">ເວັບໄຊຕ້ອງມີ URL</string>
+  <string name="website_settings_add_origin">ເວັບໄຊໃໝ່</string>
+  <string name="website_settings_clear_all">ລຶບລ້າງທັງໝົດ</string>
+  <string name="website_settings_clear_all_dialog_message">ລຶບຂໍ້ມູນເວັບໄຊ ແລະການອະນຸຍາດເຂົ້າເຖິງຂໍ້ມູນສະຖານທີ່ທັງໝົດບໍ?</string>
+  <string name="webstorage_clear_data_dialog_message">ລຶບຂໍ້ມູນທັງໝົດທີ່ບັນທຶກໂດຍເວັບໄຊນີ້ບໍ?</string>
+  <string name="webstorage_clear_data_title">ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ</string>
+  <string name="webstorage_outofspace_notification_text">ແຕະເພື່ອຂໍພື້ນທີ່ຈັດເກັບຂໍ້ມູນຄືນ.</string>
+  <string name="webstorage_outofspace_notification_title">ພື້ນທີ່ຈັດເກັບຂໍ້ມູນໂປຣແກຣມທ່ອງເວັບເຕັມ</string>
+  <string name="webstorage_private_data_title">ຂໍ້ມູນສ່ວນໂຕ</string>
+</resources>

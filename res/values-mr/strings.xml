@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2015 The Linux Foundation. All rights reserved.
+    Not a contribution.
+
+    Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about">याविषयी</string>
+  <string name="accessibility_button_addbookmark">बुकमार्क पृष्ठ</string>
+  <string name="accessibility_button_back">मागे जा</string>
+  <string name="accessibility_button_bookmarks_folder_up">मागील फोल्डर</string>
+  <string name="accessibility_button_clear">इनपुट साफ करा</string>
+  <string name="accessibility_button_closetab">टॅब बंद करा</string>
+  <string name="accessibility_button_forward">पुढे जा</string>
+  <string name="accessibility_button_navscreen">पृष्ठ व्यवस्थापक</string>
+  <string name="accessibility_button_newincognitotab">नवीन अदृश्य टॅबमध्ये उघडा</string>
+  <string name="accessibility_button_newtab">नवीन टॅब उघडा</string>
+  <string name="accessibility_button_refresh">पृष्ठ रीफ्रेश करा</string>
+  <string name="accessibility_button_search">शोध</string>
+  <string name="accessibility_button_stop">पान लोड करणे थांबवा</string>
+  <string name="accessibility_button_voice">व्हॉईस शोध प्रारंभ करा</string>
+  <string name="accessibility_state_frozen">पृष्ठ जतन केले</string>
+  <string name="accessibility_state_incognito">अदृश्य पृष्ठ</string>
+  <string name="accessibility_transition_navscreen">टॅब व्यवस्थापन</string>
+  <string name="account">खाते</string>
+  <string name="action">साइन इन करा</string>
+  <string name="activity_not_found">या तीव्रतेने हाताळण्यासाठी कोणतीही गतिविधी आढळली नाही  %s</string>
+  <string name="add_bookmark_short">जोडा</string>
+  <string name="add_new_bookmark">बुकमार्क्स जोडा</string>
+  <string name="add_to_homescreen">मुख्यपृष्ठ स्क्रीनवर जोडा</string>
+  <string name="add_to_homescreen_menu_option">मुख्य स्‍क्रीन</string>
+  <string name="add_to_other_folder_menu_option">फोल्डर निवडा...</string>
+  <string name="added_to_bookmarks">बुकमार्क्‍समध्‍ये जोडले.</string>
+  <string name="allow">अनुमती द्या</string>
+  <string name="application_name">ब्राउझर</string>
+  <string name="autofill_profile_editor_address_line_1">पत्ता रेषा 1:</string>
+  <string name="autofill_profile_editor_address_line_1_hint">रस्त्याचा पत्ता, पो.ऑ. बॉक्स, c/o</string>
+  <string name="autofill_profile_editor_address_line_2">पत्ता ओळ 2:</string>
+  <string name="autofill_profile_editor_address_line_2_hint">फ्लॅट, सूट, एकक, इमारत, मजला, इ.</string>
+  <string name="autofill_profile_editor_city">शहर/टाऊन:</string>
+  <string name="autofill_profile_editor_company_name">कंपनीचे नाव:</string>
+  <string name="autofill_profile_editor_country">देश:</string>
+  <string name="autofill_profile_editor_delete_profile">हटवा</string>
+  <string name="autofill_profile_editor_email_address">ईमेल:</string>
+  <string name="autofill_profile_editor_heading">आपण वेब फॉर्म्समध्ये स्वयं-भरण करण्यासाठी आपण इच्छिता तो मजकूर टाइप करा.</string>
+  <string name="autofill_profile_editor_name">संपूर्ण नाव:</string>
+  <string name="autofill_profile_editor_phone_number">फोन:</string>
+  <string name="autofill_profile_editor_phone_number_invalid">अवैध फोन नंबर.</string>
+  <string name="autofill_profile_editor_save_profile">जतन करा</string>
+  <string name="autofill_profile_editor_state">राज्य/प्रदेश/क्षेत्र:</string>
+  <string name="autofill_profile_editor_zip_code">पिन कोड</string>
+  <string name="autofill_profile_successful_delete">स्वयं-भरण मजकूर हटवला.</string>
+  <string name="autofill_profile_successful_save">स्वयं-भरण मजकूर जतन केला.</string>
+  <string name="autofill_setup_dialog_message">ब्राउझर एक असे वेब फॉर्म्स स्वयंचलितपणे पूर्ण करता येऊ शकते. आपण आपले स्वंय­मजकूर भरा सेट अप करण्यास इच्छूक आहात?</string>
+  <string name="autofill_setup_dialog_negative_toast">आपण नेहमी ब्राउझर &gt; सेटिंग्स &gt; सामान्य स्क्रीन वर जाउन ऑटो-फिल मजकूर सेट करू शकता.</string>
+  <string name="back">मागे</string>
+  <string name="block">ब्लॉक करा</string>
+  <string name="bookmark_cannot_save_url">ही URL बुकमार्क केले जाऊ शकत नाही.</string>
+  <string name="bookmark_needs_title">बुकमार्कला एक नाव असणे आवश्यक आहे.</string>
+  <string name="bookmark_needs_url">बुकमार्कला एक स्थान असणे आवश्यक आहे.</string>
+  <string name="bookmark_not_saved">बुकमार्क जतन करू शकलो नाही.</string>
+  <string name="bookmark_saved">बुकमार्क केलेले</string>
+  <string name="bookmark_this_page">या पानास बुकमार्क करा</string>
+  <string name="bookmark_url_not_valid">ही URL वैध नाही.</string>
+  <string name="bookmarks">बुकमार्क्स</string>
+  <string name="bookmarks_add_page">बुकमार्क जतन करा</string>
+  <string name="browserFrameFormResubmitMessage">आपण पृष्ट पाहण्यासाठी डेटा समाविष्ट करण्याचा प्रयत्न करत आहे तो आधीपासूनच सबमिट केला आहे (\"POSTDATA\"). आपण डेटा पुन्हा पाठवल्यास, पृष्टावरील चालत्या (जसे की शोध किंवा ऑनलाइन खरेदी म्हणून) कोणयाही क्रियेची पुनरावृत्ती केली जाईल.</string>
+  <string name="browser_max_input">आपल्या इनपुटने %s  वर्णांची कमाल मर्यादा गाठली</string>
+  <string name="browser_max_input_title">वर्णांची कमाल मर्यादा गाठली</string>
+  <string name="browser_tab_crash_message">हे वेबपेज प्रदर्शित करत असताना काहीतरी अनपेक्षित घडले आहे. कृपया पुन्हा लोड करा किंवा अन्य पृष्टावर जा.
+    </string>
+  <string name="browser_tab_crash_reload">पुन्‍हा लोड करा</string>
+  <string name="browser_tab_crash_snap">अरेरे, स्‍नॅप !</string>
+  <string name="build_date">तारीख उभारा</string>
+  <string name="build_hash">हॅश उभारा</string>
+  <string name="cancel">रद्द करा</string>
+  <string name="cannot_download">केवळ \"http\" किंवा\"https\" URL डाउनलोड करू शकता.</string>
+  <string name="choose_upload">अपलोडसाठी फाइल निवडा</string>
+  <string name="choosertitle_sharevia">च्‍याद्वारे शेअर करा</string>
+  <string name="clear">साफ करा</string>
+  <string name="clear_history">इतिहास साफ करा</string>
+  <string name="close_other_tabs">इतर टॅब्स बंद करा</string>
+  <string name="containing_folder">मध्‍ये जोडा</string>
+  <string name="contextheader_folder_bookmarkcount">%d  बुकमार्क्स</string>
+  <string name="contextheader_folder_empty">रिक्त फोल्डर</string>
+  <string name="contextmenu_add_contact">संपर्क जोडा</string>
+  <string name="contextmenu_copy">कॉपी</string>
+  <string name="contextmenu_copylink">लिंक URL कॉपी करा</string>
+  <string name="contextmenu_dial_dot">डायल करा...</string>
+  <string name="contextmenu_download_image">प्रतिमा जतन करा</string>
+  <string name="contextmenu_map">नकाशा</string>
+  <string name="contextmenu_openlink">उघडा</string>
+  <string name="contextmenu_openlink_newwindow">नविन टॅब उघडा</string>
+  <string name="contextmenu_openlink_newwindow_background">नवीन पृष्ठभूमी टॅबमध्ये उघडा</string>
+  <string name="contextmenu_savelink">लिंक जतन करा</string>
+  <string name="contextmenu_send_mail">ईमेल पाठवा</string>
+  <string name="contextmenu_set_wallpaper">वॉलपेपर म्‍हणून सेट करा</string>
+  <string name="contextmenu_sharelink">लिंक शेअर करा</string>
+  <string name="contextmenu_view_image">प्रतिमा पहा</string>
+  <string name="create_shortcut_bookmark">होमवर शॉर्टकट जोडा</string>
+  <string name="current_page">च्‍यापासून:</string>
+  <string name="delete_bookmark_warning">\" %s \" बुकमार्क हटवायचे?</string>
+  <string name="delete_folder">फोल्‍डर हटवा</string>
+  <string name="delete_folder_warning">फोल्डर\" %s \" हटवायचे?</string>
+  <string name="disable_autofill">स्वयं-भरण अक्षम करा</string>
+  <string name="download_default_path">/डाउनलोड</string>
+  <string name="download_edit_filename_label">नाव</string>
+  <string name="download_estore_app">Estore अॅप अस्तित्वात नाही, कपया डाउनलोड करा आणि त्यास स्थापन करा.</string>
+  <string name="download_file_exist">फाइल आधीच अस्तित्वात आहे</string>
+  <string name="download_file_exist_msg">फाईल आधीपासूनच अस्तित्वात आहे. कृपया नवीन फाइल नाव निविष्ट करा.</string>
+  <string name="download_filepath_label">मार्ग</string>
+  <string name="download_filesize">आकार</string>
+  <string name="download_no_enough_memory">डाउनलोडसाठी अपुरी मेमरी</string>
+  <string name="download_no_sdcard_dlg_msg">%s डाउनलोड करण्यासाठी SD कार्ड आवश्यक आहे.</string>
+  <string name="download_no_sdcard_dlg_title">कोणतेही SD कार्ड नाही</string>
+  <string name="download_path_phone_storage_label">/फोन संचय</string>
+  <string name="download_path_sd_card_label">/SD कार्ड</string>
+  <string name="download_path_unavailable_dlg_msg">कृपया डाउनलोड मार्गदर्शिका सुधारा</string>
+  <string name="download_path_unavailable_dlg_title">डाउनलोड डिरेक्‍टरी अनुपलब्‍ध आहे</string>
+  <string name="download_pending">डाउनलोड करणे प्रारंभ करणे...</string>
+  <string name="download_sdcard_busy_dlg_msg"> SD कार्ड व्यस्त आहे.  डाउनलोड्सला अनुमतीसाठी, अधिसूचनामध्ये USB संचयन बंद करा स्पर्श करा.</string>
+  <string name="download_sdcard_busy_dlg_title">SD कार्ड अनुपलब्ध</string>
+  <string name="download_settings_title">डाउनलोड सेटिंग्स</string>
+  <string name="download_timeneeded">वेळ</string>
+  <string name="drm_file_unsupported">DRM फाइल्स अपलोड करणे समर्थित नाही!</string>
+  <string name="duplicated_folder_warning">फोल्डर आधीपासून अस्तित्वात आहे</string>
+  <string name="edit_bookmark">बुकमार्क संपादित करा</string>
+  <string name="edit_folder">फोल्डर संपादित करा</string>
+  <string name="empty_bookmarks_folder">कोणतीही बुकमार्क्स नाहीत.</string>
+  <string name="empty_history">ब्राउझर इतिहास नाही.</string>
+  <string name="empty_snapshots_folder">जतन केलली पृष्ठे नाहीत.</string>
+  <string name="enable_reader_mode">वाचक मोड</string>
+  <string name="estore_url_warning">Estore अॅप लाँच करणे अयशस्वी झाले, url खूप मोठी आहे!</string>
+  <string name="exit">बाहेर पडा</string>
+  <string name="exit_browser_msg">कृपया ब्राऊझरमधून बाहेर कसे पडायचे ते निवडा</string>
+  <string name="exit_browser_title">ब्राऊझरमधून बाहेर पडा</string>
+  <string name="exit_minimize">लहान करा</string>
+  <string name="exit_quit">बंद केले</string>
+  <string name="feedback">फीडबॅक</string>
+  <string name="filename_empty_msg"> डाऊनलोड फाइलनाव रिक्त असू शकत नाही. कृपया अवैध फाइल नाव प्रविष्ट करा.</string>
+  <string name="filename_empty_title">डाऊनलोड फाइलनाव रिक्त आहे</string>
+  <string name="find_on_page">पृष्ठावर शोधा</string>
+  <string name="forward">अग्रेषित करा</string>
+  <string name="geolocation_permissions_prompt_remember">प्राधान्य लक्षात ठेवा</string>
+  <string name="geolocation_permissions_prompt_share_for_limited_time">24 तासांसाठी अनुमती द्या</string>
+  <string-array name="geolocation_settings_choices">
+    <item>कायमच्यासाठी नकार द्या</item>
+    <item>@string/geolocation_permissions_prompt_share_for_limited_time</item>
+    <item>कायमच्यासाठी अनुमती द्या</item>
+  </string-array>
+  <string name="help">मदत</string>
+  <string name="history">इतिहास</string>
+  <string name="homepage_set">होमपेज सेट केले.</string>
+  <string name="http">http://</string>
+  <string name="http_video_msg">कृपया मिडीया फाइल कशी हाताळायची ते निवडा</string>
+  <string name="import_bookmarks_dialog_description">या उपकरणावरील बुकमार्क्स गूगल खात्यासह अद्याप संबंद्धित नाहीत. खात्याशी त्यांना जोडून हे बुकमार्क्स जतन करा.  आपण त्यांना सिंक करण्यास इच्छुक असल्यास हे बुकमार्क्स हटवा.</string>
+  <string name="import_bookmarks_dialog_remove">पृष्ठचिन्हे हटवा</string>
+  <string name="invalid_path">अवैध मार्ग</string>
+  <string name="loading_video">व्हिडिओ लोड करत आहे...</string>
+  <string name="local_bookmarks">स्थानिक</string>
+  <string name="location">पत्ता</string>
+  <string name="max_tabs_warning">अधिक टॅब्स उपलब्ध नाहीत</string>
+  <string name="max_url_character_limit_msg">कमाल URL मर्यादा गाठली</string>
+  <string name="mdm_managed_alert">आपल्या प्रशासकाद्वारे व्यवस्थापित करा</string>
+  <string name="menu_preferences">सेटिंग्‍स</string>
+  <string name="menu_save_snapshot">ऑफलाइन प्‍लेबॅकसाठी जतन करा</string>
+  <string name="menu_share_url">सहभागी करा</string>
+  <string name="msg_no_google_play">क्षमस्व, Google Play स्टोअर अॅप अस्तित्वात नाही.</string>
+  <string name="my_navigation_add">जोडा</string>
+  <string name="my_navigation_add_label">वेबसाइट जोडा</string>
+  <string name="my_navigation_address">पत्ता</string>
+  <string name="my_navigation_cannot_save_url">अवैध URL</string>
+  <string name="my_navigation_delete_label">वेबसाइट हटवा</string>
+  <string name="my_navigation_delete_msg">वेबसाइट हटवायची?</string>
+  <string name="my_navigation_duplicate_url">URL आधीपासूनच अस्तित्‍वात आहे</string>
+  <string name="my_navigation_edit_label">वेबसाइट संपादित करा</string>
+  <string name="my_navigation_name">शीर्षक</string>
+  <string name="my_navigation_page_title">निवास</string>
+  <string name="name">लेबल</string>
+  <string name="new_folder">नवीन फोल्डर</string>
+  <string name="new_incognito_tab">खाजगी ब्राउझिंग</string>
+  <string name="new_tab">नवीन टॅब</string>
+  <string name="no_subfolders">कोणतेही उपफोल्डर्स नाहीत.</string>
+  <string name="ok">ठीक</string>
+  <string name="open_all_in_new_window">नविन टॅब्समध्ये सर्व उघडा</string>
+  <string name="other_bookmarks">इतर बुकमार्क्स</string>
+  <string name="overwrite_bookmark_msg">बुकमार्कचे नाव किंवा पत्ता आधीपासूनच अस्तित्वात आहे. ते पुन्हा हटवायचे?</string>
+  <string name="page_info">पान माहिती</string>
+  <string name="page_info_address">पत्ता:</string>
+  <string name="password">पासवर्ड</string>
+  <string name="path_wrong">चुकीचा मार्ग</string>
+  <string name="permission_preload_label">पूर्वलोड परिणाम</string>
+  <string name="powersave_dialog_off">पॉवर सेव मोड अक्षम केला.\nकृपया ब्राउझर पुन्हा सुरू करा.</string>
+  <string name="powersave_dialog_on">सक्षम: प्रोसेसर कोर नियंत्रण करा.\nअक्षम: उच्च परफॉरर्मन्स वैशिष्ट्ये.\nकृपया ब्राउझर पुन्हा सुरू करा.</string>
+  <string name="pref_accessibility_title">अॅक्‍सीसेबिलिटी</string>
+  <string name="pref_accessibility_title_summary">मजकूर आकार आणि झूमिंग </string>
+  <string name="pref_autofill_enabled">फॉर्म स्वयं-भरण</string>
+  <string name="pref_autofill_enabled_summary">एकाच स्पर्शाने वेब फॉर्म भरा</string>
+  <string name="pref_autofill_profile_editor">ऑटो-फिल मजकूर</string>
+  <string name="pref_autofill_profile_editor_summary">वेब फॉर्म्समध्ये स्वयं-fभरणात मजकूर सेट करा</string>
+  <string name="pref_content_homepage">होमपेज</string>
+  <string name="pref_content_javascript">जावा स्क्रिप्ट सक्षम करा</string>
+  <string name="pref_content_load_images">प्रतिमा लोड करा</string>
+  <string name="pref_content_load_images_summary">वेब पृष्ठावर प्रतिमा प्रदर्शित करा</string>
+  <string name="pref_content_open_in_background">पार्श्वभूमीत उघडा</string>
+  <string name="pref_content_open_in_background_summary">सद्य टॅबमागे नवीन टॅब उघडा.</string>
+  <string name="pref_content_search_engine">शोध इंजि़न</string>
+  <string name="pref_content_search_engine_summary">शोध इंजिन निवडा</string>
+  <string name="pref_content_title">सामग्री सेटिंग्स</string>
+  <string name="pref_content_title_summary">वेब सामग्री सेटिंग</string>
+  <string name="pref_data_preload_summary">पार्श्वभूमीमध्ये उच्च खात्रीलायक शोध परिणाम प्रीलोड करण्याची ब्राउझरला अनुमती दिली जाते.</string>
+  <string name="pref_data_preload_title">शोध परिणाम आधीच लोड करणे</string>
+  <string name="pref_default_site_settings_title">डिफॉल्ट साइट सेटिंग्स</string>
+  <string name="pref_default_text_encoding">मजकूर एन्कोडींग</string>
+  <string name="pref_default_text_encoding_default">UTF-8</string>
+  <string name="pref_development_title">डीबग करा</string>
+  <string name="pref_disable_edge_swipe">Disable edge swipe</string>
+  <string name="pref_do_not_track">Request \'Do Not Track\'</string>
+  <string name="pref_download_path_setting_screen_title">डाउनलोड मार्ग सानुकूल करा</string>
+  <string name="pref_download_title">मार्ग सेटिंग्ज डाउनलोड करा</string>
+  <string name="pref_edge_swipe_disabled_toast">कडेपासून स्वॅप करून अक्षम करा</string>
+  <string name="pref_edge_swipe_option_close">बंद</string>
+  <string name="pref_edge_swipe_option_msg">स्वॅप करताना का आवडले:</string>
+  <string name="pref_edge_swipe_title">कडेला स्वाइप करा</string>
+  <string name="pref_edge_swipe_unknown">वर्तणुक निवडा</string>
+  <string-array name="pref_edge_swiping_choices">
+    <item>@string/pref_temporal_edge_swipe</item>
+    <item>@string/pref_disable_edge_swipe</item>
+  </string-array>
+  <string name="pref_extras_reset">पुन्हा मांडणी करा</string>
+  <string name="pref_extras_reset_default">डिफॉल्टवर पुन्हा मांडणी करा</string>
+  <string name="pref_extras_reset_default_dlg">डीफॉल्‍ट मूल्यांवर सेटिंग्ज आणायच्या?</string>
+  <string name="pref_extras_reset_default_summary">डिफॉल्ट सेटिंग्स पूर्वस्थित करा</string>
+  <string name="pref_extras_title">अत्याधुनिक</string>
+  <string name="pref_extras_website_settings">प्रति साइट सेटिंग्स</string>
+  <string name="pref_extras_website_settings_summary">व्यक्तिगत वेबसाईटसाठी प्रगत सेटिंग्स.</string>
+  <string name="pref_font_size_category">मजकुराचा आकार</string>
+  <string name="pref_force_userscalable">झूम सक्षम करावर जोर द्या</string>
+  <string name="pref_force_userscalable_summary">झूम नियंत्रित करण्यासाठी वेबसाईटची विनंती ओव्हरराईड करा.</string>
+  <string name="pref_general_autofill_title">स्वयं-भरण</string>
+  <string name="pref_general_title">साधारण</string>
+  <string-array name="pref_homepage_choices">
+    <item>सद्य पृष्‍ठ</item>
+    <item>रिक्त पृष्ठ</item>
+    <item>डिफॉल्‍ट पृष्‍ठ</item>
+    <item>अधिक भेट दिलेल्‍या साइट्स</item>
+    <item>इतर</item>
+  </string-array>
+  <string name="pref_invalid_cert">साइट अवैध SSL प्रमाणपत्र आहे.</string>
+  <string name="pref_inverted">उलट रेंडरींग</string>
+  <string name="pref_inverted_category">उलट स्क्रीन रेंडरींग</string>
+  <string name="pref_inverted_contrast">काँट्रास्ट</string>
+  <string name="pref_inverted_summary">काळे पांढरे होईल आणि उलटपक्षी.</string>
+  <string name="pref_lab_fullscreen">व्यस्त</string>
+  <string name="pref_lab_fullscreen_summary">ब्राऊझरला पूर्ण स्क्रीन करा</string>
+  <string name="pref_link_prefetch_summary">पार्श्वभूमीत वेब पृष्ठ पूर्वलोडींग करण्यास ब्राउझरला अनुमती द्या</string>
+  <string name="pref_link_prefetch_title">वेब पृष्ठ पूर्वलोडींग</string>
+  <string name="pref_min_font_size">फॉंट आकार बदलणे</string>
+  <string name="pref_min_font_size_value">%d</string>
+  <string name="pref_nightmode_enabled">रात्र मोड</string>
+  <string name="pref_nightmode_enabled_summary">रात्र मोड चालू करा</string>
+  <string name="pref_powersave_enabled">पॉवर सेव मोड</string>
+  <string name="pref_powersave_enabled_summary">पॉवर सेव्हिंग मोड चालू करा</string>
+  <string name="pref_privacy_clear_cache">कॅशे</string>
+  <string name="pref_privacy_clear_cache_summary">स्थानिक कॅशेड सामग्री आणि डेटाबेस हटवा</string>
+  <string name="pref_privacy_clear_cookies">कुकीज आणि साइट डेटा</string>
+  <string name="pref_privacy_clear_cookies_summary">सर्व ब्राउझर कुकीज आणि साइट डेटा साफ करा</string>
+  <string name="pref_privacy_clear_form_data">फॉर्म डेटा</string>
+  <string name="pref_privacy_clear_form_data_summary">सर्व जतन केलेला फॉर्म डेटा साफ करा</string>
+  <string name="pref_privacy_clear_geolocation_access">स्‍थान प्रवेश</string>
+  <string name="pref_privacy_clear_geolocation_access_summary">सर्व वेबसाईट्ससाठी स्थान प्रवेश साफ करा.</string>
+  <string name="pref_privacy_clear_history_dlg">ब्राऊसर नेव्हिगेशन इतिहास हटवायच्या?</string>
+  <string name="pref_privacy_clear_history_summary">ब्राऊसर नेव्हिगेशन इतिहास साफ करा</string>
+  <string name="pref_privacy_clear_passwords">पासवर्ड्स</string>
+  <string name="pref_privacy_clear_passwords_summary">सर्व जतन केलेले पासवर्ड साफ करा</string>
+  <string name="pref_privacy_clear_selected">निवडलेले आयटम्‍स डाउनलोड करा</string>
+  <string name="pref_privacy_clear_selected_dlg">कालबाह्य आयटम्‍स साफ करायचे?</string>
+  <string name="pref_privacy_clear_selected_summary">यादीतील निवडलेले आयटम्स साफ करा</string>
+  <string name="pref_privacy_enable_geolocation">स्थान</string>
+  <string name="pref_privacy_security_title">गोपनीयता</string>
+  <string name="pref_privacy_security_title_summary">ब्राउझर सुरक्षितता आणि गोपनीय सेटिंग्स </string>
+  <string name="pref_sample_font_size">अपेक्षित योग्य वाचन आकारा सेट करण्यासाठी फॉन्ट समायोजित करण्यास स्लाइडर ड्रॅग करा.</string>
+  <string name="pref_security_accept_cookies">कुकीस स्वीकारा</string>
+  <string name="pref_security_accept_third_party_cookies"> तृतीय पक्षीय कुकीज</string>
+  <string name="pref_security_access_is_allowed"> ऍक्सेसला अनुमती आहे</string>
+  <string name="pref_security_add">जोडा</string>
+  <string name="pref_security_allow_camera">कॅमेरा</string>
+  <string name="pref_security_allow_mic">मायक्रोफोन</string>
+  <string name="pref_security_allow_popups">पॉप अप्स</string>
+  <string name="pref_security_allowed">अनुमती दिली</string>
+  <string name="pref_security_ask_before_using">वापरण्यापूर्वी विचारा</string>
+  <string name="pref_security_not_allowed">परवानगी नाही</string>
+  <string name="pref_security_off">बंद</string>
+  <string name="pref_security_on">चालू</string>
+  <string name="pref_security_origin_name">साइट मूळ</string>
+  <string name="pref_security_remember">लक्षात ठेवा</string>
+  <string name="pref_security_remember_passwords">पासवर्ड्स लक्षात ठेवा</string>
+  <string name="pref_security_save_form_data">फॉर्म डेटा लक्षात ठेवा</string>
+  <string name="pref_security_web_refiner">जाहिराती आणि सामग्री लक्ष विचलित करत आहेत</string>
+  <string name="pref_select_items">साफ करण्यास आयटम्स निवडा</string>
+  <string name="pref_set_homepage_to">सेट</string>
+  <string name="pref_site_settings_info_panel">सुरक्षितता माहिती</string>
+  <string name="pref_site_settings_title">साइट सेटिंग्स</string>
+  <string name="pref_spatial_edge_swipe">टॅब बदला</string>
+  <string name="pref_spatial_edge_swipe_enabled_toast">टॅब्स बदण्यासाठी कडेपासून स्वाइप करा</string>
+  <string-array name="pref_temporal_choices">
+    <item>कधी नाही</item>
+    <item>केवळ Wi-Fi वर</item>
+    <item>नेहमी</item>
+  </string-array>
+  <string name="pref_temporal_edge_swipe">मागील/पुढील वेब साइट</string>
+  <string name="pref_temporal_edge_swipe_enabled_toast">नेव्हिगेट करण्यासाठी कडेपासून स्वाइप करा</string>
+  <string name="pref_text_zoom">मजकूर मापन</string>
+  <string name="pref_valid_cert">वैध SSL प्रमाणपत्र . संभाषण एन्क्रिप्ट केला आणि ओळख पडताळणी केली आहे.</string>
+  <string name="pref_warning_cert">साइट SSL प्रमाणपत्र चेतावणी आहे.</string>
+  <plurals name="pref_web_refiner_advertisements">
+    <item quantity="one">%d जाहिराती</item>
+    <item quantity="other">%d जाहिराती</item>
+  </plurals>
+  <plurals name="pref_web_refiner_malware">
+    <item quantity="one">%d मालवेअर धोका</item>
+    <item quantity="other">%d मालवेअर धोके</item>
+  </plurals>
+  <string-array name="pref_web_refiner_message">
+    <item>"अवरोधित केलेले %s. "</item>
+    <item>"अवरोधित केलेले %1$s आणि %2$s."</item>
+    <item>"अवरोधित केलेले %1$s, %2$s आणि %3$s. "</item>
+  </string-array>
+  <plurals name="pref_web_refiner_trackers">
+    <item quantity="one">%d ट्रॅकर</item>
+    <item quantity="other">%d ट्रॅकर्स</item>
+  </plurals>
+  <string name="pref_website_title">वेबसाइट</string>
+  <string name="preview">पूर्वावलोकन</string>
+  <string name="progress_dialog_setting_wallpaper">वॉलपेपर सेट करणे...</string>
+  <string name="received_message_full_screen">मधून संदेश प्राप्त केला:  %s .</string>
+  <string name="reload">रिफ्रेश</string>
+  <string name="remove">काढून टाका</string>
+  <string name="remove_bookmark">पृष्ठचिन्ह हटवा</string>
+  <string name="remove_from_bookmarks">बुकमार्क्स मधून काढून टाका</string>
+  <string name="remove_history_item">इतिहासामधून काढा</string>
+  <string name="remove_snapshot">जतन केलेली पृष्ठे हटवा</string>
+  <string name="removed_from_bookmarks">बुकमार्क्समधुन काढले</string>
+  <string name="replace">बदला</string>
+  <string name="save_to_bookmarks">बुकमार्कवर जतन करा</string>
+  <string name="saving_snapshot">जतन करत आहे...</string>
+  <string name="search_button_text">जा</string>
+  <string name="search_hint">शोधा किंवा URL प्रविष्ट करा</string>
+  <string name="search_settings_description">बुकमार्क्स आणि वेब इतिहास</string>
+  <string name="search_the_web">वेबवर शोधा</string>
+  <string name="security_warning">सुरक्षा चेतावणी</string>
+  <string name="sendText">मजकुरासाठी एखादी कृती निवडा</string>
+  <string name="set_as_homepage">होमपेज म्हणून सेट करा.</string>
+  <string name="share_page">पृष्ठ शेअर करा</string>
+  <string name="shortcut_bookmark">बुकमार्क</string>
+  <string name="shortcut_bookmark_title">एक बुकमार्क निवडा</string>
+  <string name="sign_in_to">%1$s  \" %2$s \" वर साइन इन करा</string>
+  <string name="snapshot_failed">ऑफलाइन वाचनासाठी जतन करण्यास अक्षम.</string>
+  <string name="snapshot_go_live">लाइव्ह व्हा</string>
+  <string name="ssl_certificate">सुरक्षा प्रमाणपत्र</string>
+  <string name="ssl_certificate_is_valid">हे प्रमाणपत्र वैध आहे.</string>
+  <string name="ssl_invalid">हे प्रशस्तीपत्रक अग्राह्य आहे.</string>
+  <string name="ssl_unknown">अज्ञात प्रमाणपत्र त्रुटी.</string>
+  <string name="stop">थांबा</string>
+  <string name="stopping">थांबविणे...</string>
+  <string name="swe_eula">अंतिम प्रयोक्ता परवाना करार</string>
+  <string name="swe_legal">कायदेशीर माहिती</string>
+  <string name="swe_open_source_licenses"> स्त्रोत परवाने उघडा</string>
+  <string name="swe_pref_legal_info_summary">कॉपीराइट (c) 2015,लिनक्स संस्था. सर्व अधिकार आरक्षित केले.</string>
+  <string name="swe_privacy_policy">गोपनीय धोरण</string>
+  <string name="tab_most_visited">सर्वाधिक भेट दिलेले</string>
+  <string name="tab_snapshots">जतन झालेली पृष्ठे</string>
+  <string name="time_min">मिनीटे</string>
+  <string name="too_many_subwindows_dialog_message">एका वेळी केवळ एक पॉप-अप उघडता येतो.</string>
+  <string name="too_many_subwindows_dialog_title">पॉप-अप आधीपासूनच उघडे आहे</string>
+  <string name="too_many_windows_dialog_message">आपण एक बंद करत नाही तोपर्यंत नवीन टॅब उघडू शकत नाही.</string>
+  <string name="too_many_windows_dialog_title">खर्च मर्यादा गाठली</string>
+  <string name="ua_switcher_desktop">डेस्कटॉप साइटची विनंती करा</string>
+  <string name="unknow_length">अज्ञात</string>
+  <string name="uploads_disabled">फाइल अपलोड्स अक्षम केले.</string>
+  <string name="user_agent">प्रयोक्ता एजंट</string>
+  <string name="username">नाव</string>
+  <string name="version">आवृत्ती</string>
+  <string name="video_play">प्ले करा</string>
+  <string name="video_save">जतन करा</string>
+  <string name="website_needs_title">वेबसाइटला शीर्षक असणे आवश्यक आहे</string>
+  <string name="website_needs_url">वेबसाइटवर URL असणे आवश्यक आहे</string>
+  <string name="website_settings_add_origin">नवीन साइट</string>
+  <string name="website_settings_clear_all">सर्व साफ करा</string>
+  <string name="website_settings_clear_all_dialog_message">सर्व वेबसाईट डेटा आणि स्थिती परवानगी हटवायची?</string>
+  <string name="webstorage_clear_data_dialog_message">या वेबसाईट द्वारे साठवलेला सर्व डेटा हटवायचा?</string>
+  <string name="webstorage_clear_data_title">संग्रह</string>
+  <string name="webstorage_outofspace_notification_text">जागा मोकळी करण्यासाठी स्पर्श करा.</string>
+  <string name="webstorage_outofspace_notification_title">ब्राउझर स्टोरेज पूर्ण भरले</string>
+  <string name="webstorage_private_data_title">खाजगी मोड</string>
+</resources>
