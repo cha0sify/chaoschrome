@@ -2991,6 +2991,7 @@ public class Controller
         }
 
         if (change_tabs) {
+            setActiveTab(tab);
             synchronized (mThumbnailCbList) {
                 startCaptureTimer();
                 mLatestCreatedTab = tab;
@@ -2999,7 +3000,6 @@ public class Controller
                     public void onReceiveValue(Bitmap bitmap) {
                         synchronized (mThumbnailCbList) {
                             if (mLatestCreatedTab != null) {
-                                setActiveTab(mLatestCreatedTab);
                                 mLatestCreatedTab = null;
                             }
                             stopCaptureTimer();
