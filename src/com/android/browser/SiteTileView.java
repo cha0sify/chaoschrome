@@ -634,9 +634,11 @@ public class SiteTileView extends View {
         for (int i = 0; i < idx; i++) {
             int thisColor = pxColors[i];
             int thisCount = 0;
-            for (int j = 0; j < idx; j++) {
-                if (pxColors[j] == thisColor)
-                    thisCount++;
+            if (thisColor != -1) {
+                for (int j = 0; j < idx; j++) {
+                    if (pxColors[j] == thisColor)
+                        thisCount++;
+                }
             }
             if (thisCount > popCount) {
                 popColor = thisColor;

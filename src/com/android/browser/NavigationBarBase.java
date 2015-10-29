@@ -266,13 +266,18 @@ public class NavigationBarBase extends LinearLayout implements
         if (tab == null) { return; }
 
         if (tab.inForeground()) {
-            if (tab.hasFavicon()) {
-                color = ColorUtils.getDominantColorForBitmap(tab.getFavicon());
-                updateSiteIconColor(tab.getUrl(), color);
-                setStatusAndNavigationBarColor(mUiController.getActivity(),
-                        adjustColor(color, 1, 1, 0.7f));
+            if (mFaviconTile != null) {
+                mFaviconTile.replaceFavicon(tab.getFavicon()); // Always set the tab's favicon
+            }
+            if (tab.hasFavicon() && mFaviconTile != null) {
+                color = mFaviconTile.getFundamentalColor();
+                if (color != -1) {
+                    updateSiteIconColor(tab.getUrl(), color);
+                    setStatusAndNavigationBarColor(mUiController.getActivity(),
+                            adjustColor(color, 1, 1, 0.7f));
+                }
 
-            }   else {
+            } else {
                 color = getSiteIconColor(tab.getUrl());
                 if (color != 0) {
                     setStatusAndNavigationBarColor(mUiController.getActivity(),
@@ -281,9 +286,6 @@ public class NavigationBarBase extends LinearLayout implements
                     setStatusAndNavigationBarColor(mUiController.getActivity(),
                             mDefaultStatusBarColor);
                 }
-            }
-            if (mFaviconTile != null) {
-                mFaviconTile.replaceFavicon(tab.getFavicon()); // Always set the tab's favicon
             }
         }
     }
@@ -324,6 +326,11 @@ public class NavigationBarBase extends LinearLayout implements
         bundle.putInt(SiteSpecificPreferencesFragment.EXTRA_WEB_REFINER_ADS_INFO, ads);
         bundle.putInt(SiteSpecificPreferencesFragment.EXTRA_WEB_REFINER_TRACKER_INFO, tracker);
         bundle.putInt(SiteSpecificPreferencesFragment.EXTRA_WEB_REFINER_MALWARE_INFO, malware);
+
+        int color = mFaviconTile.getFundamentalColor();
+        if (color != -1) {
+            bundle.putInt(SiteSpecificPreferencesFragment.EXTRA_COLOR, color);
+        }
 
         bundle.putParcelable(SiteSpecificPreferencesFragment.EXTRA_SECURITY_CERT,
                 SslCertificate.saveState(wv.getCertificate()));

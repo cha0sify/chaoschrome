@@ -82,6 +82,7 @@ public class SiteSpecificPreferencesFragment extends SWEPreferenceFragment
     public static final String EXTRA_SITE = "website";
     public static final String EXTRA_ORIGIN = "website_origin";
     public static final String EXTRA_FAVICON = "website_favicon";
+    public static final String EXTRA_COLOR = "website_color";
     public static final String EXTRA_SITE_TITLE = "website_title";
     public static final String EXTRA_WEB_REFINER_ADS_INFO = "website_refiner_ads_info";
     public static final String EXTRA_WEB_REFINER_TRACKER_INFO = "website_refiner_tracker_info";
@@ -600,15 +601,18 @@ public class SiteSpecificPreferencesFragment extends SWEPreferenceFragment
                     Bitmap bm = BitmapFactory.decodeByteArray(data, 0, data.length);
                     if (bm != null) {
                         Bitmap bitmap = Bitmap.createScaledBitmap(bm, 150, 150, true);
-                        int color = ColorUtils.getDominantColorForBitmap(bitmap);
+                        int color = args.getInt(EXTRA_COLOR, -1);
 
                         appendActionBarDisplayOptions(ActionBar.DISPLAY_SHOW_HOME |
                                 ActionBar.DISPLAY_SHOW_TITLE);
                         mBar.setHomeButtonEnabled(true);
                         mBar.setIcon(new BitmapDrawable(getResources(), bitmap));
-                        mBar.setBackgroundDrawable(new ColorDrawable(color));
-                        NavigationBarBase.setStatusAndNavigationBarColor(getActivity(),
-                                NavigationBarBase.adjustColor(color, 1, 1, 0.7f));
+
+                        if (color != -1) {
+                            mBar.setBackgroundDrawable(new ColorDrawable(color));
+                            NavigationBarBase.setStatusAndNavigationBarColor(getActivity(),
+                                    NavigationBarBase.adjustColor(color, 1, 1, 0.7f));
+                        }
                     }
                 } else {
                     if (mIconColor != 0) {
