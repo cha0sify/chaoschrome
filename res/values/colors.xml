@@ -21,6 +21,16 @@
     for the browser -->
 <resources>
 
+    <color name="white">#fafafa</color>
+    <color name="black">#14181C</color>
+    <color name="red">#f44336</color>
+    <color name="CDred">#D32F2F</color>
+    <color name="yellow">#ffc107</color>
+    <color name="green">#4caf50</color>
+    <color name="blue">#2196F3</color>
+    <color name="trasparent">#ffffffff</color>
+
+   
     <!-- fundamental colors -->
     <color name="primary">#ffffff</color>
     <color name="navigation_bars">#101828</color>
@@ -36,10 +46,6 @@
     <color name="TabPassiveMessageBackground">#f2f2f2</color>
     <color name="TabPassiveMessageLine">#b3b3b3</color>
 
-
-    <!-- legacy colors -->
-    <color name="white">#ffffffff</color>
-    <color name="black">#ff000000</color>
 
     <color name="bookmarkWidgetHeader">#383847</color>
     <color name="bookmarkWidgetDivider">#383847</color>
