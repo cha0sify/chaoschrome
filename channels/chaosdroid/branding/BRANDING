@@ -6,5 +6,5 @@ PRODUCT_INSTALLER_FULLNAME=ChaosChrome Browser Installer
 PRODUCT_INSTALLER_SHORTNAME=ChaosChrome Installer
 COPYRIGHT=Copyright (c) 2015 ChaosDroid.com . All rights reserved.
 PACKAGE_NAME=com.chaosdroid.chaoschrome.browser
-APK_LABEL=@string/application_name
+APK_LABEL=ChaosChrome
 APK_AUTHORITIES=chaoschrome.browser
