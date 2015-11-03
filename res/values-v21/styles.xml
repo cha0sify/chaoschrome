@@ -60,6 +60,7 @@
         <item name="android:colorPrimary">@color/accent</item>
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:colorEdgeEffect">@color/accent</item>
+	<item name="android:statusBarColor">@color/CDredDark</item>
     </style>
 
 </resources>

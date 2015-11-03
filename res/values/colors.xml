@@ -25,6 +25,7 @@
     <color name="black">#14181C</color>
     <color name="red">#f44336</color>
     <color name="CDred">#D32F2F</color>
+    <color name="CDredDark">#BD2A2A</color>
     <color name="yellow">#ffc107</color>
     <color name="green">#4caf50</color>
     <color name="blue">#2196F3</color>
@@ -32,9 +33,11 @@
 
    
     <!-- fundamental colors -->
-    <color name="primary">#ffffff</color>
+     <color name="primary">#ffffff</color>
+    <!-- <color name="primary">@color/CDred</color> -->
+    <color name="primary_dark">@color/CDredDark</color>
     <color name="navigation_bars">#101828</color>
-    <color name="accent">#FF1AACA2</color>
+    <color name="accent">@color/CDred</color>
     <color name="browser_window_background">#ffffff</color>
 
     <!-- derived colors -->
@@ -57,7 +60,7 @@
     <color name="comboViewActionBarColor">#ffffff</color>
     <color name="comboViewBackground">#efeff0</color>
     <color name="tabFaviconBackground">#FF555555</color>
-    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="tabFocusHighlight">@color/CDred</color>
     <color name="tabViewTitleBackground">#D0000000</color>
     <color name="navtab_bg">#80606060</color>
 
