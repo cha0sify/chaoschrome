@@ -7,7 +7,7 @@
       "category"        : "MALWARE_DOMAINS",
       "format"          : "WebRefiner 1.0",
       "url"             : "https://easylist-downloads.adblockplus.org/exceptionrules.txt",
-      "expiration"      : " days"
+      "expiration"      : "1 days"
     },
     {
       "name"            : "Privacy Filter",
