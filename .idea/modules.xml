@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chaoschrome.iml" filepath="$PROJECT_DIR$/chaoschrome.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tests/startup/startup.iml" filepath="$PROJECT_DIR$/tests/startup/startup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
     </modules>
   </component>
 </project>
