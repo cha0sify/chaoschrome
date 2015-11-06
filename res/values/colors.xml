@@ -33,8 +33,7 @@
 
    
     <!-- fundamental colors -->
-    <!-- <color name="primary">#ffffff</color> -->
-    <color name="primary">@color/CDred</color>
+    <color name="primary">#ffffff</color>
     <color name="primary_dark">@color/CDredDark</color>
     <color name="navigation_bars">#101828</color>
     <color name="accent">@color/CDred</color>
