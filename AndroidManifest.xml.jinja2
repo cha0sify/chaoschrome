@@ -48,6 +48,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
     <!-- Templatize taskAffinity otherwise it will default to 'package'
         defined in manifest -->
     <application   android:name="com.android.browser.Browser"
@@ -62,7 +63,7 @@
                       android:required="false" />
 
         <provider android:name="com.android.browser.provider.BrowserProvider2"
-                  android:authorities="{{ app_package_name }};{{apk_authorities}}"
+                  android:authorities="{{app_package_name}};{{apk_authorities}};{{app_authorities}}"
                   android:multiprocess="false"
                   android:exported="true"
                   android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
@@ -358,7 +359,7 @@
         <!-- For custom home pages (like most visited) -->
         <provider
             android:name="com.android.browser.homepages.HomeProvider"
-            android:authorities="{{ app_package_name }}.home"
+            android:authorities="{{ app_package_name }}.home;{{app_authorities}}.home"
             android:grantUriPermissions="true"
             android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
             android:exported="false" />
@@ -378,11 +379,11 @@
          </receiver>
 
         <provider android:name="com.android.browser.provider.SnapshotProvider"
-                  android:authorities="{{ app_package_name }}.snapshots"
+                  android:authorities="{{ app_package_name }}.snapshots;{{app_authorities}}.snapshots"
                   android:exported="false" />
         <provider
             android:name="com.android.browser.provider.MyNavigationProvider"
-            android:authorities="{{ app_package_name }}.mynavigation"
+            android:authorities="{{ app_package_name }}.mynavigation;{{app_authorities}}.mynavigation"
             android:exported="false"
             android:grantUriPermissions="true"/>
 
@@ -427,6 +428,8 @@
         <meta-data android:name="Architecture" android:value="{{ apk_architecture }}" />
 
     </application>
+
+    {{ extra_supports_gl_texture }}
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
 
