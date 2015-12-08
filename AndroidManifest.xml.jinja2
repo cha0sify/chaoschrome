@@ -46,9 +46,7 @@
     <uses-permission android:name="{{ app_package_name }}.permission.WRITE_HOMEPAGE" />
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-
     <!-- Templatize taskAffinity otherwise it will default to 'package'
         defined in manifest -->
     <application   android:name="com.android.browser.Browser"
@@ -428,10 +426,9 @@
         <meta-data android:name="Architecture" android:value="{{ apk_architecture }}" />
 
     </application>
-
     {{ extra_supports_gl_texture }}
 
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
 
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
 
